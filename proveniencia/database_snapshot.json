@@ -1,0 +1,48 @@
+{
+  "source": "Backup verificado exportado pelo usuário a partir do app online",
+  "created_at_utc": "2026-11-16T15:58:34.834912+00:00",
+  "backup_file": "osler_20261116T155835Z_4372b8322e37efc6.zip",
+  "backup_sha256": "4372b8322e37efc6de1062e99f28f1d11b7a4e52e252a29377a9f29f393b3f42",
+  "database_sha256": "dc3f5e797f7db3eb8eedbdc079adb9e11b99e01684df690bb0da26a4f067e46f",
+  "backup_files_verified": 62,
+  "database_integrity": [
+    [
+      "ok"
+    ]
+  ],
+  "foreign_key_violations": [],
+  "tables": {
+    "algorithm_parameters": 1,
+    "algorithm_selections": 0,
+    "assessment_contexts": 2,
+    "audit_events": 15,
+    "classifier_policies": 0,
+    "exam_targets": 4,
+    "guide_days": 2,
+    "guide_settings": 2,
+    "incidence_datasets": 3,
+    "matching_events": 0,
+    "mock_exam_areas": 9,
+    "mock_exam_topics": 0,
+    "mock_exams": 8,
+    "observation_events": 2,
+    "observations": 2,
+    "planner_batches": 1,
+    "planner_events": 1,
+    "planner_items": 1,
+    "planning_measurements": 3,
+    "records": 6548,
+    "reduction_actions": 0,
+    "reports": 5,
+    "routine_profiles": 0,
+    "study_days": 11,
+    "study_errors": 0,
+    "study_events": 44,
+    "study_plan_runs": 197,
+    "study_profiles": 25,
+    "topic_matches": 0,
+    "weekly_reviews": 0
+  },
+  "supabase_live_access": false,
+  "snapshot_not_live_database": true
+}

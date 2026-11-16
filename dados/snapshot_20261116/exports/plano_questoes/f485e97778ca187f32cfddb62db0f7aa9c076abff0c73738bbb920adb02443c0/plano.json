@@ -1,0 +1,332 @@
+{
+  "algorithm_version": "1.1",
+  "available_minutes": null,
+  "base_questions": 60,
+  "budget": 60,
+  "date": "2026-10-15",
+  "day_revision": 0,
+  "done_questions": 0,
+  "effective_profile": {
+    "exam_date": "2027-11-30",
+    "institution_weights": {},
+    "max_questions": 60,
+    "max_topics": 4,
+    "minutes_per_question": 3,
+    "new_share": 0.2,
+    "recent_days": 90,
+    "target_accuracy": 90,
+    "uncertainty_weight": 0.5
+  },
+  "extra_questions": 0,
+  "incidence_contexts": [
+    {
+      "dataset_id": 1,
+      "institutions": [
+        "Instituições selecionadas na Osler"
+      ],
+      "observed_date": "2026-10-15",
+      "unit": "questoes",
+      "weight": 1
+    }
+  ],
+  "items": [
+    {
+      "added_by_user": false,
+      "alert_signal": null,
+      "allocation_capacity": 1,
+      "answered_pdf": 0,
+      "available_new": 1,
+      "bank_balance_uncertain": false,
+      "baseline": null,
+      "cards_reduced_day": null,
+      "days_without_contact": null,
+      "importance": 0.01193792280143255,
+      "incidence_coverage": 0.5067567567567568,
+      "incidence_warnings": [
+        "Incidência parcial: temas sem linha receberam uma pequena reserva exploratória; contagens de pais foram repartidas entre folhas."
+      ],
+      "last_contact": null,
+      "manual_context": null,
+      "new_questions": 1,
+      "path": [
+        "Preventiva & Social",
+        "Medicina Legal",
+        "Saúde do Trabalhador",
+        "Segurança do Trabalhador"
+      ],
+      "pdf_accuracy": {
+        "operator": null,
+        "raw": "-",
+        "value": null
+      },
+      "performance": {
+        "approximate": false,
+        "exact_correct": 0,
+        "exact_n": 0,
+        "interval": null,
+        "mean": 0.5,
+        "observed": null,
+        "reported_n": 0,
+        "reported_percent": null,
+        "sd": 0.28867513459481287
+      },
+      "performance_source": "sem_medicao",
+      "priority": "normal",
+      "questions": 1,
+      "reason": "Começar um tema sem estudo registrado",
+      "recorded_attempts": 0,
+      "repeat_questions": 0,
+      "repeated": {
+        "approximate": false,
+        "exact_correct": 0,
+        "exact_n": 0,
+        "interval": null,
+        "mean": 0.5,
+        "observed": null,
+        "reported_n": 0,
+        "reported_percent": null,
+        "sd": 0.28867513459481287
+      },
+      "report_date": "2026-10-14",
+      "review_interval_days": 7,
+      "score": 0.0063867886987664145,
+      "status": "sem_registro",
+      "studied_cards": null,
+      "topic_id": "00f2729a58863e6e832daf00",
+      "total": 1
+    },
+    {
+      "added_by_user": false,
+      "alert_signal": null,
+      "allocation_capacity": 333,
+      "answered_pdf": 44,
+      "available_new": 289,
+      "bank_balance_uncertain": false,
+      "baseline": null,
+      "cards_reduced_day": null,
+      "days_without_contact": null,
+      "importance": 0.002652871733651678,
+      "incidence_coverage": 0.5067567567567568,
+      "incidence_warnings": [
+        "Incidência parcial: temas sem linha receberam uma pequena reserva exploratória; contagens de pais foram repartidas entre folhas."
+      ],
+      "last_contact": null,
+      "manual_context": {
+        "acerto_primeira_tentativa": 82,
+        "acerto_recente": null,
+        "acerto_ultima_tentativa": 95,
+        "cartoes_ativos": null,
+        "cartoes_estudados": 146,
+        "cartoes_futuros": 135,
+        "cartoes_pendentes": 11,
+        "cartoes_selecionaveis": 146,
+        "cobertura_suficiente": null,
+        "confianca_flashcards": null,
+        "data_observacao": "2026-10-14",
+        "dificuldade": null,
+        "erros_criticos": null,
+        "erros_recorrentes": null,
+        "fonte_incidencia": "",
+        "incidencia_provas": null,
+        "nivel_de_confiabilidade": "informado_usuario",
+        "nota": "11 pendentes + 135 futuros = 146 informados. Ausência de erros, cartões ativos, risco, incidência e relevância não foram confirmados. Nenhum cartão foi considerado suspenso.",
+        "origem_da_informacao": "Dados fornecidos pelo usuário na especificação do projeto, em 14/10/2026",
+        "questoes_distintas": 44,
+        "relevancia_residencia": null,
+        "respostas_totais": 66,
+        "risco_perda": null
+      },
+      "new_questions": 14,
+      "path": [
+        "Clínica Cirúrgica",
+        "Cirurgia Plástica",
+        "Cicatrização e Avaliação de Feridas"
+      ],
+      "pdf_accuracy": {
+        "operator": "=",
+        "raw": "95%",
+        "value": 95.0
+      },
+      "performance": {
+        "approximate": true,
+        "exact_correct": 0,
+        "exact_n": 0,
+        "interval": null,
+        "mean": 0.82,
+        "observed": null,
+        "reported_n": 44,
+        "reported_percent": 0.82,
+        "sd": 0.25
+      },
+      "performance_source": "observacao",
+      "priority": "alta",
+      "questions": 14,
+      "reason": "Medir rendimento e confirmar o último contato",
+      "recorded_attempts": 0,
+      "repeat_questions": 0,
+      "repeated": {
+        "approximate": false,
+        "exact_correct": 0,
+        "exact_n": 0,
+        "interval": null,
+        "mean": 0.5,
+        "observed": null,
+        "reported_n": 0,
+        "reported_percent": null,
+        "sd": 0.28867513459481287
+      },
+      "report_date": "2026-10-14",
+      "review_interval_days": 14,
+      "score": 0.0005703674227351109,
+      "status": "diagnostico",
+      "studied_cards": 146,
+      "topic_id": "09ba410d11a1490ad773ba68",
+      "total": 333
+    },
+    {
+      "added_by_user": false,
+      "alert_signal": null,
+      "allocation_capacity": 1,
+      "answered_pdf": 1,
+      "available_new": 0,
+      "bank_balance_uncertain": false,
+      "baseline": null,
+      "cards_reduced_day": null,
+      "days_without_contact": null,
+      "importance": 0.0033160896670645975,
+      "incidence_coverage": 0.5067567567567568,
+      "incidence_warnings": [
+        "Incidência parcial: temas sem linha receberam uma pequena reserva exploratória; contagens de pais foram repartidas entre folhas."
+      ],
+      "last_contact": null,
+      "manual_context": null,
+      "new_questions": 0,
+      "path": [
+        "Pediatria",
+        "Oncologia",
+        "Neoplasias Pediátricas",
+        "Retinoblastoma"
+      ],
+      "pdf_accuracy": {
+        "operator": "=",
+        "raw": "0%",
+        "value": 0.0
+      },
+      "performance": {
+        "approximate": false,
+        "exact_correct": 0,
+        "exact_n": 0,
+        "interval": null,
+        "mean": 0.5,
+        "observed": null,
+        "reported_n": 0,
+        "reported_percent": null,
+        "sd": 0.28867513459481287
+      },
+      "performance_source": "pdf",
+      "priority": "normal",
+      "questions": 1,
+      "reason": "Medir rendimento e confirmar o último contato",
+      "recorded_attempts": 0,
+      "repeat_questions": 1,
+      "repeated": {
+        "approximate": false,
+        "exact_correct": 0,
+        "exact_n": 0,
+        "interval": null,
+        "mean": 0.5,
+        "observed": null,
+        "reported_n": 0,
+        "reported_percent": null,
+        "sd": 0.28867513459481287
+      },
+      "report_date": "2026-10-14",
+      "review_interval_days": 7,
+      "score": 0.0034321528054118582,
+      "status": "diagnostico",
+      "studied_cards": null,
+      "topic_id": "ed19e867f7db3b073ca5ae1e",
+      "total": 1
+    },
+    {
+      "added_by_user": false,
+      "alert_signal": null,
+      "allocation_capacity": 660,
+      "answered_pdf": 86,
+      "available_new": 574,
+      "bank_balance_uncertain": false,
+      "baseline": null,
+      "cards_reduced_day": null,
+      "days_without_contact": null,
+      "importance": 0.006632179334129195,
+      "incidence_coverage": 0.5067567567567568,
+      "incidence_warnings": [
+        "Incidência parcial: temas sem linha receberam uma pequena reserva exploratória; contagens de pais foram repartidas entre folhas."
+      ],
+      "last_contact": null,
+      "manual_context": null,
+      "new_questions": 44,
+      "path": [
+        "Clínica Cirúrgica",
+        "Trauma",
+        "Trauma Torácico"
+      ],
+      "pdf_accuracy": {
+        "operator": "=",
+        "raw": "77%",
+        "value": 77.0
+      },
+      "performance": {
+        "approximate": false,
+        "exact_correct": 0,
+        "exact_n": 0,
+        "interval": null,
+        "mean": 0.5,
+        "observed": null,
+        "reported_n": 0,
+        "reported_percent": null,
+        "sd": 0.28867513459481287
+      },
+      "performance_source": "pdf",
+      "priority": "normal",
+      "questions": 44,
+      "reason": "Medir rendimento e confirmar o último contato",
+      "recorded_attempts": 0,
+      "repeat_questions": 0,
+      "repeated": {
+        "approximate": false,
+        "exact_correct": 0,
+        "exact_n": 0,
+        "interval": null,
+        "mean": 0.5,
+        "observed": null,
+        "reported_n": 0,
+        "reported_percent": null,
+        "sd": 0.28867513459481287
+      },
+      "report_date": "2026-10-14",
+      "review_interval_days": 7,
+      "score": 0.0017575275235442367,
+      "status": "diagnostico",
+      "studied_cards": 152,
+      "topic_id": "6f46b6d81915375c38ad401a",
+      "total": 660
+    }
+  ],
+  "kind": "normal",
+  "minutes_per_question": 3,
+  "mode": "questions",
+  "overrun_questions": 0,
+  "planned_minutes": 180,
+  "profile_id": 0,
+  "questions": 60,
+  "reserves_minutes": 0,
+  "session_versions": [],
+  "sources": {
+    "flashcards": "19b524f7d7f9a5576e2b085328816ab27b9a7ff16b73e3fa5bc95d0887f6a6b8",
+    "qbank": "a063708e43024c040c6e6cb654e8424938dbaf7f0cec27bea8183d61b8560970"
+  },
+  "spent_minutes": 0,
+  "target_accuracy": 90,
+  "target_questions": 60
+}

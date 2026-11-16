@@ -1,0 +1,22 @@
+{
+  "checked_on": "2026-11-16",
+  "python": "3.14 local; CI usa Python 3.13",
+  "source_branch": "codex/cloud-mobile-20261109",
+  "source_commit": "3881882696119b32532f7232801c7832e25cbbb7",
+  "source_git_blob_verification": "454/454 arquivos na pasta app; todas as outras branches também verificadas",
+  "local_test_command": "python -m unittest tests.test_recovery_quantities tests.test_recurring_questions",
+  "local_test_result": {"ran":24,"passed":23,"skipped":1,"failed":0,"duration_seconds":5.758},
+  "skipped_reason": "Teste Streamlit indisponível na instalação local sem streamlit; o teste foi executado nas CIs históricas incluídas",
+  "canonical_python_syntax": "Todos os arquivos Python compilados em memória sem erro",
+  "fresh_full_suite_on_exact_canonical_head": false,
+  "historical_full_suite": {
+    "recurring_feature_head":"734e6a1ec85bb8384ff7b1352d37ce55dda9c1ce",
+    "recurring_feature_counts":{"passed":1169,"failed":6,"skipped":11},
+    "pr3_head":"2457421614fc3f90bbae7fd5d78b07068c7da8b5",
+    "pr3_counts":{"passed":1173,"failed":6,"skipped":11},
+    "note":"PR3 permanece aberto; CI aceita ausência de falhas novas em comparação com baseline fixo. Não equivale a suíte integralmente verde."
+  },
+  "production_modified": false,
+  "supabase_live_admin_audit_executed": false,
+  "private_credentials_collected": false
+}

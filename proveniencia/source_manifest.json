@@ -1,0 +1,2730 @@
+{
+  "branch": "codex/cloud-mobile-20261109",
+  "commit": "3881882696119b32532f7232801c7832e25cbbb7",
+  "verified_files": [
+    {
+      "path": ".gitattributes",
+      "git_sha": "6a6d8d264a007ee113d020f6d763311d07754242",
+      "sha256": "6bdcd5bfd6230621aa6718f968c9926568c707e98c451ca2837de889a27c81e2",
+      "bytes": 78
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "git_sha": "02b02ba578fd614893411d29ffa0567cc4974b62",
+      "sha256": "c379a789f51d7328a2acd4f3e60b72513316f5a1ddca2aaa4f0b21a2f1fcf5dc",
+      "bytes": 2075
+    },
+    {
+      "path": ".gitignore",
+      "git_sha": "b9d0fb7a85db1158aee71c8b12ff51278021c974",
+      "sha256": "79074d7803ef7d732633c7fa847c3763099d26205a8ff1032f7689912b03ee90",
+      "bytes": 1159
+    },
+    {
+      "path": ".impeccable/design.json",
+      "git_sha": "b27c078c33dbb355beff4940a4b85ad7b6400807",
+      "sha256": "39e07344c94d94d67d79977c6f19af8cd37789f90a30be1723edd68d9d7d498c",
+      "bytes": 8939
+    },
+    {
+      "path": ".streamlit/config.toml",
+      "git_sha": "5006d7adaf998092082eea95501018077ee1d875",
+      "sha256": "d369a0b4f57b086a05ef2c074bf746553c451ff4f93d90a5cbf7a340305206c0",
+      "bytes": 559
+    },
+    {
+      "path": "AGENTS.md",
+      "git_sha": "5121514628dbe3c74cea2c0dac4704ae137ad0ff",
+      "sha256": "92a2c8323e6346802a615d9eeaa2fe3b72490314d2282bdec407262dad11779f",
+      "bytes": 1353
+    },
+    {
+      "path": "DESIGN.md",
+      "git_sha": "ab35ef5d300f6e248cbc01660013b50face48a2e",
+      "sha256": "64d4d3034c90effbb1005f429437f0cfd944746043cfcec249414486cae88597",
+      "bytes": 23457
+    },
+    {
+      "path": "PRODUCT.md",
+      "git_sha": "091cfa069dce358fc197fcef1bc3f196a014ee2c",
+      "sha256": "315b6cabf49da4769d4aa2b59f0ce18cbb83de3db56c22525c6dd7b3a6289579",
+      "bytes": 3151
+    },
+    {
+      "path": "README.md",
+      "git_sha": "9ce70707c9b5218ed0316cc4bb949fe6505f7536",
+      "sha256": "61f25e6d9a980c9d59970a910f0a5c0843284ce2ea8ca2132ddfa79a344e5d10",
+      "bytes": 19832
+    },
+    {
+      "path": "app.py",
+      "git_sha": "7ea75d20bc2118775558c9c8b323808ce89717ad",
+      "sha256": "9f81c26ea8844a3d418fb1780c3c1adab97e28092562603eabed6459c83906e4",
+      "bytes": 32
+    },
+    {
+      "path": "cloud/README.md",
+      "git_sha": "6b6e63f5994098cb919a8990274d30b567d7a6b2",
+      "sha256": "5dd6ae0ca65e2eb06a5b592f452f00db9e29e39bceaa4e18c0b0435ca23cadda",
+      "bytes": 4550
+    },
+    {
+      "path": "cloud/requirements.txt",
+      "git_sha": "82713755ab7fae9ff58092b0a3b1d3f0a142522d",
+      "sha256": "4f65e8fd9b7b8c3df47e11fe928f5dcdfa1f2eafde5ab7a8e07ea1877a7cf5f1",
+      "bytes": 75
+    },
+    {
+      "path": "cloud/schema.sql",
+      "git_sha": "1005d71bc372964f99f43748e13282a4eb2f1615",
+      "sha256": "8c91b0b300ca1232a4a5944b7e36dda9882a81b87f49cd7e809068fc04be51d3",
+      "bytes": 4940
+    },
+    {
+      "path": "cloud/secrets.example.toml",
+      "git_sha": "344a164ed08953d9727edf3a550eccdba53db8cf",
+      "sha256": "61d7b359add73eaa88e5943888095ef2beb1a7cfb9630828ee7ef228382b7cbc",
+      "bytes": 425
+    },
+    {
+      "path": "cloud/supabase-ca.crt",
+      "git_sha": "3d693669b23c340c57a3457bdc8b6fefe1806cc5",
+      "sha256": "700723581420dd1ac98fd7e9ac529f0ef210eadcaf87fc868a3ad7d114c2f3b7",
+      "bytes": 1367
+    },
+    {
+      "path": "cloud_app.py",
+      "git_sha": "913d787423c8fc17fd6546443b4f3582138897d0",
+      "sha256": "8290a419af1266b780c53c8f5c9d04856d2e3e1bcc5f8282204c83f5eaaf3518",
+      "bytes": 339
+    },
+    {
+      "path": "docs/README.md",
+      "git_sha": "5a627a7e2a66170b9141bb96c133031563979397",
+      "sha256": "e5513de4e4d4978c8340a81aca63af9caeb441fc91ba50581149ce2e036ebfe7",
+      "bytes": 2614
+    },
+    {
+      "path": "docs/design/2026-10-28-cobertura-sem-exclusao.md",
+      "git_sha": "fc4c29fb7237f5c70b0cfefb284b625aec52cd94",
+      "sha256": "2f625cf90bf0d1d6735858387565b76cdf42a8dc55ddc63b883cece9ed05fcdd",
+      "bytes": 5598
+    },
+    {
+      "path": "docs/design/2026-10-28-planner-complementos-e-menu.md",
+      "git_sha": "aa48d7d374eed5fbf5dc5c213a32588adf20f8a0",
+      "sha256": "f102675ceadaeb2dd1b15981f3bfc617b5af6563bf6aa2f7b54a7a9a79e7b26e",
+      "bytes": 4144
+    },
+    {
+      "path": "docs/design/2026-10-29-rotina-visual.md",
+      "git_sha": "fb9c005d4c5b55260de45f0ead97f0d3a6691253",
+      "sha256": "cda03fcd1142fbc6b5444f9fb057dfe03bd2f42e4398b43702996a21ae9979c2",
+      "bytes": 6681
+    },
+    {
+      "path": "docs/design/2026-10-30-agrupamentos.md",
+      "git_sha": "31fd61eb20820ff54bb4e94065dfe46d7db49df5",
+      "sha256": "9e1250e82a73336ea682fed0b6558adaffa928de929203ef8b21c1a72313a6ec",
+      "bytes": 4759
+    },
+    {
+      "path": "docs/design/2026-10-30-explicacoes-opcionais.md",
+      "git_sha": "483374e0ee4382a7224cb4a04c0ad2049b941616",
+      "sha256": "0411113fcf109a8fea5df3f09e38d7b3bfb0ca62548da2195e83605bdd15e3d8",
+      "bytes": 3155
+    },
+    {
+      "path": "docs/design/DIRETRIZES-REDESIGN-BENTO-CLAUDE.md",
+      "git_sha": "f688391162ba502c3625abfdd76c42778c362381",
+      "sha256": "820090f671096c481a1fed604a47332243d07b8e7c1a2a74283b4a1d28dd0c48",
+      "bytes": 13355
+    },
+    {
+      "path": "docs/design/bento-fase1-entrega.md",
+      "git_sha": "bcdd176299330c067a6ccb2f21bcb4cc1ae651f1",
+      "sha256": "b48ee4c0169171f88cf3cdae02bc4f6c0608c9a790df870757daaace647236c8",
+      "bytes": 11625
+    },
+    {
+      "path": "docs/design/bento-fase2-entrega.md",
+      "git_sha": "0db7a05b2ce318e9babaceb10ced1937ef268285",
+      "sha256": "2ca2a57e5850d6ba0afda4b4a0b85aae5f203ae1d273654fb36c677f426e1b70",
+      "bytes": 12455
+    },
+    {
+      "path": "docs/design/bento-fase3-entrega.md",
+      "git_sha": "014e3f0ea881e23de2b2cde2a82a3bdd4f155e32",
+      "sha256": "9e722cf4b8ac559a0cffde43d1ae0cdd2cdcd426f23614c960e3516dfaba9d7a",
+      "bytes": 8193
+    },
+    {
+      "path": "docs/design/bento-fase4-entrega.md",
+      "git_sha": "bfdf122bf4e262a138fdd30c4f7a3f078fb174d7",
+      "sha256": "c496d107abc1de8cc20f0f0239d9ee24a40162e8dfc220183f193dec63a3d943",
+      "bytes": 8020
+    },
+    {
+      "path": "docs/design/bento-fase5-entrega.md",
+      "git_sha": "e052069264b1156cf5b221ea6c312599098f7da2",
+      "sha256": "2d62ca3bba53d1209fe5f924d06f3821510b4acc5a8f1e6e0a04122618cbd1d2",
+      "bytes": 8182
+    },
+    {
+      "path": "docs/design/evolucao.md",
+      "git_sha": "e8803004dcdd0f9d73e9f9ce6bbfbed110ede853",
+      "sha256": "1fd5c820132d4713eb7d1fbfba67ba2956b6b72fbe8eec7f361527e697329eed",
+      "bytes": 4028
+    },
+    {
+      "path": "docs/design/redesign-ui.md",
+      "git_sha": "065ed5d40b41b7f85be14e48d102541eba659bcc",
+      "sha256": "96374b9b978599d4544b2e02cc4a274b33be0360dc756687a5d27b3d5583fc5f",
+      "bytes": 6528
+    },
+    {
+      "path": "docs/design/revenue-centric-design-aplicado.md",
+      "git_sha": "4054578f22be07d25fbcf7fd02b32660499cdc18",
+      "sha256": "282a35745787417550263d0b05aee8cff1b171696052453c4362890a26c2c268",
+      "bytes": 4915
+    },
+    {
+      "path": "docs/plans/2026-10-27-bento-fase1.md",
+      "git_sha": "c2c4470901b1473b2b4c9c5695bcb57c3e8c486d",
+      "sha256": "11b87ec84c38ade772456be2caccf54d2a55dc34c18d2c5709bb7440282440d4",
+      "bytes": 10361
+    },
+    {
+      "path": "docs/plans/2026-10-27-bento-fase2.md",
+      "git_sha": "2f0da789c54bfb0cf8bfbc701310fe386d988e54",
+      "sha256": "472e05df287eb476f8a470fe00ef4f6de0c9d48059049c49034b5f966c3628b5",
+      "bytes": 5194
+    },
+    {
+      "path": "docs/plans/2026-10-27-bento-fase3.md",
+      "git_sha": "143ce1155b6e335dc8e7bec8f3a48d2637565206",
+      "sha256": "11299fa002d3328aa4472033fc84c445d2facb0fbe890f992a7a2af0bf6bb342",
+      "bytes": 5395
+    },
+    {
+      "path": "docs/plans/2026-10-27-planner-complemento.md",
+      "git_sha": "e79dc2b4f08533dc38ea0fe5c2827ffc2132653b",
+      "sha256": "e3ed995631744da6ad8a127dfd52c348e53f3542ca0e866fd4d6c4bdb747af6a",
+      "bytes": 4746
+    },
+    {
+      "path": "docs/plans/2026-10-27-revisao-sustentavel.md",
+      "git_sha": "fe5ca7819386de429a95e1baec50650bc0ab2931",
+      "sha256": "30d652e26f79902758ef51d91ecd980efe24169e29cb34b2d43cf93bbbd679f3",
+      "bytes": 5971
+    },
+    {
+      "path": "docs/plans/2026-10-28-bento-fase4.md",
+      "git_sha": "67ebc918e6366d0f5bb1eb26bd01531fd8c22e82",
+      "sha256": "8d17b418a564686ab410aa8cfb7e7564b1dc404c7fccbfa3a1785fd778e7b76b",
+      "bytes": 4242
+    },
+    {
+      "path": "docs/plans/2026-10-28-bento-fase5.md",
+      "git_sha": "0a38a0743704fc09792da27ee93ddac3777bd1e4",
+      "sha256": "bbdf0cedaff1e06c4ee1010d493076f066a83ae49f4bc2bc26f0f5795cbd6f56",
+      "bytes": 3303
+    },
+    {
+      "path": "docs/plans/2026-10-28-cobertura-sem-exclusao.md",
+      "git_sha": "c8f3d3aa40454c82553b113aba38d7d931c95038",
+      "sha256": "99411a4b8d5a5f535232b28433ea9dc3f0ba5ceb070ef04f0bcce477484f9ade",
+      "bytes": 4517
+    },
+    {
+      "path": "docs/plans/2026-10-28-planner-complementos-e-menu.md",
+      "git_sha": "8c742cb80b0582cb7ab1e16e51562e5d15eed6d2",
+      "sha256": "5cc0cc326a5a29695311f028017805f7e4e86dcea082b4d245a257f6ad479453",
+      "bytes": 2822
+    },
+    {
+      "path": "docs/plans/2026-10-28-prioridade-do-historico.md",
+      "git_sha": "ce324e6929f235a256b758ced95c5f3db993a153",
+      "sha256": "4a83cd52b6f94cd3a6cbac4371ddd3420b2ed30d776e641658dd852ede3d9d05",
+      "bytes": 4445
+    },
+    {
+      "path": "docs/plans/2026-10-28-prioridade-retomadas.md",
+      "git_sha": "70715f00dd921f291b6a03f911058bf9e8108e1d",
+      "sha256": "469f9c97dc834ba50daea6c59c74889d8e66dae3234a18ba0f0b9eeb3d0d8fca",
+      "bytes": 2318
+    },
+    {
+      "path": "docs/plans/2026-10-29-apple-ui.md",
+      "git_sha": "eb3c628b756628bc663dd889976d9b43117f2c6f",
+      "sha256": "0c40a951917bf99b134ad8f415b8943e26c6421f31b24db810fef49388dc29c4",
+      "bytes": 3102
+    },
+    {
+      "path": "docs/plans/2026-10-29-confirmacoes-toast.md",
+      "git_sha": "7a89ca45341d3e4372a08563af446e5a0cd3dca9",
+      "sha256": "55b224238e8b3c83c7b190ac74019a1dd882bda6a33ebc58c1874092a5b18fc4",
+      "bytes": 3596
+    },
+    {
+      "path": "docs/plans/2026-10-29-rodizio-dinamico.md",
+      "git_sha": "7602936a050a2d3cecc502b373ea8b5c5944e61c",
+      "sha256": "369cba79961e65c836d01568a4a3596723a5b775e08b09f2e0e4afc406649551",
+      "bytes": 2952
+    },
+    {
+      "path": "docs/plans/2026-10-29-rotina-integrada.md",
+      "git_sha": "29e63e7b8755d7dc0e8f947ecdbece941ddd7632",
+      "sha256": "a02e24ef71561c6e454feb0905869b51f133ab45434d02450fc31421102e313b",
+      "bytes": 2141
+    },
+    {
+      "path": "docs/plans/2026-10-29-simulados-correcao-areas.md",
+      "git_sha": "c277f2f3035b8e78ef64d2503fa1d6c5af194413",
+      "sha256": "82fc0105ea545d3e765b39225625db7a3d88535f470c1db92d19b0116a6e6028",
+      "bytes": 5531
+    },
+    {
+      "path": "docs/plans/2026-11-01-correcao-auditoria.md",
+      "git_sha": "152e4044b2e45e1888fca369a4f2df520943e91b",
+      "sha256": "c84124b11195a93a982ed7e56aa38401d2206b38f96aa172cf48ad0df420ec43",
+      "bytes": 5355
+    },
+    {
+      "path": "docs/plans/2026-11-02-atualizacao-guiada.md",
+      "git_sha": "c22725f944eb055b54eef42e2ee68c84dec0a675",
+      "sha256": "991f4d8fae280864a122ffb0d93a2ad390298f126eb5b24e69e26c41f2235f1b",
+      "bytes": 2852
+    },
+    {
+      "path": "docs/plans/2026-11-02-performance-local.md",
+      "git_sha": "208b86fe0eba11d25fc42f1ab30ed47a461fd69f",
+      "sha256": "f1aa97d97e607c7174a1415738165bd9674f7cf5b5c44b232e5ac9258543c68c",
+      "bytes": 2568
+    },
+    {
+      "path": "docs/plans/2026-11-02-retorno-indisponivel.md",
+      "git_sha": "31f38bd4cd99327894a1d79254f290f60dedeaae",
+      "sha256": "ea11b7215db3eb3d21671bfc16e979fd88bfd647d7a0937c9ca4c0ca041b6482",
+      "bytes": 2369
+    },
+    {
+      "path": "docs/plans/2026-11-07-retomada.md",
+      "git_sha": "d00697ccf3d218c6b1d1543cc640898e5f80d70b",
+      "sha256": "828fcd63ec49a94c63b038da0db4800201809478a041a9d99e07d2d13d2d8a6d",
+      "bytes": 3562
+    },
+    {
+      "path": "docs/plans/2026-11-08-conclusao-parcial.md",
+      "git_sha": "427d5427b752069be1898b72f59798e3e5a87057",
+      "sha256": "950ec50c84607111c311ae45c1b71802f7b3d2c0218e3d6cb29788d52b380d0a",
+      "bytes": 2058
+    },
+    {
+      "path": "docs/plans/2026-11-08-prioridade-temas-novos.md",
+      "git_sha": "836eefe23bc97d43bc91720b2461e9b443482dab",
+      "sha256": "634ca80e00545dfd32dc4b52c5efbf2eccc0a62c9334aea6bcd0b9312e29d79d",
+      "bytes": 1900
+    },
+    {
+      "path": "docs/plans/2026-11-09-acesso-online.md",
+      "git_sha": "c41962e00481ec771390fe751c3e90e9c95d7af5",
+      "sha256": "5afe0eab414624e3e228dbefc9a338cee24b3453d3f45552a9c4849ae36128fb",
+      "bytes": 4952
+    },
+    {
+      "path": "docs/plans/2026-11-14-retomada-por-quantidade.md",
+      "git_sha": "d2102ffd44e351643dffb091c7b1be078eeee5ba",
+      "sha256": "96be68967498fde4d283b22972e232f376ea7c83b8bc18b7a3027e4cfe5c20aa",
+      "bytes": 1483
+    },
+    {
+      "path": "docs/plans/2026-11-14-revisoes-recorrentes.md",
+      "git_sha": "fbcac70e0fb0e7f5ae2a6e425aea37df97d6f8b9",
+      "sha256": "3d96b423e5318a12492d3d4f2347bbff1bfd6df390b58b71b7bcaed562cfab29",
+      "bytes": 1640
+    },
+    {
+      "path": "docs/redesign/PROMPT-CODEX-REDESIGN-BENTO-OSLER.md",
+      "git_sha": "2e5d54b60e6febc2fe0a6166b54d996a393ad711",
+      "sha256": "5b2336036792724ac2485c87c5a3adca54515990141deec80cc23254c16f5066",
+      "bytes": 35367
+    },
+    {
+      "path": "docs/research/analise-de-calibracao.md",
+      "git_sha": "c19aba07cec92c7137e6a75326b958e9a0ef7fb4",
+      "sha256": "b89d4abd9fad8eff5a6fe643b5af0329d72ac1f31b916cec6d3a8c814b1f2e8d",
+      "bytes": 2382
+    },
+    {
+      "path": "docs/research/atencao-temas-2026-10-29.md",
+      "git_sha": "743a618382277624dc77587ddadbeb6c7c2cf5b9",
+      "sha256": "c8602ee0b06e57da4bef70be44c61b59c9e1e7932d09242f51217f62c761ab1a",
+      "bytes": 8216
+    },
+    {
+      "path": "docs/research/atividade-diaria-e-feedback.md",
+      "git_sha": "02f507b0aae1167d137d92ec98f01fedc009b973",
+      "sha256": "1846b479edf8d6143a6e05d500dde368f80c7e4d2c51ce1c54655dad490c9088",
+      "bytes": 2400
+    },
+    {
+      "path": "docs/research/atualizacao-guiada-de-dados.md",
+      "git_sha": "5759df6c12eec527fa320875015275339eca9653",
+      "sha256": "a86b645a84eeca9b220c5097ec18a8b414abaef53eb5c8512a7a58f7a66181b8",
+      "bytes": 5595
+    },
+    {
+      "path": "docs/research/calendario-proximos-contatos.md",
+      "git_sha": "c8ef0b1e59a028744715a18d1c04e38207d8468e",
+      "sha256": "9dbd696bb0c2ee93ad3623e2bcc7c9d88357cd43e52ffa4db6dd341fc10e9cde",
+      "bytes": 2675
+    },
+    {
+      "path": "docs/research/capacidade-adaptativa-v0.18.md",
+      "git_sha": "71f68d5d45783f71dfccdc9106e33e6c161a549c",
+      "sha256": "75c9f44aeb3dea95b2c743bab3bb7b488f332f2e76247cb970959e1283390391",
+      "bytes": 4569
+    },
+    {
+      "path": "docs/research/cards-erros-recuperacao.md",
+      "git_sha": "ed80a953d6cd117385e5c851793daa5cfd08ac71",
+      "sha256": "d720f9f4b9cccc190f29cd9a0623b61de78cb4e9ea283ca749e2558a6b64b2cb",
+      "bytes": 7470
+    },
+    {
+      "path": "docs/research/correcao-agrupamentos-treinos.md",
+      "git_sha": "36d27b35449f13998beb3ee7634e8e695f2a2c5a",
+      "sha256": "17bc453216619e931ec07169006eea9de5769dc9096c1f9e186b996544a93b52",
+      "bytes": 2084
+    },
+    {
+      "path": "docs/research/decks-inteiros-psiquiatria.md",
+      "git_sha": "ab2f6b30d3016da890271983c91bec7bcf39cae3",
+      "sha256": "5984fc2acabedd43b38e133f4dfa6ede6da2382a1e8d8b362f5b31819aae273b",
+      "bytes": 4795
+    },
+    {
+      "path": "docs/research/desempenho-local-2026-11-02.md",
+      "git_sha": "7f51dd767fe4df20de6105f59810711a0114f8e5",
+      "sha256": "205042608602802f52bd59f13ef629f6b163dc8efb07ae774336ef03a9c436bd",
+      "bytes": 6567
+    },
+    {
+      "path": "docs/research/dose-adaptativa-por-tema.md",
+      "git_sha": "95129ae17dd42aa1adf2a23a55e4643f85974437",
+      "sha256": "8226ca35f4987b008cd8a9efcc74ecf8ff359198a8270386dab7d47cdd5c7859",
+      "bytes": 5304
+    },
+    {
+      "path": "docs/research/erros-estruturados.md",
+      "git_sha": "fc6e0b72e90758c000cf848a4bf42f350c345774",
+      "sha256": "fb10678cfa644d34973d2c3f4218f5bbf179b4a7561d3b811e5f0005b4e330f7",
+      "bytes": 2800
+    },
+    {
+      "path": "docs/research/evolucao-espacamento-condicional.md",
+      "git_sha": "805089b88925876e4b2731024c9dda85f856e474",
+      "sha256": "b1a643ce6c8173303bb3d1a5daa715dcb2acd5ecd90f56d8cc8ba03fec1f1247",
+      "bytes": 4406
+    },
+    {
+      "path": "docs/research/evolucao-v0.19.md",
+      "git_sha": "e7feca070ed0403795ab88da58f639dedec8cc15",
+      "sha256": "36e33af20f188e22c569407445f94ab18189ea433fdae90f085ffe3736f6eddd",
+      "bytes": 6210
+    },
+    {
+      "path": "docs/research/excedentes-no-plano-diario.md",
+      "git_sha": "947d973bc1bae01307ef842796faae6ea0e4b766",
+      "sha256": "409500b7cf8f176a4586fb0f82338a2bd7fcdbcd25e1d333439639b53f6b02d1",
+      "bytes": 5552
+    },
+    {
+      "path": "docs/research/fluidmed-fontes-publicas.md",
+      "git_sha": "09ff4d6744abade8afa390c56a6959966354dfa8",
+      "sha256": "ceba0e8844cd1580e496df01fdd24b2c0543e79f283aeceb9d1a520baab867f6",
+      "bytes": 7078
+    },
+    {
+      "path": "docs/research/limpeza-de-armazenamento.md",
+      "git_sha": "56b201f11820f014989416f7a84d2b94d5ea651b",
+      "sha256": "cd00236283475132c51223617c0c8174f6255b342253a72100d6684dddfd5baf",
+      "bytes": 1288
+    },
+    {
+      "path": "docs/research/lote-b-entrega.md",
+      "git_sha": "416bcf0d33316ddceb60f92196ce1ee23e138bdb",
+      "sha256": "7de53b5c17e9113f16ec5303e820f72f3b60ab302119d8ac8c23aa0691c96004",
+      "bytes": 3840
+    },
+    {
+      "path": "docs/research/lote-c-entrega.md",
+      "git_sha": "b9caba9d576dc497bc95f519c0fae8203568f924",
+      "sha256": "75b31b3fd5b69e1588c3dbfd4ddeff293f61a93fa163ad7007d544ac9e128940",
+      "bytes": 5208
+    },
+    {
+      "path": "docs/research/meta-em-duas-camadas-v0.16.md",
+      "git_sha": "cf7782f2bb4c59781d29ec7e2e01968491c1ee56",
+      "sha256": "32530bec9f1da98ca6f4e7793549d3164ee7ee49921e16c29b6420fc6f556aad",
+      "bytes": 2209
+    },
+    {
+      "path": "docs/research/modelo-estatistico-proposto.md",
+      "git_sha": "e26929e60d2253514f4f05ad5d0b07d083f58e34",
+      "sha256": "66477081b2220326f294e0c8c9571eade594a82f2ea787f703764c9168a63345",
+      "bytes": 11927
+    },
+    {
+      "path": "docs/research/organizacao-de-rotina-proposta.md",
+      "git_sha": "90980ea23b078511d4416adc11ac12b1174e91d3",
+      "sha256": "2b56acafcb087a3a2cbb2088a9bc783f4b237d0aa5f29f8c13aa6672774c304f",
+      "bytes": 16871
+    },
+    {
+      "path": "docs/research/painel-de-meta.md",
+      "git_sha": "ac352b37a5e503e7eb245b74bc883685ea556200",
+      "sha256": "e51e660023cb26192da00263080b5896fbc7ece37f7bc2f09af40f18f54cb3e6",
+      "bytes": 2802
+    },
+    {
+      "path": "docs/research/parametros-versionados.md",
+      "git_sha": "e3c2c3274c37cd40e23035abb2412e43673bc3a6",
+      "sha256": "97bf5df056c6977dd2e5da0de179e5aa870cc541961b768c601884045466108e",
+      "bytes": 2099
+    },
+    {
+      "path": "docs/research/pesos-e-proximas-revisoes-plano.md",
+      "git_sha": "03cebba80a8b0a3b28175a453845d498f7638053",
+      "sha256": "1ef1b5b1438bde345643e7420cf48dbf00daa72130a2893e4b6811d48848e61c",
+      "bytes": 3561
+    },
+    {
+      "path": "docs/research/pesos-e-proximas-revisoes.md",
+      "git_sha": "08d0b1993b227eea1cde22495fb599e9969960af",
+      "sha256": "b5ea4bed431c4e3bce22cab7efda05148475ec46e35332722953caaf89d2b846",
+      "bytes": 5570
+    },
+    {
+      "path": "docs/research/planejador-implementado-v0.8.md",
+      "git_sha": "f55786450c79d9fa125e5070745a7c17c632a2f7",
+      "sha256": "848bcb1b8224ebef3bf45869ab1adb7ea70cd5136a1cb5d64b9473d07af4fffd",
+      "bytes": 7234
+    },
+    {
+      "path": "docs/research/plano-lote-c.md",
+      "git_sha": "e5fbb9c14be9bdc1d31a048b5dc0fec6c10d2cff",
+      "sha256": "09472ddc2f81b17380d5949b6189c9c3f34436a5017201fce0d667fb703d10b2",
+      "bytes": 3665
+    },
+    {
+      "path": "docs/research/politica-de-corte.md",
+      "git_sha": "46e98484e83f99621568d367edc056f0f830b5a7",
+      "sha256": "2896e56eaa57a9ba321291244cbfb17a714b4e2904a304537961bfe1a096b6b3",
+      "bytes": 2955
+    },
+    {
+      "path": "docs/research/prevencao-de-atrasos-v0.13.md",
+      "git_sha": "5a3f1e8841eb4952a77604b3d762724460a3107d",
+      "sha256": "1f21916b1f8af29138f6916f91a4860a83cd5c4f7fa047d069963fd91c500113",
+      "bytes": 2946
+    },
+    {
+      "path": "docs/research/prioridade-retomadas-4-5.md",
+      "git_sha": "d47193df5c29e93f9f9cac8dd5a7c7c9e6a7ec21",
+      "sha256": "dc1b13f49e7994ce9af049203a8d086ab69cb10bdeb3fd72601b2b06a8999d51",
+      "bytes": 7243
+    },
+    {
+      "path": "docs/research/priorizacao-inicial-v0.17.md",
+      "git_sha": "e5473b75bf91c9c8cea4b5de5db6408f82d16186",
+      "sha256": "79f46bd89c798c604305d211dc212bbeff3d05a3085c9d4bce88adbd9e1fe84e",
+      "bytes": 5461
+    },
+    {
+      "path": "docs/research/recuperacao-de-atrasos-v0.12.md",
+      "git_sha": "6ceb4fcff524b40434ebe23d137c75bbaf1d966f",
+      "sha256": "e707706eaa3aa001b270ce4d7d3383648a697af374cf812ac29876b6f59eddb4",
+      "bytes": 3490
+    },
+    {
+      "path": "docs/research/reducao-atual-e-novos-cards.md",
+      "git_sha": "b886d938198e8541849981064773ab7c9640fc21",
+      "sha256": "5285e3c29645cc7ecd9c94279b382c0a4f1deea8f979e37ff87e2558c0b9e434",
+      "bytes": 8851
+    },
+    {
+      "path": "docs/research/repeticao-e-conviccao-v0.10.md",
+      "git_sha": "1255e3f36c58e52319aca1bd6ef84d79f54234cb",
+      "sha256": "ef2c337153bc40f84a0735901f2d6bbcb08adde209618565a6e4462ea50e29b7",
+      "bytes": 6020
+    },
+    {
+      "path": "docs/research/retornos-indisponiveis.md",
+      "git_sha": "1c3353f055d0d5f946a0c7724f9874dc9c7267c4",
+      "sha256": "dfdcd4b5d836fcd17747db3663957d3172afa5c0a2dff43da94db28020ddf4d3",
+      "bytes": 2304
+    },
+    {
+      "path": "docs/research/revisao-final-lote-b.md",
+      "git_sha": "6a3d3ff67d09eadf2cd44afd1a6a9dc44ca68d23",
+      "sha256": "f0b52ed609af690549c4659367d9b78cfae58a71cf82e3b36eead936da447ed8",
+      "bytes": 3128
+    },
+    {
+      "path": "docs/research/revisao-semanal.md",
+      "git_sha": "c5f679e8c6aae04fdb7f0e6bb242934a25e13b52",
+      "sha256": "0280453e1358479e16660155365399b55dd14809f28c3288ca03ce520510d626",
+      "bytes": 2214
+    },
+    {
+      "path": "docs/research/revisoes-equilibradas-plano.md",
+      "git_sha": "0e0f2b63cd226d5ffc5b19668c4fd27fe13c4415",
+      "sha256": "b5fa83aec74cd25e2e92eacf25b353078b5ca25fd9b4930119b89eb25fdb6471",
+      "bytes": 5561
+    },
+    {
+      "path": "docs/research/revisoes-equilibradas.md",
+      "git_sha": "8e0aab030930b08103d411a5d98adaf473aee88a",
+      "sha256": "93af5e95bf051c1cc98634b13ff605b50e3530d728476f53833ba5e8224bc538",
+      "bytes": 9099
+    },
+    {
+      "path": "docs/research/revisoes-sucessivas-v0.11.md",
+      "git_sha": "91ab73b2186bdbff077f5d47245683fe3fbb2692",
+      "sha256": "9bf7313898120d3742385d82c2d53ea5e4716aea913f4a1112cbae4d980a0e4a",
+      "bytes": 6028
+    },
+    {
+      "path": "docs/research/revisoes-sustentaveis-2026-10-27.md",
+      "git_sha": "27e35deb39d3a68c660ca0527e6579071bd236ea",
+      "sha256": "528a1d28a6c80729c3d79fbaa18a36132e87b6f0cf35ce57fcdd44ff53f50cb0",
+      "bytes": 6290
+    },
+    {
+      "path": "docs/research/seguranca-acumulada-osler-v0.16.1.md",
+      "git_sha": "4c2f3c1ada986144b5641ead1abe464253c78394",
+      "sha256": "1cbecb2505a53b2e9711a5b030a0c8afa18faa3f8f981969e05955c7aedc546c",
+      "bytes": 2816
+    },
+    {
+      "path": "docs/research/simulados-flexiveis-plano.md",
+      "git_sha": "84e7c484805048020bd85bb643f5759265a2901a",
+      "sha256": "1ecc791f00876887208542967102cdac45dff9690c486c843d5a6aa4846ff1d7",
+      "bytes": 4291
+    },
+    {
+      "path": "docs/research/simulados-flexiveis.md",
+      "git_sha": "4bc9fb1d274badef8b8e91754e43ecf9b6def450",
+      "sha256": "6b9b1f31d471f7dd2741fb6bbb0699597157a841bd750f457425023cb2f0a956",
+      "bytes": 6046
+    },
+    {
+      "path": "docs/research/simulados.md",
+      "git_sha": "3f1b897eb75236c2a5725140c1602c8afc19d15c",
+      "sha256": "3bef00524620bff68450df97457b209615598385cbbd83d4709097da3b5747e4",
+      "bytes": 4582
+    },
+    {
+      "path": "docs/research/temas-historico-e-blocos.md",
+      "git_sha": "1126dc62d5fc487af7cd14d7ca18efd754ee2dc9",
+      "sha256": "404244f67fe26514aa09999af7c0467ca4d2180084952b1549a3f720f924a578",
+      "bytes": 2628
+    },
+    {
+      "path": "docs/research/treinos-e-correcao-de-simulados.md",
+      "git_sha": "e93075d8bbbfa396885f4c124aeec0fbed19fa51",
+      "sha256": "7b17a8ec81e8f5e5c13a6993fd7682616d0f80de7b8715695112a99d4d924717",
+      "bytes": 6212
+    },
+    {
+      "path": "docs/research/troca-de-temas.md",
+      "git_sha": "3e068eb1d6546131719cb988d0563f4db3f7d495",
+      "sha256": "885d2f37b87ac6835446766b9169c5c8bd50426c37ce0d490c28dbe404f5637c",
+      "bytes": 3303
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-24-flashcards-erros.md",
+      "git_sha": "a5cfcbe47470729f708850d2923bf5aa4ed641a8",
+      "sha256": "7317bd28b85fd89aad23f0e61b5126752da078f369a7dd9fb684b7271edb4814",
+      "bytes": 3429
+    },
+    {
+      "path": "docs/superpowers/specs/2026-10-24-flashcards-erros-design.md",
+      "git_sha": "6d3c555f66f941d3ee8068b685d4ce15dcdac252",
+      "sha256": "ecc2635e1fcedeb699c6cd39f69266bcb70c5d671250f27e977d9550abe77f43",
+      "bytes": 3966
+    },
+    {
+      "path": "docs/third-party/Inter-OFL.txt",
+      "git_sha": "9b2ca37b3ffc77391d8b2ebef4a974ef32bf46ea",
+      "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+      "bytes": 4380
+    },
+    {
+      "path": "docs/third-party/revenue-centric-design-LICENSE.txt",
+      "git_sha": "ccb7f4b7be4c615419a4190b926c3128c9a60550",
+      "sha256": "29e6d8b0a1e3dd78776b46b22b9a9a3df94fdbf6a73482f59d688dee7fd38e32",
+      "bytes": 1579
+    },
+    {
+      "path": "encerrar.bat",
+      "git_sha": "7c71e72c5e963ec3e902a376cb04065a02433877",
+      "sha256": "67c3a74ca8e6be9f4db1fc1c011992921a4c6d4217974f87b34978b8bc3ceffe",
+      "bytes": 209
+    },
+    {
+      "path": "iniciar.bat",
+      "git_sha": "e17e6a791dc3faa8a0dfd20a63de86602dd3b681",
+      "sha256": "61a9421f5b50e9d190c8e8faba8c417ca7e99824c1e5d2916e659d8222d8cb6f",
+      "bytes": 276
+    },
+    {
+      "path": "instalar.bat",
+      "git_sha": "068be71327cb41aef7bc37a18de898658faefb2d",
+      "sha256": "a184bc102edc39a8030d165b723bb4658292538dcbe04587cb72d49c27d39223",
+      "bytes": 620
+    },
+    {
+      "path": "osler/__init__.py",
+      "git_sha": "568e6a63aa02194f1533b28f6e93b8afe0713a62",
+      "sha256": "5c81f033499fae5f826d6f5e942d0ce6b36ab86403ccfb9ee61a9a4c73d337b6",
+      "bytes": 89
+    },
+    {
+      "path": "osler/action_feedback.py",
+      "git_sha": "f6cbd7cc4435d2215f72fd8e43db2f816eb27683",
+      "sha256": "9c1310cf49c65945735b9e452c387dc70d28ff4277d371099ef2b383b6fd9bfb",
+      "bytes": 9845
+    },
+    {
+      "path": "osler/adaptive_planning.py",
+      "git_sha": "9c7eff3e13b707e34218c9019bcf0a23daeb6b82",
+      "sha256": "39821990716fc434618eac34df43666f85145eda46b5781106ed80de37e47bb8",
+      "bytes": 42253
+    },
+    {
+      "path": "osler/adaptive_service.py",
+      "git_sha": "d3be30081192dae63ddb007a1d7eacb325995e80",
+      "sha256": "63bc5559352c387510aedb56d930028c2f3b129523e2dbbce47565b8834ca76b",
+      "bytes": 32092
+    },
+    {
+      "path": "osler/adaptive_ui.py",
+      "git_sha": "7318edbfa9fabb07efdd4cd71a91847af711de41",
+      "sha256": "00920c3c8939a8e89b4b6e3902b4b2582cde533bdfd5cae30d24bd86b299b840",
+      "bytes": 16293
+    },
+    {
+      "path": "osler/algorithm_parameters.py",
+      "git_sha": "7a4b183a7bad0e831d39fb96d913c137f0b24527",
+      "sha256": "d9ac403798f75a861d054b105331fd49646517c00e9e3fe98c65ff8523f4affd",
+      "bytes": 5449
+    },
+    {
+      "path": "osler/assessment_service.py",
+      "git_sha": "5309b1a566c66348c811e93d28788c8278c73282",
+      "sha256": "6fe7c855701284a7e6d4b6d06fc5ecc4f2a3fce7519641c5f53c30328a9ded18",
+      "bytes": 10901
+    },
+    {
+      "path": "osler/assessment_storage.py",
+      "git_sha": "606f2b93e5a61c58388e38b136396ef06056746c",
+      "sha256": "e099a42f2057266aec980fa0f188ac020945ef8203ef19e27c71f2c068785cb2",
+      "bytes": 7644
+    },
+    {
+      "path": "osler/assessment_ui.py",
+      "git_sha": "dcd97b912a0146f29dbb4e5d5e5523a1578b8ca7",
+      "sha256": "cd67bef656726b33d3a71e3c911a0335673530e64dc4d0910c02441eb8ed48eb",
+      "bytes": 15641
+    },
+    {
+      "path": "osler/backups.py",
+      "git_sha": "a115e2471e2b5343da1c10ea8d3b0d9a770c4066",
+      "sha256": "35ba218459c4794ee9732c2c897b04e581395b3ee79fb1b2a4a4ca2a87c226c9",
+      "bytes": 7238
+    },
+    {
+      "path": "osler/backups_ui.py",
+      "git_sha": "f1f43ea6be917acd0758b34e0d16a3d1c5e74c52",
+      "sha256": "3d214998518a0850279049bfdc570c6d81989f7c39e2a2d42ddd3512426b9be1",
+      "bytes": 4588
+    },
+    {
+      "path": "osler/balanced_reviews.py",
+      "git_sha": "6cf6c9d121a97fd4fcc80252c793ffb014295537",
+      "sha256": "a4e537ba3081dc663e245f75f45289fedc58ce81e445d52f2a051436fe677305",
+      "bytes": 10857
+    },
+    {
+      "path": "osler/bento.css",
+      "git_sha": "9a574371d7be5367c6dc28031675bd2110972e9f",
+      "sha256": "4cbaccb668633904eb11bbb748ebd345fd2da07253555e9ad3afb408ca418103",
+      "bytes": 36277
+    },
+    {
+      "path": "osler/bento.py",
+      "git_sha": "306e65570497751674a1fb6102802eeff4982887",
+      "sha256": "c038d1bca48cb51662d72d5fbf89d8630afef4b554146a3d1192fecd5be36169",
+      "bytes": 5025
+    },
+    {
+      "path": "osler/bento_day_ui.py",
+      "git_sha": "81ca843bd989cf51be99ce1f186a3ac3c7cb3ad2",
+      "sha256": "d129b595cd831daa3000501678a8a92a589209533b8ca95d84cd2db695fa081e",
+      "bytes": 25199
+    },
+    {
+      "path": "osler/calibration_analysis.py",
+      "git_sha": "c859e4abe6947b71facb73cec989db0af4b3ddd0",
+      "sha256": "62272b14ce74e14b31b2d5c336b28f9d545822c96fdf54fa9896756d3438ec86",
+      "bytes": 8928
+    },
+    {
+      "path": "osler/capacity_service.py",
+      "git_sha": "b77f5f8e8eeee9fbd81d27bb1d5b03ba680152ff",
+      "sha256": "1a13f5b5a7df478817303da5b78542ed39a329d97b9090581c5804529f1c5945",
+      "bytes": 2714
+    },
+    {
+      "path": "osler/classification.py",
+      "git_sha": "4a703ba995723760ecbb6bb10328ec0f245a4502",
+      "sha256": "9ce9e51563cae7333acb3b07188dd93f0b6eea0db895bea09e4c80ff06a2a8cd",
+      "bytes": 10542
+    },
+    {
+      "path": "osler/cli.py",
+      "git_sha": "3bd9cef35b8ebd2435906013f61cd0bb1987aa05",
+      "sha256": "57903c420a2341a3ae8d6d2b1260a537733d48a482fbe93ce1af919295ae1cd1",
+      "bytes": 6600
+    },
+    {
+      "path": "osler/cloud_access.py",
+      "git_sha": "ee91ebf58aba43aa18a798a852348e06caba0745",
+      "sha256": "4e030ee66373af19c5004b371cb871df420f1e9d8e518b03bf5fa64b29169475",
+      "bytes": 1272
+    },
+    {
+      "path": "osler/cloud_boundary.py",
+      "git_sha": "4cb69ffe6d691b8f54e74f361b8c2e843f72623f",
+      "sha256": "6055b5f254ac7a6b145a2f4c00aa841b56091f304a459b7bdebf2c5d0cdb20aa",
+      "bytes": 429
+    },
+    {
+      "path": "osler/cloud_postgres.py",
+      "git_sha": "e1eebc18b2cc8be0fa4805e3886cc65ac25ffbd2",
+      "sha256": "73a08656c7146f2127322ff4f0052deff716d1cd1acf88a6accdd20af9d4d6ff",
+      "bytes": 3737
+    },
+    {
+      "path": "osler/cloud_store.py",
+      "git_sha": "d85c261529d3394e6a8473b86c11a3be4ecabfd5",
+      "sha256": "5df22e9981ef17bdd24f6e9b73550d5eab6ee834213241f3d3350bd6db1b708d",
+      "bytes": 9314
+    },
+    {
+      "path": "osler/cloud_ui.py",
+      "git_sha": "347cfd079c1005ccb16e8e6e8a8c33afeec406d8",
+      "sha256": "c97e1b1eea2f9150e1bc5bdd8b97e96e43c46f57f8cd0b4b3c2d925ef7bd721e",
+      "bytes": 7253
+    },
+    {
+      "path": "osler/confidence_presentation.py",
+      "git_sha": "53a27ee46f0059b805822910348b5f46a2c47551",
+      "sha256": "efc086247e80a3326ac6c7317e2c7004eef7c925f8c6e7cdf5d1926536608897",
+      "bytes": 2062
+    },
+    {
+      "path": "osler/consolidated_export.py",
+      "git_sha": "b1f89c1ce3366d1985d831612dc79f3cee125993",
+      "sha256": "5af7b9cf986fd075151458ad60a0a9e032ad773ea5f5ca015206a99c62760e79",
+      "bytes": 2289
+    },
+    {
+      "path": "osler/daily_excess.py",
+      "git_sha": "3ab2c40242d8f4b9f92ddc338fd85d6c75f46d74",
+      "sha256": "d2483f4ed75acb5d7c0a46fc8a20d75a112931e62d16ff516c54a7108c68dda7",
+      "bytes": 5509
+    },
+    {
+      "path": "osler/dashboard.py",
+      "git_sha": "bd4dd82981fcd61598c83020463afd034e68040d",
+      "sha256": "7af5550ff341870b40385baaa6e953c73997354219b35dac47baaa7d4fa33338",
+      "bytes": 3076
+    },
+    {
+      "path": "osler/dashboard_ui.py",
+      "git_sha": "1fee698c1c4eff24278a142e882f4cea447971a7",
+      "sha256": "3a4474f216b07a08fec745e869f48121780264d3b23129949be7589dc11fe8ef",
+      "bytes": 5095
+    },
+    {
+      "path": "osler/data_updates_ui.py",
+      "git_sha": "7afe2f12f5eb483c17259812a0989af964ab4805",
+      "sha256": "3eeafe492c3ea1689e01834b6fdc1f5e553d56f74167e37d00f69615ba039430",
+      "bytes": 14537
+    },
+    {
+      "path": "osler/database_check.py",
+      "git_sha": "10cd9f755e2112d5c68dca37ec06dae982f6e9d8",
+      "sha256": "4a2cbde6c795a7ae8b98682b07d279ce5cd563844f1f00e17d5b834a635dd5dc",
+      "bytes": 6201
+    },
+    {
+      "path": "osler/error_card_creations.py",
+      "git_sha": "5688b842fb63794e8487495ef4a0d0148c2a2187",
+      "sha256": "b482f00324f7ab485640aadfeff4bd692690ed540850d4df14ed02d86a043f1a",
+      "bytes": 2806
+    },
+    {
+      "path": "osler/error_cards.py",
+      "git_sha": "27f214fd0e151da05901b45a9d5beae313ceae34",
+      "sha256": "12a5eccea4a1dafe7f15e05ecc4aa8011cc359198ef390c739587ba6cb8224c8",
+      "bytes": 8248
+    },
+    {
+      "path": "osler/error_cards_service.py",
+      "git_sha": "1c45a9c01c93d292e32eb435d79c24b2bd80c15d",
+      "sha256": "8701bbc4a43e70d5525ed0c445f0498415fc258b71ffa26c814568bbdd36d01e",
+      "bytes": 22078
+    },
+    {
+      "path": "osler/error_cards_ui.py",
+      "git_sha": "58caf149312bdefbf32a1779f1bb24546f6c5d9a",
+      "sha256": "1797fa2b5012181bfd959ca7cf51a6d2f2bad7bb59906faefad593431bcd62d8",
+      "bytes": 21136
+    },
+    {
+      "path": "osler/evolution_components.py",
+      "git_sha": "510e50d19cb8b621f217515dbea73e63940de6db",
+      "sha256": "040d6e605a275f1a9214b66a2dfd44fdbf185c976533abf3561c3a85f3f73743",
+      "bytes": 5461
+    },
+    {
+      "path": "osler/evolution_history_ui.py",
+      "git_sha": "587366d05ffebbf3104bf8f5eab601b98cc8ab6b",
+      "sha256": "0075985f3495e8a95815f210facf7f7008c710dec40ea6f58a0a1113ae6e7443",
+      "bytes": 9765
+    },
+    {
+      "path": "osler/evolution_performance.py",
+      "git_sha": "d54c8f39df5250015cd9f68cad0323dde8fa6f23",
+      "sha256": "bef088b76590462c82a9bbdafba442a988052840929c6aedeb06e952830b99a4",
+      "bytes": 5932
+    },
+    {
+      "path": "osler/evolution_service.py",
+      "git_sha": "802d22a605f5400d8390ed037b27d749a1245be9",
+      "sha256": "2e7fed6605958af6f47c5406930a9cbf52b47bed8e339b39dd37a252e2fbccb1",
+      "bytes": 2692
+    },
+    {
+      "path": "osler/evolution_spacing.py",
+      "git_sha": "526f23b56804848f37eef2658759018cd126d815",
+      "sha256": "2a6a2e88611275bcac323198df79a07fc0d527dc9479557d14de277774787526",
+      "bytes": 1959
+    },
+    {
+      "path": "osler/exam_goals.py",
+      "git_sha": "aa63430a864293cfa971e01d132a398d32420651",
+      "sha256": "56e978ed35ea3b4b6afa7a2f216882f1443856efc99ee5db1e110c32035449bc",
+      "bytes": 5156
+    },
+    {
+      "path": "osler/exam_goals_ui.py",
+      "git_sha": "b0bd164a92858d84a51ee59f9748e5f3296c1071",
+      "sha256": "a3c540d8e02892d5cecbf270e6a010e6a340c90dc8c1b1473cad8df0dacade0d",
+      "bytes": 8371
+    },
+    {
+      "path": "osler/exam_practice.py",
+      "git_sha": "fae4dbc04efb4c1eea63a7cb2eb057d0afca41e2",
+      "sha256": "b7cc4cc24f2a8d7961acc1ef2b6404395bbe5b69fbb13e4d792162a04d4bd219",
+      "bytes": 12532
+    },
+    {
+      "path": "osler/exam_practice_service.py",
+      "git_sha": "40cb22e05737510aee6dde8e6ab9c6a44cc943af",
+      "sha256": "bfe234d0085524ddf1901bc59e104b23a4cb85c65ba6d807aa2974328ddc0c89",
+      "bytes": 23068
+    },
+    {
+      "path": "osler/exam_practice_ui.py",
+      "git_sha": "972647d92f0fd155e2794843ffe79f8505637987",
+      "sha256": "fab6f269ffe944744a91f0aed0d17fc876e282c53d34e3eaeade1b788f4deff7",
+      "bytes": 24821
+    },
+    {
+      "path": "osler/exam_weight_policy.py",
+      "git_sha": "fbc4c3384e0f39ff0a5dbd61dda8845dd0721dba",
+      "sha256": "2cc8c7ae380fd5e638476afd38e7e11390a346fa0c92a934b4e1669ab61dc738",
+      "bytes": 3309
+    },
+    {
+      "path": "osler/exam_weight_service.py",
+      "git_sha": "f3d18534769284998ceed3e4740a75feb103bb5e",
+      "sha256": "bd340c5364f0f2cae03c1a6f2b6ba4a1d0385944e3fe77fdfd9aa41efca24d0c",
+      "bytes": 4893
+    },
+    {
+      "path": "osler/exam_weights_ui.py",
+      "git_sha": "c1e9b24b1c4b0255f3fbc547d6c64f475989be8a",
+      "sha256": "8aa8a4b3699794104f0a70872ed35b83d56aab18fae1bc863c966c72a51fd9e4",
+      "bytes": 6699
+    },
+    {
+      "path": "osler/exports.py",
+      "git_sha": "1bce4c80565fb9cc7b2c212c64bba973c08444a8",
+      "sha256": "5c4cf6eae48bd771db1a81b16649d687e4cb853274f3de2a6e77b53a9f675630",
+      "bytes": 2611
+    },
+    {
+      "path": "osler/extraction.py",
+      "git_sha": "98314aafaae86630e92aaf6f1e19a81e8d8c5566",
+      "sha256": "45101da37bd49896e8ea1c34a6dce2bd61bb313079f0dfd7c849ebfa77d35e44",
+      "bytes": 10249
+    },
+    {
+      "path": "osler/files.py",
+      "git_sha": "86b44e5cb3e5c11e2328ab2117733e4dc6bdcdc6",
+      "sha256": "70a08722f1072e529b78755bb15c8926970b87097f5229760d1476325fd0408c",
+      "bytes": 1274
+    },
+    {
+      "path": "osler/final_review.py",
+      "git_sha": "83e2f16402f4f2cc04baf801dda990bf7d96b00c",
+      "sha256": "97bab719ddf0dfd0b4a498693499edfe8e357bd18262613df45ab366ddc129ce",
+      "bytes": 7763
+    },
+    {
+      "path": "osler/final_review_ui.py",
+      "git_sha": "7e06cba4314afc7a15dce87fb1c207c3346a1391",
+      "sha256": "45af3b9ef0a08e0ed6c2e34619766112b53ca20db90cad61ddf331eaa1fc8963",
+      "bytes": 6049
+    },
+    {
+      "path": "osler/goal_risk.py",
+      "git_sha": "e2eda58d2c5ff4b82cf95d5a4ac1893405f76566",
+      "sha256": "a5ea66b404b5a59c9f3ee3d1289dc8f4239766ca66f5cb569a3cb0aec9239889",
+      "bytes": 6196
+    },
+    {
+      "path": "osler/goal_risk_ui.py",
+      "git_sha": "a8de7a6cc5db9799bd1b1ef5a3ce76cb6405aa65",
+      "sha256": "0db2741413d092ece699a4210f582b9b5253984a9aac1cea224acbdb5e4972dd",
+      "bytes": 3697
+    },
+    {
+      "path": "osler/grouping_service.py",
+      "git_sha": "c6f1cbba6698505cb9fd9bc55d2cc7f105fe3c11",
+      "sha256": "0c3026cd19a02eb85712dd9a3dc06915da92d4129a1477c1de223bd2dc089a0d",
+      "bytes": 3738
+    },
+    {
+      "path": "osler/grouping_ui.py",
+      "git_sha": "f3d76556e01b7392df1127583dca7201909dffc9",
+      "sha256": "06815addf4246a95f3cbe4d5ce2eb0637f5c223eed75b083bef4a53d6ddce195",
+      "bytes": 9740
+    },
+    {
+      "path": "osler/guide.py",
+      "git_sha": "2236bc4741677f1bcb292e37fec8dcfc918fd095",
+      "sha256": "0cfc3c9244ca54a96a4f23611c512533f85df916456eac802a18fae44d2570f3",
+      "bytes": 7124
+    },
+    {
+      "path": "osler/guide_service.py",
+      "git_sha": "6b871f756c68f02c610d63e45acdd5f1508c7a6c",
+      "sha256": "3ae02831689c3330010ebdb29ea05471e5e493df0fc5dcc136a1685a3b5ac226",
+      "bytes": 7040
+    },
+    {
+      "path": "osler/guide_settings_ui.py",
+      "git_sha": "0097455db3d1ce74bda4d88955df7bd1c34f4cc2",
+      "sha256": "f3937fd75b74eee3c865fbd46b0262cf0d8d70e6f699361b2017ada85e4aea38",
+      "bytes": 6541
+    },
+    {
+      "path": "osler/guide_storage.py",
+      "git_sha": "5c84b0d34a1539ee77b66c703f2cb85b4c34a335",
+      "sha256": "81817ac7f2480159d15b3bfb303f7adf98d6fa2bdb011502567857ba1108dc4f",
+      "bytes": 4458
+    },
+    {
+      "path": "osler/guided_ui.py",
+      "git_sha": "f23643e31e17cae6885adf57d6f8af20b79307b8",
+      "sha256": "51038330eff296a2ab9a9b1effcacf7889d1dc4fabd1ea4893e2d5d6814a266f",
+      "bytes": 8578
+    },
+    {
+      "path": "osler/incidence.py",
+      "git_sha": "cf74c0cc8794104f2c2259639fd12b1bd8337d7f",
+      "sha256": "bddd29501f348a793f0ab74fc2f23e2d07186bbb04e089fd2583e58b207963b7",
+      "bytes": 8865
+    },
+    {
+      "path": "osler/local_launcher.py",
+      "git_sha": "4fbe4613e9a074314a3e21bf3c37d32f2f2d2abe",
+      "sha256": "e13d1bdd2a922442ec619c3acc6f6b2f8d6cdcb500beeeb11f9556570bcda833",
+      "bytes": 10460
+    },
+    {
+      "path": "osler/longitudinal.py",
+      "git_sha": "7000e80ff709ab5ad82709f4530b517144886223",
+      "sha256": "6f96cd1c221ec1d7da155394a95b00d628771efa2dd5cf217f248c5c69da6481",
+      "bytes": 4165
+    },
+    {
+      "path": "osler/longitudinal_ui.py",
+      "git_sha": "084b6142e77b499880a0b84c316d79f61424784b",
+      "sha256": "db54140ef5682ce98531b53cd5687d4bd1403bd8422f42aa9502797743adec2d",
+      "bytes": 3972
+    },
+    {
+      "path": "osler/lote_b_schema.py",
+      "git_sha": "1baf9215c10fc460c8fe77a85a4c4ff38b953a97",
+      "sha256": "cf6da1dec0607039d11e54d1d043442b3bad0fef335dd6096cf4b1dd16823ad3",
+      "bytes": 1554
+    },
+    {
+      "path": "osler/lote_c_schema.py",
+      "git_sha": "0d3e680b5913a58af259671195f7b8f52e69de5f",
+      "sha256": "b2210f56bb367865055dc448a775f6f2728487cf1b8cee2134df628b1aa0633e",
+      "bytes": 1098
+    },
+    {
+      "path": "osler/matching.py",
+      "git_sha": "42aed4db8b6d90c558e4a5292417d0ac74770da3",
+      "sha256": "47e279960793c754b14044a1df22d96c93478740103b0b137171bf84ffbb7972",
+      "bytes": 9424
+    },
+    {
+      "path": "osler/matching_exports.py",
+      "git_sha": "87fd381658aa37db4639d6d8aac6e8d3109a0140",
+      "sha256": "0498665a8618fed7f7a0e7a68379a6297af1d5e9def58250ebdb3f9dcef0148e",
+      "bytes": 3886
+    },
+    {
+      "path": "osler/matching_service.py",
+      "git_sha": "5d3df4f1da571c75190b27021a0c9d1c807c7061",
+      "sha256": "e0a0816dc863b30b1000ae4ef56d3b87adf3e427d7f9f00c6ed5ad67c056878e",
+      "bytes": 1861
+    },
+    {
+      "path": "osler/matching_ui.py",
+      "git_sha": "cc4d048298af6a34f284e6e3295c28a55ed34e4e",
+      "sha256": "f6ea6cff2ab98d012355606be8c35d5ef352a3d969cbac9a313b8d8b01d0d364",
+      "bytes": 11535
+    },
+    {
+      "path": "osler/mock_exams.py",
+      "git_sha": "e6ec703d8d4848cb12b25b432323ab653ce681ff",
+      "sha256": "750004789e550da40c21ca93024337190b2e6beaaa724d5c6e162210f27707f7",
+      "bytes": 13444
+    },
+    {
+      "path": "osler/mock_exams_ui.py",
+      "git_sha": "44db14bd5f5a10599a250e7cc8bc151b3c297d2a",
+      "sha256": "7ef665e2938a3619d1c68124708ba894657a50adcdf992ed35704cd9c5ebd46e",
+      "bytes": 23801
+    },
+    {
+      "path": "osler/mock_result_followup_ui.py",
+      "git_sha": "1fef6194492b5274d6ea37415080fa2d1b99dfe7",
+      "sha256": "d12862591bfc648803983ea1380938d4816eed86079effc8c59aa91843647e47",
+      "bytes": 4005
+    },
+    {
+      "path": "osler/mock_schedule.py",
+      "git_sha": "ed444279bc55c9da49daf5dd7648d149c064de62",
+      "sha256": "7d977ee1f09b1f200be990c2deadc96ba43d3ec88ae64a61e18a162044f3b1fd",
+      "bytes": 2787
+    },
+    {
+      "path": "osler/mock_schedule_service.py",
+      "git_sha": "ddc54c3d34192478dd61dcaa6d95a103283d3c88",
+      "sha256": "a0a6d1a859d0a55c1eeacae41ff9c50a5f71c2c1fd209863cbb3061e5f9cb08f",
+      "bytes": 9723
+    },
+    {
+      "path": "osler/mock_schedule_ui.py",
+      "git_sha": "9fd49573cb11fa54b15fa80de76327fd3534490e",
+      "sha256": "caeb0fafd6ba225304c88076e74ff4433e1d58b51de110798b90663c5b9bbe57",
+      "bytes": 10002
+    },
+    {
+      "path": "osler/mock_workflow_ui.py",
+      "git_sha": "26ca1e42fbfbabfd82dd2b22fad31f59d3ad6b07",
+      "sha256": "8ebc4aaaa685db4ccbac6dd661905570e19cafe398091839fb4e6c3b48f69632",
+      "bytes": 7619
+    },
+    {
+      "path": "osler/models.py",
+      "git_sha": "c92cd30a27c0e1bc93dbd4ce105e4311410e45db",
+      "sha256": "20504a54b03aace6d46144d21f7ceb664bc228c25739ac7d2aeeaf6d92571161",
+      "bytes": 3345
+    },
+    {
+      "path": "osler/observations.py",
+      "git_sha": "d5f6850e0c2ae2ebf0a7955cfa4d3aef1fc9d51d",
+      "sha256": "c331e226f968903abc089767c5faa49cd487fe056e9d893c0b9e3cf1163360f5",
+      "bytes": 6303
+    },
+    {
+      "path": "osler/parameter_ui.py",
+      "git_sha": "23e888a27a3c93fb266ae36ca30c941d2850f5d5",
+      "sha256": "abca0d9608eaab8aa79c24309f358b4e6b36133e75fceccfc489189ed9734fa2",
+      "bytes": 2198
+    },
+    {
+      "path": "osler/planner_completion.py",
+      "git_sha": "edacdb8fd3655059854ed7109e7495d90cdeec9c",
+      "sha256": "abd284df48720d48a52cbdda082f1f2bd471feaa71e8014def9a280c56165bb6",
+      "bytes": 8896
+    },
+    {
+      "path": "osler/planner_completion_ui.py",
+      "git_sha": "7cd2dd4470c73d860e0ac18641747be52886e44e",
+      "sha256": "8fbbe03bcb83640c320874636e7c1c7b5b0fe103dbe07011b9a39e4ff216393a",
+      "bytes": 3981
+    },
+    {
+      "path": "osler/planner_exports.py",
+      "git_sha": "aec717b1a33f4b8f121923a80a5430eb71050c16",
+      "sha256": "2443364fe25f1f597ca354eb49467824ded66c536ce1ef8bd393b1e02c934c34",
+      "bytes": 4259
+    },
+    {
+      "path": "osler/planner_import.py",
+      "git_sha": "9c3d78c1fe361aaacd981e6b7a72f20255cd2262",
+      "sha256": "2161542e776cf313da85b4c9ea122d053975860c0fb293c486f943ac98363095",
+      "bytes": 10755
+    },
+    {
+      "path": "osler/planner_service.py",
+      "git_sha": "8f4f985079c5fe78fa7c105b6fa1789c279a1565",
+      "sha256": "4ad419da0ad65a15a4efd483336213bc4556f1fd983bc29684fc121a8849a704",
+      "bytes": 6896
+    },
+    {
+      "path": "osler/planner_snapshot.py",
+      "git_sha": "d4be894d1e6cdcf190410b5a49204494cfacd3a4",
+      "sha256": "30db2b4b25fb10e3e27c54290a4a1d02b0933cf194d0c99631a9624408d6e6c2",
+      "bytes": 4408
+    },
+    {
+      "path": "osler/planner_storage.py",
+      "git_sha": "e4f722fe4270216cd610e5ac65cae2287c00816a",
+      "sha256": "eea8118d269b7bf9e9001116764c922ddeb2a40ec48f48ad0eda97a5071d9759",
+      "bytes": 10448
+    },
+    {
+      "path": "osler/planner_ui.py",
+      "git_sha": "c5c7e90cdd34634172a9167f008da8fd97840a79",
+      "sha256": "c22b72e1574828dcdbdb7a4c1ab3490349cea0e3f54066ebf45091bc2f2a8044",
+      "bytes": 10975
+    },
+    {
+      "path": "osler/planning.py",
+      "git_sha": "c04c9eda9d0d34627ea33d32cbfa9781e3f56c4b",
+      "sha256": "a14e0b690824e0c2b50e930feac5ff7429fb9bc81b1c69f507869bbbb75f79fe",
+      "bytes": 8468
+    },
+    {
+      "path": "osler/planning_service.py",
+      "git_sha": "2db3d5d148c6e833b2953e3a90b65a8f633cdbe3",
+      "sha256": "38911c3b96bbf5286ac65b4eafdfa751d19b29ffac20986b99a27174f1c4d17b",
+      "bytes": 2710
+    },
+    {
+      "path": "osler/planning_storage.py",
+      "git_sha": "2a5386c7b349e43e2a6b6c985b1866e0f22a6159",
+      "sha256": "1c165765f5b5414a0fc0a8149534ca544ebc5756c48b042ab75f1b065feabb0a",
+      "bytes": 2538
+    },
+    {
+      "path": "osler/planning_ui.py",
+      "git_sha": "68981d8da21328f49b18fc86ae64a0ba9816c54f",
+      "sha256": "a10c0af41c9421aeabccaf8aa60a5c11ac5fa6eafd2d33f93d76ff555bc53308",
+      "bytes": 12211
+    },
+    {
+      "path": "osler/practical_reduction.py",
+      "git_sha": "9096dbf7ccb06102827d2426f04cbc7fac6c3ca5",
+      "sha256": "07cda1b9ad8ae7c127e05eb4cf0f3c8c615175938bf34013e22a3c75a57262a6",
+      "bytes": 11685
+    },
+    {
+      "path": "osler/practical_reduction_ui.py",
+      "git_sha": "4028f1917e710b569515cca18ffffeab0086d2f9",
+      "sha256": "179e408da6f02e11b86e62b45928262639653b75106b242083dbd5bfa30d2c3b",
+      "bytes": 20283
+    },
+    {
+      "path": "osler/prevention_service.py",
+      "git_sha": "530acc30838f4333c93d570d906412a0ceb0e01b",
+      "sha256": "65ccb86c945be1fc34981b98b62ad61c6273f0c918c310f3ddadf8a32a54e30e",
+      "bytes": 6230
+    },
+    {
+      "path": "osler/recovery.py",
+      "git_sha": "669dbbda129061c0a06d02542091a58fc31c261e",
+      "sha256": "bfd063767e6a3697682f3d7d2f7022f3550d3267a43a96201650ffa8dfe624e3",
+      "bytes": 10991
+    },
+    {
+      "path": "osler/recovery_apply.py",
+      "git_sha": "5ddd90e922a18769ad89baed0b093c76c48ac962",
+      "sha256": "8bfb91071c0e3240394e8f2c69766f550761d0af7f5a34dffbf308153f5765a5",
+      "bytes": 3329
+    },
+    {
+      "path": "osler/recovery_ui.py",
+      "git_sha": "e013c839b79940627b281c8300d2c5bb91ae68ff",
+      "sha256": "7dab6196a700e69f50072b52499882a65be9cc4b93a59648435cd6aaf1a24c58",
+      "bytes": 8811
+    },
+    {
+      "path": "osler/recurring_questions.py",
+      "git_sha": "e3ebd9e2eca632fa91946dba8917fcef384ecc08",
+      "sha256": "e3f253b3cccd17b5b029d9ac1748c75315ae02ec9026eab7fd338397debd2fb4",
+      "bytes": 1633
+    },
+    {
+      "path": "osler/reduction.py",
+      "git_sha": "f6345c22fe178cb6fba7dc7b2a49808efc3d0331",
+      "sha256": "e2a988d02976855c05309be125b0810e80c3f75433dbdcaf36beeef8c067848d",
+      "bytes": 4660
+    },
+    {
+      "path": "osler/reduction_recommendations.py",
+      "git_sha": "313201fa603d88443a90a943caf7058c2b47ee2d",
+      "sha256": "7b81551890c0b4f648643f6210e3d5830508e8d42d877f6da722ba3de1f63ba6",
+      "bytes": 9427
+    },
+    {
+      "path": "osler/reduction_storage.py",
+      "git_sha": "29124d1c43948ee9d0bbc1c81b9c8b6ea5b85445",
+      "sha256": "d1ec24e112a3c830a50e8f9aa5aa429fd282edd5465e9baf409b63a1060a30f8",
+      "bytes": 3505
+    },
+    {
+      "path": "osler/reduction_ui.py",
+      "git_sha": "fe3bcbc5a7e14fff8a93a5ab12fbb9bb2a4ec63b",
+      "sha256": "73928555aec7bcfac15f8078518dec59e4ef1c8fb6adf7b1bf1093232026b7e9",
+      "bytes": 1055
+    },
+    {
+      "path": "osler/return_deferral_ui.py",
+      "git_sha": "12b2cefa69d093e0735ea1db01ec88297fb924a4",
+      "sha256": "08020227737d59d07b9bfa166587c3cefa180c4b2a027ba798f87152e6078736",
+      "bytes": 4183
+    },
+    {
+      "path": "osler/review_parts_ui.py",
+      "git_sha": "91e115fabcd8e86bc0b2b285921dc375d24d8755",
+      "sha256": "42bbfab33846ab3375e765b551deff2dab5cf817ea353dbcd8db599d8c66698f",
+      "bytes": 1111
+    },
+    {
+      "path": "osler/review_policy.py",
+      "git_sha": "c803c7d02cf4cd8fd1d106bcaaa36040774454f9",
+      "sha256": "e363a56a19ea8d3a6a2e1731043bb1f9b99d3c1c73cfdab025e1af73304718bc",
+      "bytes": 3070
+    },
+    {
+      "path": "osler/review_queue.py",
+      "git_sha": "3a3e7c45ea3af093cc6774df81a4e17463fc57d8",
+      "sha256": "97363e8d3f65513c970fdf62905e46dbe711b278ebe84c8afcdf41fba284111b",
+      "bytes": 2840
+    },
+    {
+      "path": "osler/review_strategy_service.py",
+      "git_sha": "edd8b6a9d3efbe1de45b9cc89efef28c83387b2f",
+      "sha256": "c00332676a4161e40d24183544a5f929f9b454e9890b62add1f6a1b9d339aa18",
+      "bytes": 3645
+    },
+    {
+      "path": "osler/review_strategy_ui.py",
+      "git_sha": "cbbfee9f223701cc9afd0ea5eea0301d4b15a98a",
+      "sha256": "a02b1b48fb7373b0417b48da05a388f1cda098401a214fd4f7515df9faa18be2",
+      "bytes": 5130
+    },
+    {
+      "path": "osler/service.py",
+      "git_sha": "1a753f559b85ca3f9cc98ac176a61b9e3bd45ad4",
+      "sha256": "0072bd5563f5934f3d05a53d2315029062537c31007d402b67495faeba64a5c8",
+      "bytes": 1435
+    },
+    {
+      "path": "osler/storage.py",
+      "git_sha": "61a958d4e6b2a158869a00994b5664a8d6d2d9a0",
+      "sha256": "def02da697bc4e29ddd07d96438dd5daa376aa7e1970f2fc4d3a5ea26b1c1eb8",
+      "bytes": 10551
+    },
+    {
+      "path": "osler/study.css",
+      "git_sha": "234b804a40a163c2d812794fc79ae37a1e4eef87",
+      "sha256": "cbb3e8bcd3102503a5429c46789efe9fffd8e911f1a563e0ee2837756566d866",
+      "bytes": 17310
+    },
+    {
+      "path": "osler/study_activity_ui.py",
+      "git_sha": "31edd21f1fa3129b91841832be7090915a20771e",
+      "sha256": "19a46da1eba98a90995f66828345506bc373e95c9343d7c2579462a728794876",
+      "bytes": 7464
+    },
+    {
+      "path": "osler/study_agenda.py",
+      "git_sha": "b1152a841eec9ec50743ad12339d1007ef8a5a2c",
+      "sha256": "b6ef9662abf47378c8ebc70a618fa2116ea7554c484b8846caa5b319ff79f78b",
+      "bytes": 11218
+    },
+    {
+      "path": "osler/study_allocation.py",
+      "git_sha": "d50840a605c21de4e0954d8cfd3c1c8e3b1673f4",
+      "sha256": "b08e1f5eff34c4e98b55adb0de2a1ab7564d66af63516e437aee0a83b61bf6aa",
+      "bytes": 6125
+    },
+    {
+      "path": "osler/study_attention.py",
+      "git_sha": "c360ba313716dea5eabf97c415cca658e7faa064",
+      "sha256": "d2d7e94df56d3de66530edf3776356b1fdb5e7a7840051171e2e8e24e970e047",
+      "bytes": 10384
+    },
+    {
+      "path": "osler/study_attention_ui.py",
+      "git_sha": "09e2ce90881f3f4185d2eb53fedf46b922bf636c",
+      "sha256": "e9347ac00b71ff1300971690bda83aa126a0fc30caec74f582d31e78b9b56c4c",
+      "bytes": 5850
+    },
+    {
+      "path": "osler/study_calendar.py",
+      "git_sha": "9adef32f6ee72ed156f4b68227ef466969df4b75",
+      "sha256": "152725e23d60379d02f0e4e74f01b4ee1e87e4b3a448c0d6afd1b5c17d9c24c9",
+      "bytes": 11439
+    },
+    {
+      "path": "osler/study_calendar_ui.py",
+      "git_sha": "e548844e7e05d580c927edc17ee90b4a0f85d795",
+      "sha256": "b0f641d56b7f1f01de63c95b584f513bc35e1e5c3a87fd1166a77f8b79e5acff",
+      "bytes": 22646
+    },
+    {
+      "path": "osler/study_capacity.py",
+      "git_sha": "b4fdf80e991311d65b8739a54659e1c3f83b0f03",
+      "sha256": "d4f5a8aafa288ec655ff41ffa6f95ba5396686fcb6102b7436ff2cdf2a8470fd",
+      "bytes": 9705
+    },
+    {
+      "path": "osler/study_capacity_ui.py",
+      "git_sha": "5a3a6fe2da6035b1c95726ed3f0180cb8fb624db",
+      "sha256": "709a1e20f103f93c1cf05267e088098ebbe6754fdb1bb502fa784dba314d7c5f",
+      "bytes": 3640
+    },
+    {
+      "path": "osler/study_components.py",
+      "git_sha": "2acd7e747d346d17c56d943b66be29f35c9abf82",
+      "sha256": "07a6572ce9c492fc2871e36c98a57811f9cc618f2f1e396bc940b5a3cd2b9c0a",
+      "bytes": 2356
+    },
+    {
+      "path": "osler/study_dashboard.py",
+      "git_sha": "a58b1dad81c20b7378f5a31466229195f452c7ff",
+      "sha256": "6adc7b25e184ed9d3ab971f5bee90444d8be5a52ec4eb6d2cc288d682996d5b4",
+      "bytes": 3802
+    },
+    {
+      "path": "osler/study_day_ui.py",
+      "git_sha": "d9e7fd08352f95c9533437b3ffcf93e5c2703d71",
+      "sha256": "0212ec9c12329a727c577d979eb8a0e677d7e7dee0d3042d81256897af94a56f",
+      "bytes": 8790
+    },
+    {
+      "path": "osler/study_errors.py",
+      "git_sha": "fc95f68efcdfae985647e41671a5473cc3724b7b",
+      "sha256": "aa4557b40d0aab8736ac514a92db760fa1294d2cdb40d087fdc3ea522407d96a",
+      "bytes": 8144
+    },
+    {
+      "path": "osler/study_errors_ui.py",
+      "git_sha": "417d3a2c17216721e7a74f35470c68b3f4d04bb4",
+      "sha256": "6228c58f6625b83b3f80339e1cfa66d74176eed03cd3a29e25a5f0d60d76a339",
+      "bytes": 7626
+    },
+    {
+      "path": "osler/study_evolution.py",
+      "git_sha": "c60195c101e8d3be70ef3b07a7988d118d2c5030",
+      "sha256": "fba44504f59a0788ea100c263295d5df2890a948e6bc52bc94c6ca68ce70f032",
+      "bytes": 9603
+    },
+    {
+      "path": "osler/study_evolution_ui.py",
+      "git_sha": "f72f43b19b97e396f1c6fd69ac5e4e0598c51c48",
+      "sha256": "894525d5dd5659522d621778c400c4c31c150ac5a5978e59c9c52e71f0459812",
+      "bytes": 14855
+    },
+    {
+      "path": "osler/study_feedback.py",
+      "git_sha": "4f47124045256645a3453b02d88237299e8a75a7",
+      "sha256": "1084ce34059af3c28b9e27372dd22937409b71d5a1f13950e40cad159a4c19af",
+      "bytes": 6844
+    },
+    {
+      "path": "osler/study_models.py",
+      "git_sha": "6eedef9f4add2d64e975cd4917a93ce7c4754fcf",
+      "sha256": "e047f0bbd9efe5196131a19c63b794fec92de218f3b2be8b2c27521f119c19ac",
+      "bytes": 10089
+    },
+    {
+      "path": "osler/study_navigation_ui.py",
+      "git_sha": "d16c626753523ae795016be656f3f8f57bf623e0",
+      "sha256": "3f58f46d993fc1509066ba559fd36f0495c7251b63c0af671b61c1e8416dcd85",
+      "bytes": 4007
+    },
+    {
+      "path": "osler/study_prevention.py",
+      "git_sha": "847e86752beab1a3eaa48c91cdb43f0940b57de1",
+      "sha256": "4f482a007272d7ff506ca4bd9471301ede9d089fe8dbf23b237336666dad0df2",
+      "bytes": 3780
+    },
+    {
+      "path": "osler/study_prevention_ui.py",
+      "git_sha": "820e88438a51cd8224f40ee7f5eb32a2f0c4f2d2",
+      "sha256": "8905d2499c242303c0f184b793f9575372a7c156ef3beeb518cccf9381060562",
+      "bytes": 9104
+    },
+    {
+      "path": "osler/study_read_model.py",
+      "git_sha": "f01e2258b58a1e6cfcac6a31a4c8c89a3b81bd2e",
+      "sha256": "abecf0e169e2b684e7fd94690cb021cf6ecdd5046c113f4ffd233b8a77388d5e",
+      "bytes": 1180
+    },
+    {
+      "path": "osler/study_registration_ui.py",
+      "git_sha": "1616241a499054ed15abb4250cd4c205ec4a06da",
+      "sha256": "1401de22c293239188dfff06a7afe5a2d3b0f9cb100066940f09d4db44d01357",
+      "bytes": 16622
+    },
+    {
+      "path": "osler/study_replanning.py",
+      "git_sha": "8b5a23df9b3fe46f4cb059974c35953fe14526a6",
+      "sha256": "01a0b9258857dfbd1ec19185d4b49eb635afcdf026dbab6a802d9ba0e29be4c0",
+      "bytes": 8803
+    },
+    {
+      "path": "osler/study_replanning_ui.py",
+      "git_sha": "0771be0198a35fa301379ee0797d70016227c799",
+      "sha256": "5311dfbab2b71c4ba6774d3a3b93a9108eda2d1005f53b2f6ad5727c68928db9",
+      "bytes": 6794
+    },
+    {
+      "path": "osler/study_signals.py",
+      "git_sha": "d5f2a1ae1d1944cb7b18a812fdae8c48da9e217e",
+      "sha256": "5fcac93f335f59969744573064fde5ebc2297e460005b7e824a33e6c88dfdb0d",
+      "bytes": 1603
+    },
+    {
+      "path": "osler/study_statistics.py",
+      "git_sha": "6514e92e371408702d946b12fe7a2345bde8ee15",
+      "sha256": "306bd67fa6832e928208fbff51a5945992b0f3773f6991a87759ce5f846a4743",
+      "bytes": 5569
+    },
+    {
+      "path": "osler/study_storage.py",
+      "git_sha": "35f52a8fdb2e1ba7efa9314fb827c5f692f303cb",
+      "sha256": "e1cdd4386f9889b5b327f5d3c9e3dd58998df7fe6bc2ed95013aa26d3bfcc905",
+      "bytes": 10425
+    },
+    {
+      "path": "osler/study_style.py",
+      "git_sha": "00a1b3f514da227f6269f75783e79b8a620e1188",
+      "sha256": "1baa615339fc7aaf6fd20869d31ee290576bb03ec7ec4a3c3a13163fb51ea7d9",
+      "bytes": 372
+    },
+    {
+      "path": "osler/study_swap_ui.py",
+      "git_sha": "0efcf03ced9b0cc334313cee735fbda45c8b97e5",
+      "sha256": "f81d7589f70b5aa1ec19b7da1bd220d14dbcae6c95a1d860441d0c3898aee633",
+      "bytes": 5674
+    },
+    {
+      "path": "osler/study_swaps.py",
+      "git_sha": "b33e71364b1706685baa5538d62a0082c8997319",
+      "sha256": "3c575c56397b38f00fbfb8e3b65dde4b6ea4585c473156d8a8963abcecb17b32",
+      "bytes": 3546
+    },
+    {
+      "path": "osler/study_tables_ui.py",
+      "git_sha": "394beccf943472aa2f1e334c255dc9370991a42e",
+      "sha256": "dbd693a0d237e4649156110ca0731d0750b8b17effb76c3f10fc9ec4cb22bf17",
+      "bytes": 23064
+    },
+    {
+      "path": "osler/study_trajectory_ui.py",
+      "git_sha": "4d0f38c987ce3678e7426e6c6e04cc22939a8714",
+      "sha256": "729d812c38546c4765619ee52af2e119913eb4b5f85c02a24232167d0128f112",
+      "bytes": 7023
+    },
+    {
+      "path": "osler/study_triage_policy.py",
+      "git_sha": "9d6ef1c080a8b84106356272a2b758e48c89d1f6",
+      "sha256": "10b3ff23204bbc4cdf60464cad3df46b0d4ac9aa428b5c614e4153c8a2a70ce6",
+      "bytes": 8129
+    },
+    {
+      "path": "osler/study_triage_ui.py",
+      "git_sha": "3d2a1eee49810cb663319b5c51fdab1a4091150d",
+      "sha256": "f77958bea3b739a320bf42d2bffa675a4aca673700ef90557d32c49ae37bf7a3",
+      "bytes": 5349
+    },
+    {
+      "path": "osler/swap_service.py",
+      "git_sha": "4195ec950b90c6ce64865a99fb7403fa92c5ecc8",
+      "sha256": "9636bf0dffb2a2b7e9b0b8ab2e8283f707e0aaec2dcf7706cebc09a0e1bb4910",
+      "bytes": 11167
+    },
+    {
+      "path": "osler/topic_catalog.py",
+      "git_sha": "fbca9f8938e39a115248deea9b86298c53fb0781",
+      "sha256": "f3d4eed6477ab0e51e3b25012cc6ae3752ce8e0e37ee75164dc6f30c94f709fa",
+      "bytes": 1492
+    },
+    {
+      "path": "osler/topic_contacts.py",
+      "git_sha": "a4d6ad2073471899c8d084f2acecf3cd8a79880b",
+      "sha256": "823213a5348551a2c198e4e6c374c916b1db46009be10708445ae18a6fa8567b",
+      "bytes": 2410
+    },
+    {
+      "path": "osler/topic_grouping.py",
+      "git_sha": "0154b36e2ceb1616d472c24125e9add54c11552e",
+      "sha256": "60cf4020fb3a715843601cc467114208ad9a56c55150b9106fa7c7c94a404b77",
+      "bytes": 9602
+    },
+    {
+      "path": "osler/topic_picker_ui.py",
+      "git_sha": "aa7ea06044e79ffd81ab470bf517387f5f9a7cea",
+      "sha256": "80bf84141118634fc17c2629dd5f90a92f0aa3b47d9dbf597f7b326e2d7208e0",
+      "bytes": 2821
+    },
+    {
+      "path": "osler/topic_spacing.py",
+      "git_sha": "d0005d58ac57745b1ef4cd858aea97b46f6dc87e",
+      "sha256": "e5176cd6961a3b55b13fa3003661b7740a7d548b37739234c049ca9b648a4130",
+      "bytes": 2999
+    },
+    {
+      "path": "osler/topic_trajectory.py",
+      "git_sha": "fbf4ad10042fa5d8fff1be0c85b4b4bfdb801a18",
+      "sha256": "e2fb28c9055b6f1d457eb94c74ddb440b80114a2e90a7fb123b264d6f8cc8e31",
+      "bytes": 8950
+    },
+    {
+      "path": "osler/triage.py",
+      "git_sha": "b6ba7f524c36ea162aaa18dd7f06c27b17e896ae",
+      "sha256": "2af185cf34fc5507e3b8f968f2704e3da5ba4cccc7737d7e3a8dfbcff5ccb2cd",
+      "bytes": 4075
+    },
+    {
+      "path": "osler/triage_service.py",
+      "git_sha": "297d085960a4faed184f3adbfde9c66e71a5f7a7",
+      "sha256": "540642163d18adefdb22dd85b7cdd05759148aac5e2ec8262cc2ecf09b5474ed",
+      "bytes": 3090
+    },
+    {
+      "path": "osler/ui.py",
+      "git_sha": "ac56b405403a771b464b0b3a8c6f8373f710aafc",
+      "sha256": "2e581d56d4313bf53598a658f212eefdcf2ed05f4077a7b24fedc109c2e289b0",
+      "bytes": 16234
+    },
+    {
+      "path": "osler/ui_help.py",
+      "git_sha": "87e2cf785ab579518aa548a5a7452523f765263a",
+      "sha256": "ee717f9960db601a91f531066f0559ca08a8ad46cd589ad92d45f534d2d7e53e",
+      "bytes": 216
+    },
+    {
+      "path": "osler/validation.py",
+      "git_sha": "913bfac476cc4fe6a87ab8b96d2eacde188fbbca",
+      "sha256": "926f3e39ea00ed46dbc56697eac9870af1616f0aaaa24f85f7e4df6e01143772",
+      "bytes": 3641
+    },
+    {
+      "path": "osler/weekly_review.py",
+      "git_sha": "791a15f2e5d941b0d8ca83049f3824744acd0861",
+      "sha256": "f1fb360c69cd41a300728be1b911a79e8b350e9d52d9e0b90a2cbaa19cce0c82",
+      "bytes": 7145
+    },
+    {
+      "path": "osler/weekly_review_ui.py",
+      "git_sha": "a3cadcc04ec7344c350775a84ec5c2f6280524b4",
+      "sha256": "0e54bcbb4bd3f840effc4f9c11f0b9c646b9c4651c37eac1e465f998b9241ce1",
+      "bytes": 4224
+    },
+    {
+      "path": "osler/workspace.py",
+      "git_sha": "6e1e0fc0be2a727a1cac0eb8bc28df1e140c5200",
+      "sha256": "321f7bdcf6304454c619fb383e27ba58bb56f1533e6511e419e63c3018aee2f8",
+      "bytes": 1777
+    },
+    {
+      "path": "output/rotina-anual-2026-2027-v1.md",
+      "git_sha": "9985678dac44c577a46a93797e96e7dd9ba9dc5d",
+      "sha256": "55dd6cea54b0fd6498dfb5ffa69852bce389c10575d580668c486356e0f40283",
+      "bytes": 15408
+    },
+    {
+      "path": "pyproject.toml",
+      "git_sha": "bba74683abe4497298ed1941a6ca0892ae4eae41",
+      "sha256": "67d32f67f234b9caa520ab2089383e4f327e1cb0b546f081671cd8340d30fab6",
+      "bytes": 319
+    },
+    {
+      "path": "requirements-dev.txt",
+      "git_sha": "eb66cab658033cd35f1617888633f6c03a5bac13",
+      "sha256": "082bac1e1c79c7cd54659567e3e4889e4ce93c72e50651ff1d82833ef9363935",
+      "bytes": 126
+    },
+    {
+      "path": "requirements-lock.txt",
+      "git_sha": "957c523033311f9b11aee58d707ecb61c103faf5",
+      "sha256": "608c9a571ed8cad87a2af2c36c266e331e583a41895150d4e8708a4f1e45a757",
+      "bytes": 707
+    },
+    {
+      "path": "requirements.txt",
+      "git_sha": "82713755ab7fae9ff58092b0a3b1d3f0a142522d",
+      "sha256": "4f65e8fd9b7b8c3df47e11fe928f5dcdfa1f2eafde5ab7a8e07ea1877a7cf5f1",
+      "bytes": 75
+    },
+    {
+      "path": "scripts/analise_calibracao.py",
+      "git_sha": "b00d4633b198f8510d1c15b33cad762b3d5c3f24",
+      "sha256": "247b1e5735469291bf0a9c44c701978be7d138b7a9c1d454b85872b4cabd3726",
+      "bytes": 926
+    },
+    {
+      "path": "scripts/audit_runtime.py",
+      "git_sha": "95e8fc2e2eb48e3193f8ee6faaa6c62c58a498c7",
+      "sha256": "694cea5cbea564257a328ce5bb80e9bb29bad3d8102ba9d9539bc1e91c135db6",
+      "bytes": 8138
+    },
+    {
+      "path": "scripts/build_cloud_branch.py",
+      "git_sha": "5abd01359ba2d05252c36485a51d5e9268ac0bd0",
+      "sha256": "899edffe7d90b16da61014903c2062316c294ba55f6fda542546de6d876a9a18",
+      "bytes": 2925
+    },
+    {
+      "path": "scripts/capture_bento.py",
+      "git_sha": "68e6d728e6414f12fc325de3174704495c58b8c8",
+      "sha256": "034fe07fdffd0e4346826ac512712bafb6522e991ebe5b0cec4ceb1ed6cf35b1",
+      "bytes": 9646
+    },
+    {
+      "path": "scripts/capture_bento_phase3.py",
+      "git_sha": "b88bca4a825bf26412b935b79e74b58c62695d8a",
+      "sha256": "55d27bc293d44df0f7940f2efd6804ccd9c9c60c6745472fd775823ea90f44c5",
+      "bytes": 1193
+    },
+    {
+      "path": "scripts/check_apple_ui.py",
+      "git_sha": "b03894dc6dc87305107fef382d1de7ecb123ede1",
+      "sha256": "0246f877529f7b41762d2a758288ec936bb94a0630b457f8ad272d1a71e4b4ea",
+      "bytes": 4788
+    },
+    {
+      "path": "scripts/check_attention_menu.py",
+      "git_sha": "813165941f92a2e693b93f3fe3bac208557a7140",
+      "sha256": "dbb982fed25cc9114df29f5c04d50d9bea7a8499d0829533c1dec4db4c1a91a9",
+      "bytes": 2312
+    },
+    {
+      "path": "scripts/check_bento_planning.py",
+      "git_sha": "13ad0118fc1158342a41bf4bce0be274d020a825",
+      "sha256": "fcde427c23f413a09668d019f45124b9076d1cab754d901228725898fbabda8c",
+      "bytes": 20821
+    },
+    {
+      "path": "scripts/check_bento_today.py",
+      "git_sha": "355206cf63d414a5edef42330f549504d88e743b",
+      "sha256": "56006ce78ffaeb3cda937cb8a38cea73d835a2e5459cd5eed66578a682f1b39d",
+      "bytes": 9053
+    },
+    {
+      "path": "scripts/check_bento_tools.py",
+      "git_sha": "881c4060d19d874eab86f6e0e3d2d0ee4f91ea7d",
+      "sha256": "2bc2427dfaaa30b5aef7f52d81315e4bb8d7cce4e7d0c28139ce6dff249a1a14",
+      "bytes": 14533
+    },
+    {
+      "path": "scripts/check_bento_topics.py",
+      "git_sha": "17cc30f27c4176431ec891beebcba3a36d0ae464",
+      "sha256": "6843cb0ac92da3d4392769ec992e1b0ab8e0d85f47281888c80e2872686e3cff",
+      "bytes": 7149
+    },
+    {
+      "path": "scripts/check_confirmation_ui.py",
+      "git_sha": "fbf6d2e8ca12766149d859e43ae5be75215e1a04",
+      "sha256": "491bf75f2687899251245ab96e0ef66fab83d57bc5b63ab427dc5afd60fe0343",
+      "bytes": 4148
+    },
+    {
+      "path": "scripts/check_coverage_ui.py",
+      "git_sha": "5bc17a5fdd10caee247c18f4815c376fc0021e36",
+      "sha256": "b0412b206f6bd581225f3b35997b7be6e4432c09821a15568f01c77d0a96abe8",
+      "bytes": 5255
+    },
+    {
+      "path": "scripts/check_exam_practice.py",
+      "git_sha": "0c08263b80d44c4d47296819cbb8acc8bccffdf5",
+      "sha256": "55566cf85b161ccf65a50c606578ecf94ff93e8564fa449efca92c6a0011b0c8",
+      "bytes": 4584
+    },
+    {
+      "path": "scripts/check_optional_explanations.py",
+      "git_sha": "2757ac4a0c72492a4dfa7475cf9283891828d86e",
+      "sha256": "5cde4345892b730d94dfab23d6ce232d6a4d138fed5285559d20dce01024bfa7",
+      "bytes": 4673
+    },
+    {
+      "path": "scripts/check_planner_completion.py",
+      "git_sha": "9c1dfb140e1e1f4772e5154ba05fba7f0c382a43",
+      "sha256": "252b236c38b3f2cb79b426fd6686f8aabe61c245fc27a59e6d68109e72e5c85a",
+      "bytes": 6217
+    },
+    {
+      "path": "scripts/check_registration_layout.py",
+      "git_sha": "2c96c7d39baf0b71db2d34839a714ccddbc963a2",
+      "sha256": "af343eac0ece275008673857a45a3f30856b292bf264d6e50556f28d3b7aa3f6",
+      "bytes": 3407
+    },
+    {
+      "path": "scripts/configure_cloud.py",
+      "git_sha": "9732e6da0bf6d78c72d13cf58294cc2816f7c20f",
+      "sha256": "0ab908c7c86051608ef7ffa3b1d4bff9c6df366973bf6707eec769e8d5119346",
+      "bytes": 3493
+    },
+    {
+      "path": "scripts/diagnose_review_intake.py",
+      "git_sha": "faf3d53781e773c80a7e300932f0f563eb5e13c6",
+      "sha256": "570763271ee1c00fa846ca0be3e5c2a537c615449441139e654b66b556c06ce9",
+      "bytes": 5220
+    },
+    {
+      "path": "scripts/install_local_shortcuts.ps1",
+      "git_sha": "afe6d0580bb9dcb16f0f89a4e595d764e012fb22",
+      "sha256": "387fdbd45085d2559a6a565dad887682dfdcd7054b60bb655e2972e2f3f4e1e6",
+      "bytes": 1977
+    },
+    {
+      "path": "scripts/seed_cloud.py",
+      "git_sha": "4ceecf3652fb51ed9c93b7b52ac5e0e2aaa95cb5",
+      "sha256": "716587b1453f6a1fd2ff0b706d0b314c785788f40a8ce131a137c89038772326",
+      "bytes": 1359
+    },
+    {
+      "path": "scripts/seed_demo_data.py",
+      "git_sha": "72f464c77123651a90e59c8b294aaddc608188b6",
+      "sha256": "94005be9b1a97cce0a1ccf8560526eca2f6c77c32a840260caaf4154f491bc93",
+      "bytes": 7711
+    },
+    {
+      "path": "static/fonts/InterVariable.woff2",
+      "git_sha": "5a8d3e72ad7ffb62af3b146e1b1f54ab5813a212",
+      "sha256": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
+      "bytes": 352240
+    },
+    {
+      "path": "tests/conftest.py",
+      "git_sha": "1ea76479d25a7a1771971c0b6988c5b3deded469",
+      "sha256": "d98c05f3d3e24e9fd2865926a2c4b5cb488872096add7cbff577c804b31b6db2",
+      "bytes": 3804
+    },
+    {
+      "path": "tests/fixtures/algorithm_v1_baseline.json",
+      "git_sha": "1862e7d4d222849c0f05a7afcdf4f80fe6af6a51",
+      "sha256": "3b3b26b4ed1f94f48f2c58980a7c3d380125487e81ec80a17291c449a49936cf",
+      "bytes": 74063
+    },
+    {
+      "path": "tests/fixtures/bento_components_app.py",
+      "git_sha": "e509b910234bf164f023c7ffad81ae3726fb4a69",
+      "sha256": "caf9825dfc5cc47fd97f7415868f504ea3b31d0e1fd7c0b9981a0f0e76482555",
+      "bytes": 1180
+    },
+    {
+      "path": "tests/test_action_feedback.py",
+      "git_sha": "a4bbf0d4f1d6df55f3f4778a428674e383ca07a6",
+      "sha256": "cabb33177445767ac9b2cdb38a9dbb94d07ce889a68cf5219c088bfce58621b7",
+      "bytes": 4120
+    },
+    {
+      "path": "tests/test_adaptive_dose.py",
+      "git_sha": "8fe77f81c1d421e915aae5d46e84b21a214f598a",
+      "sha256": "3bb0d6b00e6152d647d8c24d2b4020c4736a3ca537a1553ddeb9d3ff5d685760",
+      "bytes": 5060
+    },
+    {
+      "path": "tests/test_adaptive_planning.py",
+      "git_sha": "5170cbe6a4cfb10b5cf964debb44542393e8d15b",
+      "sha256": "dd5e7c3c69dc2e752d0c64cbdda62fa660a82ed77a0c334091113d3f19672b34",
+      "bytes": 7088
+    },
+    {
+      "path": "tests/test_adaptive_service.py",
+      "git_sha": "cec920bdea76e6eb827d1b448ccea248ec02e28f",
+      "sha256": "4ca7b72cc46aa2b88743df948e3c5a87dfbe60b39bcbd8ec06c30c8fa75b031d",
+      "bytes": 4935
+    },
+    {
+      "path": "tests/test_adaptive_ui.py",
+      "git_sha": "bc83aeea4fbfbbb132e6dc79ef86230cbb3d6712",
+      "sha256": "8d61a9a9cc21b161d4517ee9e0b2e391081e9b657ffb1d84b8005ad4f3c76f17",
+      "bytes": 3065
+    },
+    {
+      "path": "tests/test_algorithm_parameters.py",
+      "git_sha": "44384448aa98f35979c5415d039585c16b9c1fa2",
+      "sha256": "66249a6af2c2c2da8f9af7e4967a6ebe5346aeaea33f430657f07f7c4428ae9b",
+      "bytes": 2286
+    },
+    {
+      "path": "tests/test_algorithm_v1_regression.py",
+      "git_sha": "4112e7512727c770254681a5f95cc81c885efdb9",
+      "sha256": "ec3e2e418d50403813a37e89c1b22dc58add198be32d60e95aa6c4880b400f47",
+      "bytes": 3770
+    },
+    {
+      "path": "tests/test_assessments.py",
+      "git_sha": "f605b6095fb91d6ae63af5bfcc3ab894860a947d",
+      "sha256": "0cacc0cf389e0e2dd1f26947b8546490436ec5ae7e487bcacae0c762cdbb759b",
+      "bytes": 6693
+    },
+    {
+      "path": "tests/test_attention_menu.py",
+      "git_sha": "248cea9e3bce0b52ac09b56fb8a8845ed4c09103",
+      "sha256": "22c2a62b9235d52e73ad2cc21d9ec141c1c02cd9ff184fdd21e17c05eeec78e0",
+      "bytes": 918
+    },
+    {
+      "path": "tests/test_audit_ui_flows.py",
+      "git_sha": "d93fd706d33505e0ea5190a4a5d983c323d6799b",
+      "sha256": "1c3fb3954773ee653263be508c8a940a29af7a850d4c869f43a84cdf7ec3ab05",
+      "bytes": 5460
+    },
+    {
+      "path": "tests/test_backups.py",
+      "git_sha": "13536ae610c4a2858bf687d4d0add391b7f6fab2",
+      "sha256": "a415c23301d8bb1e84a80152e8a0f8ac2b038890e998296ef82612684ef64603",
+      "bytes": 5799
+    },
+    {
+      "path": "tests/test_balanced_reviews.py",
+      "git_sha": "d318f016d6fc67b064579190f36f372fa95febd2",
+      "sha256": "28e1719c48d8e1e1997d1bb20540cf5d71c33b31dd404707f93c2b46182fc528",
+      "bytes": 9503
+    },
+    {
+      "path": "tests/test_balanced_ui.py",
+      "git_sha": "db693988192d10c46c5daaa9fe4a40fb3ca2679c",
+      "sha256": "d7d79096bebc9cc14208d58bff75db1768f8b468806fbb24e858faf59b987d10",
+      "bytes": 2894
+    },
+    {
+      "path": "tests/test_bento.py",
+      "git_sha": "9e2d9ccfa4ef907c4618fb12230ebe8d5d021201",
+      "sha256": "37e149ee34d940043b7e898c5beafd9093a448f0098099ee99f9166e2b1ea539",
+      "bytes": 3186
+    },
+    {
+      "path": "tests/test_bento_calendar.py",
+      "git_sha": "9a59fe5f5a3dfae421ac740241bbfa40915b9cfd",
+      "sha256": "da2d34f4ddfb1dcc035b6b0801fcfcfb3a6df075a170b0b6b652c271f481ff89",
+      "bytes": 7974
+    },
+    {
+      "path": "tests/test_bento_day.py",
+      "git_sha": "ed7110e76c885021bbacdf438d1e81845e948628",
+      "sha256": "5769a96645a48717fb1fe094d777600cd1703deb31287ccc18e3bdc46efb5ad3",
+      "bytes": 3353
+    },
+    {
+      "path": "tests/test_bento_demo.py",
+      "git_sha": "4f58afa5943a3e2c40ea1e3cb9e4faec2930c031",
+      "sha256": "d35662b92a617f89bf59dbf5944f85119119866a47797539af24710539485d0b",
+      "bytes": 3586
+    },
+    {
+      "path": "tests/test_bento_evolution.py",
+      "git_sha": "877b90798dbfddc81ad672695beb87c8988b9420",
+      "sha256": "1bb1b375d89f2c2527cd3477a18d8a23130a3dcf479c98d22144a4deb416cb7f",
+      "bytes": 3224
+    },
+    {
+      "path": "tests/test_bento_foundation.py",
+      "git_sha": "4d247789747cdf2419a45a034a8b406d9c356179",
+      "sha256": "885a4e47c0779a8d6ba68e35d7c303c1aaa0d96d27d632932c2444fde0289672",
+      "bytes": 3392
+    },
+    {
+      "path": "tests/test_bento_mocks.py",
+      "git_sha": "8065df57d73556f6832791f0873023751bb48e1d",
+      "sha256": "d52ca876affd65d42713d28bf671a7bcc1f23aba94458d3985cbe52231275cf3",
+      "bytes": 6124
+    },
+    {
+      "path": "tests/test_bento_phase2_ui.py",
+      "git_sha": "144a95f0cfe54bfe851a57872bfd3637960b2c49",
+      "sha256": "ddad140d8fbbb29e27ef3149f3462cf2c463c5b6b8a52f01c979ed66e6fd00bd",
+      "bytes": 5145
+    },
+    {
+      "path": "tests/test_bento_registration.py",
+      "git_sha": "3e24d75aa1764382d333e6f16206fc26fe740c03",
+      "sha256": "f6c6da61c07dd636848cc47cc3a5a3260e6a4f67d966ab824033392fb159af80",
+      "bytes": 3668
+    },
+    {
+      "path": "tests/test_bento_tools.py",
+      "git_sha": "9c0b2d154314ef1e674880d96ebbe7ba2dcbc2de",
+      "sha256": "e45b0adc6513c352a851b777435964c2c601f83575b7d3b6beaa1f61129ba69f",
+      "bytes": 5634
+    },
+    {
+      "path": "tests/test_bento_topic_tabs.py",
+      "git_sha": "24b0bae249798582cc6954f825dacd6dea3e0a3f",
+      "sha256": "80f6f3a4ad6ce00c89e24603659510ee811eef69aee54da2d2e706be4e7d3e4e",
+      "bytes": 6874
+    },
+    {
+      "path": "tests/test_bento_topics.py",
+      "git_sha": "7f9dc30327257651d0f16cc6a157011c15eadb42",
+      "sha256": "e3575413065cd719aaf9ee902fb88771e4d5609fcf27ae7a93d987a94871e9c1",
+      "bytes": 7499
+    },
+    {
+      "path": "tests/test_calendar_next_contact.py",
+      "git_sha": "8970960666f79eba4a4945eed0b968b5d8a11ade",
+      "sha256": "95ee669c60a759eb2fa688dc55520e262b65d8f013be1b2298845806493f5577",
+      "bytes": 5478
+    },
+    {
+      "path": "tests/test_calendar_review_fixes.py",
+      "git_sha": "ef24b47493a9b33f03284b91676b6b9e708126d8",
+      "sha256": "8f833a6fe2b2c33918ce30d7c7166629e6546bf4d6f7934504c7ea82217bdfba",
+      "bytes": 3044
+    },
+    {
+      "path": "tests/test_calibration_analysis.py",
+      "git_sha": "6a304275474c966e09ea094d0eeeec5421374e0d",
+      "sha256": "bd9a98c64fb200f81c751c3f40df1eed5c324b35948c83706593811558bc5aa9",
+      "bytes": 7600
+    },
+    {
+      "path": "tests/test_capacity_ui.py",
+      "git_sha": "199d9e3824389dcc61f34963a0fc575b9e4edb98",
+      "sha256": "996ad37f47ab6a029db179b410f81262116941cb0ea57c55c725cbc5c27a364d",
+      "bytes": 3860
+    },
+    {
+      "path": "tests/test_classification.py",
+      "git_sha": "e57fa35e3c4fb4788929ca317d9bd83cd8574f25",
+      "sha256": "9e13a4d90a732d661d6fabab40196c42ffd58983a9fd15795f9f65dbe0a92eb8",
+      "bytes": 5318
+    },
+    {
+      "path": "tests/test_cloud_store.py",
+      "git_sha": "cd3609c2468856692f388a63b62baf6b2661de8e",
+      "sha256": "296532babab82f93a186fe7a091c035d0614739fbe0c25b162a3cb79a262f97c",
+      "bytes": 7549
+    },
+    {
+      "path": "tests/test_cloud_ui.py",
+      "git_sha": "2eaa7573b5917651fc571511559e374230c02f4f",
+      "sha256": "67ed61cc40cde63a588f9a1ce66495158329f64a2dbdc0803871bda485b7a19b",
+      "bytes": 5466
+    },
+    {
+      "path": "tests/test_confidence.py",
+      "git_sha": "30e201c52a04f3af5bc0ad52dffb3db693fa03d2",
+      "sha256": "e64ccd0f90a7a489cec2ffdb4e9fbbee717347b70d97e20257e8a13fc1b6ca00",
+      "bytes": 2849
+    },
+    {
+      "path": "tests/test_confidence_presentation.py",
+      "git_sha": "4363842cad99830e1d8fe072de0ce491e725507b",
+      "sha256": "b4ed32a958407b2d110080e243ea8a524effea3f6234404b549c4d8ec226d084",
+      "bytes": 3767
+    },
+    {
+      "path": "tests/test_coverage_inclusion.py",
+      "git_sha": "ae5c02c261cd0f52549b9fbd882d6fe925b0d4d4",
+      "sha256": "fd328d56cb4e306b889641d03290c43fc1b5f84d17e7cdb81d3ddc8f0e3e6eb8",
+      "bytes": 7819
+    },
+    {
+      "path": "tests/test_created_cards.py",
+      "git_sha": "c2f699320a67ac9f457a7e0011b83d299cdc3c27",
+      "sha256": "a66d053aa5e611d88b92f47e834749d5f18be2b4bcd0341ad03dd8c0ada3f466",
+      "bytes": 7644
+    },
+    {
+      "path": "tests/test_created_cards_ui.py",
+      "git_sha": "f0080f6edb62025f9670f18662d305f5fbab622a",
+      "sha256": "cc5fb2deac9ecc2ad93c93e8f755a6c306e54139725ca4664d55d48025fdb0a6",
+      "bytes": 4530
+    },
+    {
+      "path": "tests/test_current_reduction.py",
+      "git_sha": "9a07f1d630c2926d4d0142c0fbf89b4bf279b741",
+      "sha256": "0bbab4c805156f7c04e58f9622e1ae2233b3ac851136a2497e06a58edf8c91a3",
+      "bytes": 23849
+    },
+    {
+      "path": "tests/test_daily_excess.py",
+      "git_sha": "5869ae6c9582f995f769eb63c77434d761019191",
+      "sha256": "cb4438396c75a678ae86d30787e5d90df31ad847fac3378b13ac569779ded784",
+      "bytes": 9393
+    },
+    {
+      "path": "tests/test_daily_excess_ui.py",
+      "git_sha": "c026535113f64d554849094b491abf8bd8840a3a",
+      "sha256": "7ed1adbda8e052517c5582cbb636170900a3f8edcce9c839f23c9a70fcae87a8",
+      "bytes": 1293
+    },
+    {
+      "path": "tests/test_daily_swaps.py",
+      "git_sha": "490777c6eac19fae712162a15bed000a3ef78c3d",
+      "sha256": "41611af8b58a83583b75ae8212a0850743b5e130823e2db81d0d11b58315fe33",
+      "bytes": 14483
+    },
+    {
+      "path": "tests/test_daily_swaps_ui.py",
+      "git_sha": "31168e7b0017a1c5dfa07ec0ac8514ad43079cd6",
+      "sha256": "0a27e7bcd743b088d37b1fd88a7cce284e551edb66ebc59fd49b6f5f7c9bb90a",
+      "bytes": 1933
+    },
+    {
+      "path": "tests/test_dashboard.py",
+      "git_sha": "2030e381551194d9c53e0d7978739b233ef0a35b",
+      "sha256": "8247146fbfb18da7fd60772c6f218381b4b9b89702b16e278ba3c46398554186",
+      "bytes": 1690
+    },
+    {
+      "path": "tests/test_data_updates_ui.py",
+      "git_sha": "5e8de4b8be0e341d52046b3a094647a8d20ec26a",
+      "sha256": "9ef0ac508c1da3c38316fdffb9975b9ee421a64c8f6051294e989d5dbf18fd50",
+      "bytes": 4020
+    },
+    {
+      "path": "tests/test_distribution_ui.py",
+      "git_sha": "82502fe4851a153669bc4b6c7554783c7671cb32",
+      "sha256": "adb5a3e09ba5a8bceb9fade12c76ee13f15fbde38d65b2ee596c330fd080c446",
+      "bytes": 907
+    },
+    {
+      "path": "tests/test_error_cards.py",
+      "git_sha": "ca7caf058f88a01fd029e112f9a4e6d745d7a416",
+      "sha256": "53c0d6654051ca5fd3f65df63c128deb0eed6f7140797a9c2e79bad92ffc7cec",
+      "bytes": 4385
+    },
+    {
+      "path": "tests/test_error_cards_preview.py",
+      "git_sha": "9d08366b40b524a8c770fdc5f4e1c1e2af586459",
+      "sha256": "545bd21ad61d2817633e184c12f2588471decd99937d12139d34f72597f110ca",
+      "bytes": 2774
+    },
+    {
+      "path": "tests/test_error_cards_service.py",
+      "git_sha": "919a644569d381a27391dd76cb82c9608609a9d8",
+      "sha256": "33507635ff615bee7c7990db3ee91fedbe60b500c9c0ef00c74739545911de3c",
+      "bytes": 7691
+    },
+    {
+      "path": "tests/test_error_cards_ui.py",
+      "git_sha": "a9f0498df4441cf3283461a6fdb7ae2df7fb3818",
+      "sha256": "8b7364f8efc55dbe7e4adc22947704e825d23cc5c10df203e29e46b463239e76",
+      "bytes": 2644
+    },
+    {
+      "path": "tests/test_error_planning.py",
+      "git_sha": "ffdb9445731c5d6349112eb16939e0b1eb94e18d",
+      "sha256": "cff72e864684edd8eddb7e72617f3c23bb779205a545b195fc250eb265fb7dbe",
+      "bytes": 1538
+    },
+    {
+      "path": "tests/test_evolution.py",
+      "git_sha": "389e1155e19f9645336e764ecc32c85d3aefcdcb",
+      "sha256": "81f3f04e08f4080241c45b84f02214806e5631dc32625c8bb761a6d53a6f23dc",
+      "bytes": 4333
+    },
+    {
+      "path": "tests/test_evolution_performance.py",
+      "git_sha": "e14c02d555c57574325131dcfbf84027e88bbc0f",
+      "sha256": "6d2d6783ce3351f07eb5b86c802b4e01c98d17102f7fa411f2937e37d4d05493",
+      "bytes": 3233
+    },
+    {
+      "path": "tests/test_evolution_spacing.py",
+      "git_sha": "5aebe867e57b22c1b32ad94588109437c7f52057",
+      "sha256": "00231d1daa079b0e02b240625c3259c0b40a5dcc7434e5adaff21aead71d4c4e",
+      "bytes": 3809
+    },
+    {
+      "path": "tests/test_evolution_ui.py",
+      "git_sha": "c88c46fff93169eb4a661ce480919f4444118de3",
+      "sha256": "4d8b6ea0814fb27e11753a053e6361d385667fb54ec1b4346038959e953c1b0a",
+      "bytes": 6186
+    },
+    {
+      "path": "tests/test_exam_goals.py",
+      "git_sha": "36df2a0344611977da2a268481e6e11d54535658",
+      "sha256": "2a9be53477d278e35ac491462f35074cfaa834ee4195f4dc19da9517677ad6d9",
+      "bytes": 5317
+    },
+    {
+      "path": "tests/test_exam_goals_ui.py",
+      "git_sha": "3d41be16b28b99d4ea37225a3244bcccabcf5181",
+      "sha256": "b966965e98b24d56248e04ec91b4f03ba93faf2bf4845cd532b0868fac3732f2",
+      "bytes": 4259
+    },
+    {
+      "path": "tests/test_exam_practice.py",
+      "git_sha": "f09a464098592aa776b4660b00f9102637e60ba9",
+      "sha256": "f068cf32cba3efb94372db6e010a411b9c95a68f55a03d3c0bca98786fae349b",
+      "bytes": 3816
+    },
+    {
+      "path": "tests/test_exam_practice_service.py",
+      "git_sha": "1a7bbb9d76a63d13ade7832a90699e19bf4beb8f",
+      "sha256": "6fc44640018e017b3ea74d0012369ad95ca1718088effbd6fd93b8a61d836a16",
+      "bytes": 14523
+    },
+    {
+      "path": "tests/test_exam_practice_ui.py",
+      "git_sha": "f25dcfab995763f69d064fe1012b5f8b8a7a4c4c",
+      "sha256": "02556bf4c1b1eb3a4bff1d95bfd22a8066c6490665690887d55ede38b9e7ab1a",
+      "bytes": 7574
+    },
+    {
+      "path": "tests/test_exam_weight_policy.py",
+      "git_sha": "2d332e177263278c90f11f2c75d44f78f68ba2a0",
+      "sha256": "585c740a882411db800ac75dde8634c20971b148fbbbec2cc954404569a4c30c",
+      "bytes": 8285
+    },
+    {
+      "path": "tests/test_external_day.py",
+      "git_sha": "52bf18729eeeeb316548e2e3214ba04aaa5e1bcc",
+      "sha256": "62383c9b592eb773830a7037b06c92c8986cda83336ce8ec6fc143c068e321b6",
+      "bytes": 1455
+    },
+    {
+      "path": "tests/test_extraction.py",
+      "git_sha": "3d7d8ec5f9c0656473d8824a3ba70d6d7b39c389",
+      "sha256": "1c1449cd62341a101a247908f95ec7fbedfe998f2cb79029a16e6cbfb3510221",
+      "bytes": 4165
+    },
+    {
+      "path": "tests/test_final_review.py",
+      "git_sha": "9d6ce8c5b04b46bc7f2e6a6fa14ae214d63d44a5",
+      "sha256": "f02e8d1cd936ac657e7af6faaf46a64740316ff1241ea09f9ef381b65762de6f",
+      "bytes": 5309
+    },
+    {
+      "path": "tests/test_final_review_ui.py",
+      "git_sha": "c65e2b1a28f5c80904eff9103b26ce84cac5d47b",
+      "sha256": "95dbb8d8f486792840ed0e1be73f3964aaae9dff9be24c6c02abd2aefb037a7f",
+      "bytes": 2749
+    },
+    {
+      "path": "tests/test_goal_risk.py",
+      "git_sha": "60df38469af20bd9f26445459601148b9635d104",
+      "sha256": "19262e1a586d32c8a7c7f21d2777be931f1e2ddc26210db53623a965b5b4d08b",
+      "bytes": 9712
+    },
+    {
+      "path": "tests/test_grouped_mock_correction.py",
+      "git_sha": "3e041d32e849a0ac5f9e6711ed94397eb13ed969",
+      "sha256": "3be7d635041346086f3438b31088830ffe3d1af81d5fbdeaaf92d1975dfdaf00",
+      "bytes": 5239
+    },
+    {
+      "path": "tests/test_guide.py",
+      "git_sha": "591e442523cf6113366a08b141570a731cbe4e20",
+      "sha256": "983a5344eff519f5b9ae98599a7e7b21b0dc4e4442f90f3ec9e656ee28042bed",
+      "bytes": 9167
+    },
+    {
+      "path": "tests/test_guided_ui.py",
+      "git_sha": "3901b7d7386db271e257350edf31d4372049f781",
+      "sha256": "8c9ca3d418798906ced323c8ac506ebdc58db4eb80591bf84c3be7a42d4c2a51",
+      "bytes": 3960
+    },
+    {
+      "path": "tests/test_imported_contact_priority.py",
+      "git_sha": "7f5c94e458d16c77b605763b862d6ac6b5fb6362",
+      "sha256": "efc7e112fea51523d4ab9af58f09cf9d3bc3be879a4efe238ecbc6bd160345b7",
+      "bytes": 4666
+    },
+    {
+      "path": "tests/test_initial_review_policy.py",
+      "git_sha": "e27ba0b2d006c4755c266fb83b1c0f8da91742fb",
+      "sha256": "cf10e52e3a60e15053817b0e1267caef3520181a40c3d01d4bd0e1c834368921",
+      "bytes": 5667
+    },
+    {
+      "path": "tests/test_intake_priority.py",
+      "git_sha": "802a766e466b4684790311e8a9617a5a90e41cfa",
+      "sha256": "4955bfa223cdfc759898de71655e84c36edfa0c1efa814f20ea26b66d2f4a220",
+      "bytes": 8368
+    },
+    {
+      "path": "tests/test_linked_registration_scope.py",
+      "git_sha": "21192fb98c523ce7e9448a216d60ed45540763b2",
+      "sha256": "56894a9f94a356c169f8dc1169b61023f1eaed7e40b4461d28a4f3b14de4dd6c",
+      "bytes": 2434
+    },
+    {
+      "path": "tests/test_local_launcher.py",
+      "git_sha": "7f59eecd64a2df59a9a3d58d09dbe2eb30b5025d",
+      "sha256": "bb99be63cd71a749b98a28dfdf2d81e16750db857ea63b8b31f95a595c95bfcc",
+      "bytes": 7272
+    },
+    {
+      "path": "tests/test_local_startup_imports.py",
+      "git_sha": "0a3a2d0b1cbd09f126f7ec1877081d71d9770799",
+      "sha256": "512e7d8131b4b69b5c9af5abb7bd8af8f704de14bd69b05ac34138008aa2d49c",
+      "bytes": 536
+    },
+    {
+      "path": "tests/test_longitudinal.py",
+      "git_sha": "ea654ac94309ac5ecc5f5d63efd9ab384a4b4d25",
+      "sha256": "250ade67f216cab65b94b5a7f445eeabd6b556c9552140a015bd56aa88c5c00d",
+      "bytes": 2244
+    },
+    {
+      "path": "tests/test_lote_b_schema.py",
+      "git_sha": "2ba6874191d930a5f38578a5a980316acffdbb09",
+      "sha256": "d40f5adcb168541cb518b2b402bc64f4c4cec7ae44666ba8a713537ef5cf621f",
+      "bytes": 2219
+    },
+    {
+      "path": "tests/test_lote_c_ui.py",
+      "git_sha": "9ff8fb1e68e92db1bae4b4ed0427d7fe8956997c",
+      "sha256": "93f4c4c9cb90d515649563104baadce345c61dff841ab13744a42faf81157030",
+      "bytes": 2738
+    },
+    {
+      "path": "tests/test_matching.py",
+      "git_sha": "70353f71752c8512dd67ba5b1a27a0537fae0d40",
+      "sha256": "4cb9d085a35e3e10c354fad54ab81e9b69d57e7760fa55056f198ebeb982f7ae",
+      "bytes": 7257
+    },
+    {
+      "path": "tests/test_matching_storage.py",
+      "git_sha": "e0404a51dad4b2b1cb521e8741b4fd9b395fe33d",
+      "sha256": "80dbfa1b3480722a9ccdc467fb212b1d49f3d1fcd1e95f4cc13c7f3be109761c",
+      "bytes": 4802
+    },
+    {
+      "path": "tests/test_mock_exams.py",
+      "git_sha": "0642ae552f3702768c8babd3db170025e1f84c05",
+      "sha256": "facd5ba2ca1d8f6babec6cb6707b1d12c4d3365d6455c42e7277909ec3915b88",
+      "bytes": 8837
+    },
+    {
+      "path": "tests/test_mock_exams_ui.py",
+      "git_sha": "e55dcd1f5727e01fef7e00a47181b50bdcf0f3c6",
+      "sha256": "c5959a23d7b065c0e307c648916ba572868aa2118ab92df9367225ead3ed3bfe",
+      "bytes": 5508
+    },
+    {
+      "path": "tests/test_mock_result_followup_ui.py",
+      "git_sha": "7e3ad54b8937c7813ca67f4bbcb0591660211cf9",
+      "sha256": "0a3735de9bd57ff3ef19af502cb39b12036fc275637aedcb1aa441507062d7d1",
+      "bytes": 3003
+    },
+    {
+      "path": "tests/test_mock_schedule.py",
+      "git_sha": "2f7fdd4139657663ced04740348a68df85b0c43a",
+      "sha256": "123795cc6ed066d179fa63419c3ae7e0d4297f597b5d2ff2c20476291bb5291f",
+      "bytes": 10683
+    },
+    {
+      "path": "tests/test_mock_schedule_ui.py",
+      "git_sha": "7e85ec12ca962714331d52736f44177905f7e310",
+      "sha256": "1af27014d3c86998fd86003a261ba3998c89ce42ef42d8c54b71063cc22dbfd0",
+      "bytes": 1533
+    },
+    {
+      "path": "tests/test_mock_workflow_ui.py",
+      "git_sha": "380a532586ee0c247491543185aa627f2a0c27dc",
+      "sha256": "2e74f7d899cf64660ebca6763cefcb09a27c58db9777cbd455b5f654283d0c07",
+      "bytes": 3123
+    },
+    {
+      "path": "tests/test_new_floor_and_missed_practice.py",
+      "git_sha": "32c6690511c8082e4b6430f82a228556635dea82",
+      "sha256": "8528a03893cdd65eb26a7debe982655f9a959221bf28e596e403f001f7565fee",
+      "bytes": 4227
+    },
+    {
+      "path": "tests/test_new_practice_priority.py",
+      "git_sha": "f11e8d02466a85a979824f8da8fae1c109230152",
+      "sha256": "8ad6b4b3f70b7195ef0c171c39f5e6c92a7e7dd421cc7856d85f5b9bfc062c45",
+      "bytes": 1998
+    },
+    {
+      "path": "tests/test_optional_explanations.py",
+      "git_sha": "dbded4612e5d6e8e838def9f904aa587680e3bc2",
+      "sha256": "fc4181bf169682e7c027d5ce4871723cdb071f6914bded5a834cff7447c12c6c",
+      "bytes": 2625
+    },
+    {
+      "path": "tests/test_partial_block_completion.py",
+      "git_sha": "05dcecb30357e8335fd0c0e611d7ec84af1e934c",
+      "sha256": "611ebce78c62fcdf60a08c78244065f9f841f43b2d1a6b9e664e08aa361675b4",
+      "bytes": 6481
+    },
+    {
+      "path": "tests/test_planner.py",
+      "git_sha": "281a6786a43623db5a8a52ce42489c5ea218544e",
+      "sha256": "7921ba9988049ba39424b97101456af3d72282daf4ffd66a4067a2f0f7abd2dd",
+      "bytes": 12074
+    },
+    {
+      "path": "tests/test_planner_completion.py",
+      "git_sha": "f20a8e426d3d71c27899894f5465a8cc27ddf6a4",
+      "sha256": "a6caa0dee0d67012c00935e943aa4e469695377138c4049cb5bbcb284cee92a7",
+      "bytes": 7633
+    },
+    {
+      "path": "tests/test_planner_completion_ui.py",
+      "git_sha": "136baab24f00b65525eb5ffe1a5e9c394e42c503",
+      "sha256": "cfe833e37210efc65922d3656a9f71fe10706439d92807e9b3a7ce4ee6e72798",
+      "bytes": 1717
+    },
+    {
+      "path": "tests/test_planner_import.py",
+      "git_sha": "885bf410ce89368181f9aff1b1537feff57311b5",
+      "sha256": "e008b783fc62a091238e8f2b8e68eda9a728833e0f5e0db32df715e3117af0d2",
+      "bytes": 6356
+    },
+    {
+      "path": "tests/test_planner_snapshot.py",
+      "git_sha": "da60c2cdc92c6c50319a44b62818578a5c4dc4d2",
+      "sha256": "c438cde57a75318c525cac75cc8d5eafb98947f51b527e0f458f6b5b4fc114ee",
+      "bytes": 6273
+    },
+    {
+      "path": "tests/test_planner_supply.py",
+      "git_sha": "52d430eb8ecb92156fbcd5f0aeebc33aa865d765",
+      "sha256": "12bc2a7b93fea80abbd79b6a89b737363f4de059857798178b3b4b35e02d5ec4",
+      "bytes": 8106
+    },
+    {
+      "path": "tests/test_planning.py",
+      "git_sha": "e5a3d61f1e3f438abfae9a688ff7773f696f6174",
+      "sha256": "37487390e357e779f46c7fa509c6120ebf1b80496f8e964aa12ae68b6d1924fe",
+      "bytes": 5090
+    },
+    {
+      "path": "tests/test_practical_reduction.py",
+      "git_sha": "af6f00eaa2c6487c585f1843222fed1db306dcf0",
+      "sha256": "4ce02e30e18882799b5dc1943e20bc97a59dc63004222d7847502c756e4e53d6",
+      "bytes": 10377
+    },
+    {
+      "path": "tests/test_prepared_calculations.py",
+      "git_sha": "4c27858d403283017de772db11bd6542342704ad",
+      "sha256": "d3db25ecac205861048dc61830b8ef457472e456e34cf8b6b35f0c3cdc08087e",
+      "bytes": 5765
+    },
+    {
+      "path": "tests/test_prevention_ui.py",
+      "git_sha": "72766dd5b044e2d4bfc2b5e8d0bf67ee75fefa78",
+      "sha256": "7a4c9761af8cce6ba44731bdaca890fc3cdaafe275b1c47a9198e99b39d2cbce",
+      "bytes": 2222
+    },
+    {
+      "path": "tests/test_question_days.py",
+      "git_sha": "58bfa3976f3a1674664287cbb7e5b41e7c4ced64",
+      "sha256": "576419d2e639656445ce87f0cca63bdb4cf133348c4fced23c0ac3a8a4032ffd",
+      "bytes": 5336
+    },
+    {
+      "path": "tests/test_question_ui.py",
+      "git_sha": "b9dd6ca01d0cb22706232de69cfed5874cb33ec0",
+      "sha256": "a5a766fece3e40732936decb7cf9f292eb5e6288131584a96909db237ed7c4e4",
+      "bytes": 4342
+    },
+    {
+      "path": "tests/test_real_reports.py",
+      "git_sha": "73ba7bd95f2186947e11a1ea93038467dea58479",
+      "sha256": "b14acef3b59feac4bef9fcde27b543d0aa0a32710bbd6e33c8fbed3b15651c01",
+      "bytes": 3115
+    },
+    {
+      "path": "tests/test_recovery_quantities.py",
+      "git_sha": "87e5d33e868a254143afeaf2d6b4f14385fec4dc",
+      "sha256": "b516d5683c05732cb7b03020912d0ceb9e5e14558165e4387173d91fd01df9bf",
+      "bytes": 10549
+    },
+    {
+      "path": "tests/test_recurring_questions.py",
+      "git_sha": "bc9d80969a88a43842152a766654725046419f22",
+      "sha256": "20ffc965ee08f3870dcd9ebfe21810db3fc756572101cd55f6042ab8304c48c5",
+      "bytes": 8813
+    },
+    {
+      "path": "tests/test_redesign_ui.py",
+      "git_sha": "9abf65ef51f1b550544eedf24e52dda9d494c4c4",
+      "sha256": "ef0a72f5a4ed380a2e7471e705af4c64b9fd2388c6cf0a7cc59af211fa51cc99",
+      "bytes": 3044
+    },
+    {
+      "path": "tests/test_reduction.py",
+      "git_sha": "6faa7aa3e59635c11b3eeb595643052d8fd7096a",
+      "sha256": "3a7e268b8642dae8cb6fbf9691c0d47362ae4decef05ec78eb19ed2d28a256cd",
+      "bytes": 6955
+    },
+    {
+      "path": "tests/test_replanning_ui.py",
+      "git_sha": "6010c104be3305947106ce94c1e1f4909d445152",
+      "sha256": "6d19cac19fc2d3d440b17f23eb83ff9eb617c5ec0c73b5b41cba43ceb7c686cd",
+      "bytes": 2621
+    },
+    {
+      "path": "tests/test_return_deferral.py",
+      "git_sha": "1417f1e307efd0674ee91321ac26572d1d8e59c7",
+      "sha256": "656ded64a882eae7ace917083327becea421bfe1be26db4074098dff7cfbdac8",
+      "bytes": 9304
+    },
+    {
+      "path": "tests/test_return_deferral_ui.py",
+      "git_sha": "adfad68d0ccad471933279fdc3ed0f2b529d72a5",
+      "sha256": "3ca12bd15d5663766503174f7dcc766155e4e276c646e4110856aafb2c397a39",
+      "bytes": 3047
+    },
+    {
+      "path": "tests/test_review_strategy_service.py",
+      "git_sha": "8dc9591bca21fe3d737db827d3686c52fc6962b7",
+      "sha256": "7b0149978ded3adbc47020605ba716b89f50d1e3b6d775673080052f60c8c4db",
+      "bytes": 3028
+    },
+    {
+      "path": "tests/test_schedule_start.py",
+      "git_sha": "720f489cf984c6dc5ef2c1b12575d9cea6f02f81",
+      "sha256": "870fa93d5b7ac8389e066297945438245aba300ab4f0c462d87f91731ed58464",
+      "bytes": 5994
+    },
+    {
+      "path": "tests/test_simple_planner_ui.py",
+      "git_sha": "ad6cc30be71af493e3163c1a5960fd1be2d4a373",
+      "sha256": "fd571790e3f3611f5df9c215d01e3f4a37c59d073e269b790f8b46c0de9cec1c",
+      "bytes": 1215
+    },
+    {
+      "path": "tests/test_statistical_evidence_regressions.py",
+      "git_sha": "327fca93438149f3817d1413e5fe1def4ebbc262",
+      "sha256": "27ff6141cccf3abf4ee5805012e369ae2f509e355d8adc8d04f91ff6ec8b25da",
+      "bytes": 8049
+    },
+    {
+      "path": "tests/test_storage.py",
+      "git_sha": "7042e40c5e3df62c645a9e951beab639c1055cf1",
+      "sha256": "71a29c58b4c0e29783f60200ffcf8599262c116551eaa67837b1d9f66c9e0d6f",
+      "bytes": 5952
+    },
+    {
+      "path": "tests/test_streamed_topic_contacts.py",
+      "git_sha": "6170a22320fc11d93b31994c36168f1fc690b177",
+      "sha256": "787dcff7c2694079b8a5ad626ac20663aad394a186976b542a094722632d3c54",
+      "bytes": 3103
+    },
+    {
+      "path": "tests/test_study.py",
+      "git_sha": "8466fa2ebb54d7ee3885da7d441a1798a79e31e7",
+      "sha256": "e11aaa72804f808a430feccd096bc30b21c177d8ab643d15b73f10e9d2cc6e5e",
+      "bytes": 2584
+    },
+    {
+      "path": "tests/test_study_activity_feedback.py",
+      "git_sha": "4b539db6ee443395bce3fc82b2fd9fe720b5e19b",
+      "sha256": "3ebaf8238235b22865a125881bd735bdaf37f59f7a08e236b5dd331dbeca7c0c",
+      "bytes": 5417
+    },
+    {
+      "path": "tests/test_study_activity_feedback_ui.py",
+      "git_sha": "b140f7cc4f8845193d59b8668aa094d5015d8aa7",
+      "sha256": "53278bd6848dba0b8f3aeac0e4be7cf023a57fcdcaeeea5743e2ae64ec75ce02",
+      "bytes": 3284
+    },
+    {
+      "path": "tests/test_study_attention.py",
+      "git_sha": "353dfda013dcc79727ce11e848427d0acdf02a7e",
+      "sha256": "7710a4422bff0e2a8f2339e839e3e6697be8ade07db68df273debe62fec81bf0",
+      "bytes": 8027
+    },
+    {
+      "path": "tests/test_study_attention_ui.py",
+      "git_sha": "b8e2c3c3aa7858c136348d0cdacd73271936178f",
+      "sha256": "987fff7bcadb70f37a25af1647f0437aa3959fb9c420a01bc86b38b449c2c26c",
+      "bytes": 3420
+    },
+    {
+      "path": "tests/test_study_calendar.py",
+      "git_sha": "1c47495af509f1c5de09c9bb91bf71f554efce69",
+      "sha256": "26f7336f9fb0a034a92d3ace97c809fc62aa9f91e59d381af40c70a83d443687",
+      "bytes": 1973
+    },
+    {
+      "path": "tests/test_study_day_clock.py",
+      "git_sha": "3c37286498eb1b2cb4b5d942fff0a2a5ab30f550",
+      "sha256": "038a128d5e9964f47511e2e263b544f2b629068f87ddeb8a097def0e01826d80",
+      "bytes": 3178
+    },
+    {
+      "path": "tests/test_study_distribution.py",
+      "git_sha": "aba8d3b008ea3a486bf526722d539eeee05c71a6",
+      "sha256": "cf96b63c718937d06a5b83269f9fa5067c95ef484655aa8e71b5ecbe6e6c5226",
+      "bytes": 2379
+    },
+    {
+      "path": "tests/test_study_errors.py",
+      "git_sha": "38ebadb603ee368105d79d0c717f7b703a0b95ce",
+      "sha256": "105cd2e0a307439f731490163c8232af183dedb3288a1db4945c8651127a4514",
+      "bytes": 6375
+    },
+    {
+      "path": "tests/test_study_errors_ui.py",
+      "git_sha": "85f2ea719ceb8fd041305f0047496d30531152a2",
+      "sha256": "185c164e5dd9afc8e96f46b2c63b452bbbf260bd189692856ebfe4eb4b736dd2",
+      "bytes": 3138
+    },
+    {
+      "path": "tests/test_study_prevention.py",
+      "git_sha": "81cbd7975cab5720ee680d01ae23456512ed3b55",
+      "sha256": "79289efbf4bd389e8929af044ed0a236cbec432fba4f523e4be89d02c05725d1",
+      "bytes": 9518
+    },
+    {
+      "path": "tests/test_study_replanning.py",
+      "git_sha": "399b4f874071dd94e105ba85d2599809c2b715b2",
+      "sha256": "0f1fcea36b76de0d98075d6f935c4a4687984959b5dcd4c06910d21709bb7afe",
+      "bytes": 10728
+    },
+    {
+      "path": "tests/test_study_statistics.py",
+      "git_sha": "80ec12fabf877e17f6d3765623d416a016a9fcb9",
+      "sha256": "7285bed88d1ea2bb9c9da1f9abced69677c6222ed0ef03445ecdf67563280ea3",
+      "bytes": 2222
+    },
+    {
+      "path": "tests/test_study_triage_policy.py",
+      "git_sha": "2e9be7aa605e577054888cc89f0200a4d8b09c9f",
+      "sha256": "278e29ee7f4e0b3a1a9a5ebdb1cbcc265d5580157d4b64d6e0ffd7e68d49db96",
+      "bytes": 6902
+    },
+    {
+      "path": "tests/test_sustainable_reviews.py",
+      "git_sha": "3e6509faa0199c5e307b0e570db0b0f4871baf85",
+      "sha256": "ac4a26f90d7718699c2f4023f63279cd009e9abb4adf6e0579a74f82063a5a9b",
+      "bytes": 5677
+    },
+    {
+      "path": "tests/test_theme_returns.py",
+      "git_sha": "e314e386fa0aa5c55acf479100f8a6f983920d8f",
+      "sha256": "7896b856a05db1e4d0e02207d9a97168feca958570d3905f88bb3274f4dfc2e8",
+      "bytes": 4034
+    },
+    {
+      "path": "tests/test_today_topic_limit_ui.py",
+      "git_sha": "3182a1d0f32626585dea83cd3d025a8cf788f614",
+      "sha256": "c5817a494038bb483ac535baf6283e72160f6bd27a8656424a819a747d89bf05",
+      "bytes": 1445
+    },
+    {
+      "path": "tests/test_topic_grouping.py",
+      "git_sha": "0e4e6e972acf639e2ea7879f21817f569aebf86e",
+      "sha256": "9df4ee07fd23df35ba3182b8b8e92d422f500c47fd3fc97c15e8740f33342807",
+      "bytes": 8636
+    },
+    {
+      "path": "tests/test_topic_history_visibility.py",
+      "git_sha": "5f54303e79b4f9dd7319bfffa42dc1af74de7eef",
+      "sha256": "f84aedb9f754addc8871a8f1d7ae6a7b0af8bb3180ed9184bd2c5564cfaae05b",
+      "bytes": 2468
+    },
+    {
+      "path": "tests/test_topic_next_contacts.py",
+      "git_sha": "87a0e5ed0ff099a863b081541fa06a8449616668",
+      "sha256": "9e071ce9996471bb73f86fd52cec6a5909c2a4e540a5cecfcb530b1f43cfddb6",
+      "bytes": 2044
+    },
+    {
+      "path": "tests/test_topic_picker_ui.py",
+      "git_sha": "0abc65319ee7f9d913eb70bd651cef05b605d445",
+      "sha256": "4febae5d93dc9dad8a6d26325b49ad81f73e84aa5172e7f4e25cbd5c900edc1d",
+      "bytes": 1996
+    },
+    {
+      "path": "tests/test_topic_scheduling.py",
+      "git_sha": "9829b7da91fd6a6873a0ede72b2ffa9aa014aa8d",
+      "sha256": "ce43a105861b9e24678d34010642e4c733f25cb2d3a3a8e3b7c0e14cb61e5c5b",
+      "bytes": 2525
+    },
+    {
+      "path": "tests/test_topic_trajectory.py",
+      "git_sha": "dd6c915cf7fba7b1bb1adc722e5e9406989f7ff4",
+      "sha256": "2f92cea98f22849da24c1b11dc783a598e5030ea5ea81e36bddabdc69dfdf18f",
+      "bytes": 6391
+    },
+    {
+      "path": "tests/test_trajectory_ui.py",
+      "git_sha": "5e74fc92ac4feb7b570912bb314c77b4341b5100",
+      "sha256": "81779f3abf7137233c6676aabf6faa3b9ab9a40b3fb47ad30917f711819f6fd0",
+      "bytes": 4105
+    },
+    {
+      "path": "tests/test_ui.py",
+      "git_sha": "2663f7f72e2a67542007a9652015fd8b3e766fb8",
+      "sha256": "334492bf29b106e58545b3a738cacf3bc6a1433a83c9d2201f2ee0a46003006a",
+      "bytes": 11459
+    },
+    {
+      "path": "tests/test_ui_refinement.py",
+      "git_sha": "93b42262809ef15a44b9a1bc26b780ea96bc5861",
+      "sha256": "4bec3a4f4e99636dd815a23cab385089aa6b4d16c7bb4193672ba28c09818d2f",
+      "bytes": 5503
+    },
+    {
+      "path": "tests/test_weekly_review.py",
+      "git_sha": "1a5db94ef390841d4e3e04e8e0af014dd9235038",
+      "sha256": "82b8dabfa94e54f5fee554661b4b96de6215cf1b9c60881eb6b7f1aad481d61b",
+      "bytes": 5386
+    },
+    {
+      "path": "tests/test_weight_and_review_ui.py",
+      "git_sha": "79cdc23b22d082a63db8f7ff23ef8118941ff19c",
+      "sha256": "f1755ab1fa2ce0933a362adf39436f37bc88543c0f7cc2f55534a9a687c96a56",
+      "bytes": 5878
+    },
+    {
+      "path": "tests/test_workload_capacity.py",
+      "git_sha": "2f2128cef35e0fe9e4f6ce3bb62e1ce162f5a413",
+      "sha256": "d18e01d1c1d1c373463fe4ba75b1c9fdf219a4f1a9d73bbf535701cd72286673",
+      "bytes": 6599
+    },
+    {
+      "path": "tests/ui_actions.py",
+      "git_sha": "c6b10cffa626d68dde1fee019e7fc394a4d4d80d",
+      "sha256": "9eba0fe709d2547fa0a40433a0c42378be963a0c10102eb00d0396133be991fd",
+      "bytes": 185
+    }
+  ]
+}

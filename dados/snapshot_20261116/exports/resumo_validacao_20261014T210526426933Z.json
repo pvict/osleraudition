@@ -1,0 +1,182 @@
+[
+  {
+    "arquivo": "acervo_flashcards_2026-10-14 (1).pdf",
+    "tipo": "flashcards",
+    "escopo": "todos",
+    "data": "2026-10-14",
+    "paginas": 49,
+    "paginas_extraidas": 48,
+    "linhas": 1561,
+    "folhas": 1286,
+    "status": "validado",
+    "importacao": "ja_importado",
+    "duplicate_of": null,
+    "file_sha256": "19b524f7d7f9a5576e2b085328816ab27b9a7ff16b73e3fa5bc95d0887f6a6b8",
+    "content_sha256": "f9c344088af5221206b3c51237a905eb7e9c2498ff3f85fed4814d1c3ec65625",
+    "indicadores": {
+      "estudados": 35548,
+      "total": 91583,
+      "nos_declarados": 1286,
+      "cartoes_vistos_duas_vezes": 34703,
+      "denominador_revisao": 35548,
+      "soma_areas": {
+        "total": 91583,
+        "estudados": 35548
+      },
+      "soma_folhas": {
+        "total": 91583,
+        "estudados": 35548
+      }
+    },
+    "achados": {
+      "revisado_e_cobertura": 1
+    },
+    "csv": "C:\\Projetos\\Osler\\data\\exports\\19b524f7d7f9a5576e2b085328816ab27b9a7ff16b73e3fa5bc95d0887f6a6b8\\registros.csv",
+    "json": "C:\\Projetos\\Osler\\data\\exports\\19b524f7d7f9a5576e2b085328816ab27b9a7ff16b73e3fa5bc95d0887f6a6b8\\relatorio.json"
+  },
+  {
+    "arquivo": "acervo_flashcards_2026-10-14.pdf",
+    "tipo": "flashcards",
+    "escopo": "iniciados",
+    "data": "2026-10-14",
+    "paginas": 28,
+    "paginas_extraidas": 27,
+    "linhas": 852,
+    "folhas": 662,
+    "status": "revisar",
+    "importacao": "ja_importado",
+    "duplicate_of": null,
+    "file_sha256": "c634cf817c72bc27b81ea60cc038d539f0a8818eff954a2c566aa33ab0dc8aa6",
+    "content_sha256": "e8d9b5ae3c9db7543e534e400bbb5b4da442556400820c1cdf8f8e8ff2154979",
+    "indicadores": {
+      "estudados": 35548,
+      "total": 91583,
+      "nos_declarados": 662,
+      "cartoes_vistos_duas_vezes": 34703,
+      "denominador_revisao": 35548,
+      "soma_areas": {
+        "total": 81123,
+        "estudados": 35507
+      },
+      "soma_folhas": {
+        "total": 55271,
+        "estudados": 32488
+      }
+    },
+    "achados": {
+      "total_areas_divergente": 2,
+      "total_folhas_divergente": 2,
+      "revisado_e_cobertura": 1
+    },
+    "csv": "C:\\Projetos\\Osler\\data\\exports\\c634cf817c72bc27b81ea60cc038d539f0a8818eff954a2c566aa33ab0dc8aa6\\registros.csv",
+    "json": "C:\\Projetos\\Osler\\data\\exports\\c634cf817c72bc27b81ea60cc038d539f0a8818eff954a2c566aa33ab0dc8aa6\\relatorio.json"
+  },
+  {
+    "arquivo": "acervo_qbank_2026-10-14 (1).pdf",
+    "tipo": "qbank",
+    "escopo": "todos",
+    "data": "2026-10-14",
+    "paginas": 53,
+    "paginas_extraidas": 52,
+    "linhas": 1687,
+    "folhas": 1480,
+    "status": "validado",
+    "importacao": "ja_importado",
+    "duplicate_of": null,
+    "file_sha256": "a063708e43024c040c6e6cb654e8424938dbaf7f0cec27bea8183d61b8560970",
+    "content_sha256": "178b5f948cf37277fbf8a333f16e48c95e74a2895ae7188d4822fa41f5f40588",
+    "indicadores": {
+      "estudados": 9249,
+      "total": 111347,
+      "nos_declarados": 1480,
+      "acertos_pdf": 7737,
+      "denominador_acerto_pdf": 9249,
+      "soma_areas": {
+        "total": 111347,
+        "estudados": 9249
+      },
+      "soma_folhas": {
+        "total": 108311,
+        "estudados": 8963
+      }
+    },
+    "achados": {
+      "total_folhas_divergente": 2,
+      "tentativas_ausentes": 1
+    },
+    "csv": "C:\\Projetos\\Osler\\data\\exports\\a063708e43024c040c6e6cb654e8424938dbaf7f0cec27bea8183d61b8560970\\registros.csv",
+    "json": "C:\\Projetos\\Osler\\data\\exports\\a063708e43024c040c6e6cb654e8424938dbaf7f0cec27bea8183d61b8560970\\relatorio.json"
+  },
+  {
+    "arquivo": "acervo_qbank_2026-10-14 (2).pdf",
+    "tipo": "qbank",
+    "escopo": "iniciados",
+    "data": "2026-10-14",
+    "paginas": 25,
+    "paginas_extraidas": 24,
+    "linhas": 761,
+    "folhas": 593,
+    "status": "validado",
+    "importacao": "ja_importado",
+    "duplicate_of": null,
+    "file_sha256": "dc2691fb36c250c3d6e29230b0bce2c795d650da9b11362d5565b635df4d8f4b",
+    "content_sha256": "736fd37cb8871947e0618a1bcd18d7426c2a22287468c0713db9c3c0e936371b",
+    "indicadores": {
+      "estudados": 9249,
+      "total": 111347,
+      "nos_declarados": 593,
+      "acertos_pdf": 7737,
+      "denominador_acerto_pdf": 9249,
+      "soma_areas": {
+        "total": 111347,
+        "estudados": 9249
+      },
+      "soma_folhas": {
+        "total": 86658,
+        "estudados": 8959
+      }
+    },
+    "achados": {
+      "total_folhas_divergente": 2,
+      "tentativas_ausentes": 1
+    },
+    "csv": "C:\\Projetos\\Osler\\data\\exports\\dc2691fb36c250c3d6e29230b0bce2c795d650da9b11362d5565b635df4d8f4b\\registros.csv",
+    "json": "C:\\Projetos\\Osler\\data\\exports\\dc2691fb36c250c3d6e29230b0bce2c795d650da9b11362d5565b635df4d8f4b\\relatorio.json"
+  },
+  {
+    "arquivo": "acervo_qbank_2026-10-14.pdf",
+    "tipo": "qbank",
+    "escopo": "todos",
+    "data": "2026-10-14",
+    "paginas": 53,
+    "paginas_extraidas": 52,
+    "linhas": 1687,
+    "folhas": 1480,
+    "status": "validado",
+    "importacao": "ja_importado",
+    "duplicate_of": "a063708e43024c040c6e6cb654e8424938dbaf7f0cec27bea8183d61b8560970",
+    "file_sha256": "1483f93b0840e718eae0db48dff08aebe6cf76e6b0881016d9f5011619d6420d",
+    "content_sha256": "178b5f948cf37277fbf8a333f16e48c95e74a2895ae7188d4822fa41f5f40588",
+    "indicadores": {
+      "estudados": 9249,
+      "total": 111347,
+      "nos_declarados": 1480,
+      "acertos_pdf": 7737,
+      "denominador_acerto_pdf": 9249,
+      "soma_areas": {
+        "total": 111347,
+        "estudados": 9249
+      },
+      "soma_folhas": {
+        "total": 108311,
+        "estudados": 8963
+      }
+    },
+    "achados": {
+      "total_folhas_divergente": 2,
+      "tentativas_ausentes": 1
+    },
+    "csv": "C:\\Projetos\\Osler\\data\\exports\\1483f93b0840e718eae0db48dff08aebe6cf76e6b0881016d9f5011619d6420d\\registros.csv",
+    "json": "C:\\Projetos\\Osler\\data\\exports\\1483f93b0840e718eae0db48dff08aebe6cf76e6b0881016d9f5011619d6420d\\relatorio.json"
+  }
+]

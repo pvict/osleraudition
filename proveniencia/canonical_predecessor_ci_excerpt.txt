@@ -1,0 +1,11 @@
+2026-11-15T02:40:44.5070226Z 7 failed, 1158 passed, 11 skipped, 1 warning in 146.49s (0:02:26)
+2026-11-15T02:43:14.2112646Z 6 failed, 1169 passed, 11 skipped, 1 warning in 148.93s (0:02:28)
+2026-11-15T02:43:14.2166074Z [36;1mprint('Falhas anteriores:',sorted(base))[0m
+2026-11-15T02:43:14.2166329Z [36;1mprint('Falhas atuais:',sorted(head))[0m
+2026-11-15T02:43:14.2166811Z [36;1mif new:raise SystemExit('Novas regressões: '+str(sorted(new)))[0m
+2026-11-15T02:43:14.2167254Z [36;1mprint('Sem regressões novas. Falhas anteriores continuam explícitas acima.')[0m
+2026-11-15T02:43:15.0386812Z Ran 14 tests in 0.735s
+2026-11-15T02:43:15.9204108Z Ran 10 tests in 0.800s
+2026-11-15T02:43:15.9957666Z Falhas anteriores: ['tests.test_backups::test_transient_windows_folder_lock_does_not_lose_restoration', 'tests.test_balanced_ui::test_strategy_ui_requires_preview_and_can_show_saved_changes', 'tests.test_bento_demo::test_seed_refuses_existing_folder_and_destination_outside_system_temp', 'tests.test_coverage_inclusion::test_small_positive_bank_receives_real_slot_without_inventing_questions[1-adaptive-balanced_v2]', 'tests.test_coverage_inclusion::test_small_positive_bank_receives_real_slot_without_inventing_questions[1-fixed-balanced_v2]', 'tests.test_coverage_inclusion::test_small_positive_bank_receives_real_slot_without_inventing_questions[9-adaptive-balanced_v2]', 'tests.test_coverage_inclusion::test_small_positive_bank_receives_real_slot_without_inventing_questions[9-fixed-balanced_v2]']
+2026-11-15T02:43:15.9961886Z Falhas atuais: ['tests.test_backups::test_transient_windows_folder_lock_does_not_lose_restoration', 'tests.test_balanced_ui::test_strategy_ui_requires_preview_and_can_show_saved_changes', 'tests.test_coverage_inclusion::test_small_positive_bank_receives_real_slot_without_inventing_questions[1-adaptive-balanced_v2]', 'tests.test_coverage_inclusion::test_small_positive_bank_receives_real_slot_without_inventing_questions[1-fixed-balanced_v2]', 'tests.test_coverage_inclusion::test_small_positive_bank_receives_real_slot_without_inventing_questions[9-adaptive-balanced_v2]', 'tests.test_coverage_inclusion::test_small_positive_bank_receives_real_slot_without_inventing_questions[9-fixed-balanced_v2]']
+2026-11-15T02:43:15.9964106Z Sem regressões novas. Falhas anteriores continuam explícitas acima.

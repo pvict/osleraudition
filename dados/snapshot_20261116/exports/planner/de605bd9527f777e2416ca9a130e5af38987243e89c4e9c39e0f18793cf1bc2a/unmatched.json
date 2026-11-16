@@ -1,0 +1,29 @@
+[
+  {
+    "source_order": 663,
+    "theme": "Metabolismo da Bilirrubina & Icterícias não-obstrutivas",
+    "path": [
+      "Clínica Médica",
+      "Hepatologia",
+      "Aspectos Anatômicos e Fisiológicos",
+      "Metabolismo da Bilirrubina & Icterícias não-obstrutivas"
+    ],
+    "hierarchy_raw": "Clínica Médica » Hepatologia » Aspectos Anatômicos e Fisiológicos",
+    "pending_reviews": null,
+    "pending_reviews_raw": "—",
+    "confident_accuracy_pct": null,
+    "confident_accuracy_raw": "—",
+    "questions_done_snapshot": 0,
+    "questions_available_snapshot": 7,
+    "days_since_contact": null,
+    "contact_raw": "—",
+    "contact_date_derived": null,
+    "general_incidence_label": "Incidência baixa",
+    "institution_incidence_questions": 1,
+    "institution_incidence_label": "Incidência baixa",
+    "matched_path": null,
+    "matched_topic_id": null,
+    "matching_status": "not_in_catalog",
+    "catalog_is_leaf": null
+  }
+]

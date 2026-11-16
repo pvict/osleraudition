@@ -1,0 +1,2 @@
+{"id": 1, "payload": "{\"institutions\": [\"FMUSP\", \"FMUSP-RP\", \"HMMG\", \"SUS-SP\", \"UNESP\", \"SCM-RP\"], \"normal_minutes\": 120, \"shift_minutes\": 30, \"start_date\": \"2026-10-15\", \"target_date\": \"2027-11-30\"}", "created_at": "2026-10-20T22:19:56.566203+00:00"}
+{"id": 2, "payload": "{\"institutions\": [\"FMUSP\", \"FMUSP-RP\", \"HMMG\", \"SUS-SP\", \"UNESP\", \"SCM-RP\"], \"normal_minutes\": 120, \"shift_minutes\": 30, \"start_date\": \"2026-10-22\", \"target_date\": \"2027-11-30\"}", "created_at": "2026-10-20T22:54:09.280390+00:00"}

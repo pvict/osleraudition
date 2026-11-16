@@ -1,0 +1,5 @@
+{
+  "sql_dump_roundtrip_tables": 30,
+  "same_row_counts": true,
+  "integrity": "ok"
+}

@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-28T22:43:40-03:00",
+  "title": "Design System: Osler — Bento, estudo e acompanhamento",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "displayName": "primary",
+        "role": "primary"
+      },
+      "primary-deep": {
+        "displayName": "primary-deep",
+        "role": "primary"
+      },
+      "page": {
+        "displayName": "page",
+        "role": "neutral"
+      },
+      "surface": {
+        "displayName": "surface",
+        "role": "neutral"
+      },
+      "soft": {
+        "displayName": "soft",
+        "role": "neutral"
+      },
+      "ink": {
+        "displayName": "ink",
+        "role": "neutral"
+      },
+      "muted": {
+        "displayName": "muted",
+        "role": "neutral"
+      },
+      "ink-tertiary": {
+        "displayName": "ink-tertiary",
+        "role": "neutral"
+      },
+      "line": {
+        "displayName": "line",
+        "role": "neutral"
+      },
+      "field-line": {
+        "displayName": "field-line",
+        "role": "neutral"
+      },
+      "field-bg": {
+        "displayName": "field-bg",
+        "role": "neutral"
+      },
+      "selected": {
+        "displayName": "selected",
+        "role": "neutral"
+      },
+      "selection": {
+        "displayName": "selection",
+        "role": "neutral"
+      },
+      "success": {
+        "displayName": "success",
+        "role": "neutral"
+      },
+      "success-bg": {
+        "displayName": "success-bg",
+        "role": "neutral"
+      },
+      "warning": {
+        "displayName": "warning",
+        "role": "neutral"
+      },
+      "warning-bg": {
+        "displayName": "warning-bg",
+        "role": "neutral"
+      },
+      "danger": {
+        "displayName": "danger",
+        "role": "neutral"
+      },
+      "danger-bg": {
+        "displayName": "danger-bg",
+        "role": "neutral"
+      },
+      "sand": {
+        "displayName": "sand",
+        "role": "neutral"
+      },
+      "sand-ink": {
+        "displayName": "sand-ink",
+        "role": "neutral"
+      },
+      "clinica-fill": {
+        "displayName": "clinica-fill",
+        "role": "semantic"
+      },
+      "clinica-tint": {
+        "displayName": "clinica-tint",
+        "role": "semantic"
+      },
+      "clinica-ink": {
+        "displayName": "clinica-ink",
+        "role": "semantic"
+      },
+      "clinica-solid": {
+        "displayName": "clinica-solid",
+        "role": "semantic"
+      },
+      "cirurgia-fill": {
+        "displayName": "cirurgia-fill",
+        "role": "semantic"
+      },
+      "cirurgia-tint": {
+        "displayName": "cirurgia-tint",
+        "role": "semantic"
+      },
+      "cirurgia-ink": {
+        "displayName": "cirurgia-ink",
+        "role": "semantic"
+      },
+      "cirurgia-solid": {
+        "displayName": "cirurgia-solid",
+        "role": "semantic"
+      },
+      "pediatria-fill": {
+        "displayName": "pediatria-fill",
+        "role": "semantic"
+      },
+      "pediatria-tint": {
+        "displayName": "pediatria-tint",
+        "role": "semantic"
+      },
+      "pediatria-ink": {
+        "displayName": "pediatria-ink",
+        "role": "semantic"
+      },
+      "pediatria-solid": {
+        "displayName": "pediatria-solid",
+        "role": "semantic"
+      },
+      "go-fill": {
+        "displayName": "go-fill",
+        "role": "semantic"
+      },
+      "go-tint": {
+        "displayName": "go-tint",
+        "role": "semantic"
+      },
+      "go-ink": {
+        "displayName": "go-ink",
+        "role": "semantic"
+      },
+      "go-solid": {
+        "displayName": "go-solid",
+        "role": "semantic"
+      },
+      "preventiva-fill": {
+        "displayName": "preventiva-fill",
+        "role": "semantic"
+      },
+      "preventiva-tint": {
+        "displayName": "preventiva-tint",
+        "role": "semantic"
+      },
+      "preventiva-ink": {
+        "displayName": "preventiva-ink",
+        "role": "semantic"
+      },
+      "preventiva-solid": {
+        "displayName": "preventiva-solid",
+        "role": "semantic"
+      },
+      "neutral-fill": {
+        "displayName": "neutral-fill",
+        "role": "neutral"
+      },
+      "neutral-tint": {
+        "displayName": "neutral-tint",
+        "role": "neutral"
+      },
+      "neutral-ink": {
+        "displayName": "neutral-ink",
+        "role": "neutral"
+      },
+      "neutral-solid": {
+        "displayName": "neutral-solid",
+        "role": "neutral"
+      }
+    },
+    "typographyMeta": {
+      "body": {
+        "displayName": "SF Pro / Inter local",
+        "purpose": "Pilha local; sem fonte remota nem redistribuição SF Pro."
+      },
+      "metric-compact": {
+        "displayName": "Métrica compacta",
+        "purpose": "28/34px no acompanhamento, com label e apoio13/18px."
+      }
+    },
+    "bento": {
+      "phase": 5,
+      "source": "osler/bento.css",
+      "tokens": {
+        "--o-font": "\"SF Pro Display\",\"SF Pro Text\",-apple-system,BlinkMacSystemFont,\"Inter\",\"Segoe UI\",system-ui,sans-serif",
+        "--o-bg": "#F6F7FB",
+        "--o-card": "#FFFFFF",
+        "--o-line": "rgba(17,24,39,.08)",
+        "--o-ink": "#111827",
+        "--o-ink-2": "#4B5563",
+        "--o-ink-3": "#6B7280",
+        "--o-primary": "#4F46E5",
+        "--o-primary-strong": "#4338CA",
+        "--o-primary-tint": "#EEF2FF",
+        "--o-radius": "24px",
+        "--o-radius-md": "16px",
+        "--o-radius-sm": "12px",
+        "--o-pill": "999px",
+        "--o-shadow": "0 1px 2px rgba(17,24,39,.04),0 6px 20px -6px rgba(17,24,39,.06)",
+        "--o-shadow-hover": "0 2px 4px rgba(17,24,39,.05),0 14px 32px -8px rgba(17,24,39,.12)",
+        "--o-gap": "16px",
+        "--o-pad": "24px",
+        "--o-sand": "#F5F1EA",
+        "--o-sand-ink": "#5B4A32",
+        "--a-clinica-fill": "#4F46E5",
+        "--a-clinica-tint": "#EEF2FF",
+        "--a-clinica-ink": "#3730A3",
+        "--a-clinica-solid": "#4338CA",
+        "--a-cirurgia-fill": "#FF6B6B",
+        "--a-cirurgia-tint": "#FFF1F0",
+        "--a-cirurgia-ink": "#B42318",
+        "--a-cirurgia-solid": "#B42318",
+        "--a-pediatria-fill": "#10B981",
+        "--a-pediatria-tint": "#ECFDF5",
+        "--a-pediatria-ink": "#047857",
+        "--a-pediatria-solid": "#047857",
+        "--a-go-fill": "#8B5CF6",
+        "--a-go-tint": "#F5F3FF",
+        "--a-go-ink": "#6D28D9",
+        "--a-go-solid": "#6D28D9",
+        "--a-preventiva-fill": "#F59E0B",
+        "--a-preventiva-tint": "#FFFBEB",
+        "--a-preventiva-ink": "#92400E",
+        "--a-preventiva-solid": "#92400E",
+        "--a-neutral-fill": "#6B7280",
+        "--a-neutral-tint": "#F3F4F6",
+        "--a-neutral-ink": "#374151",
+        "--a-neutral-solid": "#374151"
+      },
+      "applied": "fundação, navegação, Hoje, Temas, Registro, Calendário, Simulados, Evolução, Flashcards, Arquivos e Ajustes",
+      "deferred": "Nenhuma tela restante no briefing Bento em cinco fases.",
+      "surfaces": [
+        "navegação lateral",
+        "Hoje",
+        "Temas",
+        "Registro",
+        "Calendário",
+        "Simulados",
+        "Evolução",
+        "Flashcards",
+        "Arquivos",
+        "Ajustes"
+      ]
+    },
+    "shadows": [
+      {
+        "name": "bento",
+        "value": "0 1px 2px rgba(17,24,39,.04),0 6px 20px -6px rgba(17,24,39,.06)"
+      }
+    ],
+    "motion": [
+      {
+        "name": "bento-interactive",
+        "value": "160ms ease-out",
+        "purpose": "Só componente novo; removida com movimento reduzido."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "font-mobile",
+        "value": "760px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Estado neutro Bento",
+      "kind": "chip",
+      "refersTo": "bento-status",
+      "description": "Sem cor de área; texto obrigatório; alerta com borda.",
+      "html": "<span class=\"o-chip o-chip--alerta\">Em alerta</span>",
+      "css": ".o-chip{color:#111827;background:#F3F4F6;border-radius:999px;padding:4px 10px;font:600 12px/16px sans-serif}.o-chip--alerta{border:1px solid rgba(17,24,39,.45);background:#FFFFFF}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Clareza para estudar, um bloco de cada vez.",
+    "overview": "Estudo, acompanhamento e ferramentas em Bento; fontes reais separadas, detalhes recolhidos e regras preservadas.",
+    "keyCharacteristics": [
+      "Português simples",
+      "Tema claro, sem cards pretos",
+      "Estados neutros",
+      "Fonte local",
+      "Widgets e keys preservados"
+    ],
+    "rules": [
+      "Cor categoriza a área; estado sempre tem texto.",
+      "Dado ausente nunca vira zero.",
+      "Nenhuma regra de estudo muda."
+    ],
+    "dos": [
+      "Usar tokens e APIs públicas.",
+      "Medir contraste no navegador.",
+      "Validar só com cenário sintético."
+    ],
+    "donts": [
+      "Sem CDN, JavaScript próprio ou fonte SF Pro no repositório.",
+      "Não inventar progresso ou probabilidade de aprovação.",
+      "Não executar fases posteriores."
+    ]
+  }
+}

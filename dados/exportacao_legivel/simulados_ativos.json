@@ -1,0 +1,213 @@
+[
+  {
+    "id": 3,
+    "exam_key": "4674d408c3de48249439a256821726b9",
+    "version": 1,
+    "action": "save",
+    "payload": {
+      "areas": [
+        {
+          "area": "Clínica Médica",
+          "correct": 20,
+          "questions": 30
+        },
+        {
+          "area": "Clínica Cirúrgica",
+          "correct": 14,
+          "questions": 17
+        },
+        {
+          "area": "Ginecologia e obstetríca",
+          "correct": 16,
+          "questions": 20
+        },
+        {
+          "area": "Pediatria",
+          "correct": 11,
+          "questions": 11
+        },
+        {
+          "area": "Preventiva e Social",
+          "correct": 16,
+          "questions": 18
+        }
+      ],
+      "blank": null,
+      "conditions": "nao_realista",
+      "correct": 77,
+      "day": "2026-10-25",
+      "institution": "UNESP",
+      "kind": "prova_anterior",
+      "max_score": null,
+      "minutes_allowed": null,
+      "minutes_used": 80.0,
+      "name": "Simulado",
+      "note": "",
+      "questions": 96,
+      "score": null,
+      "target_id": "229d527d195d466da6cb3bf8df0c421b",
+      "topics": [],
+      "unseen_questions": false
+    },
+    "created_at": "2026-10-27T15:53:12.480532+00:00"
+  },
+  {
+    "id": 4,
+    "exam_key": "3d1d6edb380d42ecbed73ea162d9d094",
+    "version": 1,
+    "action": "save",
+    "payload": {
+      "areas": [
+        {
+          "area": "Clínica Médica",
+          "correct": 11,
+          "questions": 20
+        }
+      ],
+      "blank": null,
+      "conditions": "nao_realista",
+      "correct": 11,
+      "day": "2026-10-30",
+      "institution": "FMUSP",
+      "kind": "outro",
+      "max_score": null,
+      "minutes_allowed": null,
+      "minutes_used": null,
+      "name": "FMUSP · Clínica Médica",
+      "note": "",
+      "practice_id": "area-2026-10-29",
+      "questions": 20,
+      "score": null,
+      "target_id": null,
+      "topics": [],
+      "unseen_questions": true
+    },
+    "created_at": "2026-10-30T21:34:08.083566+00:00"
+  },
+  {
+    "id": 5,
+    "exam_key": "240e9c83e40c48a7bacf008b92480583",
+    "version": 1,
+    "action": "save",
+    "payload": {
+      "areas": [
+        {
+          "area": "Clínica Cirúrgica",
+          "correct": 15,
+          "questions": 20
+        }
+      ],
+      "blank": null,
+      "conditions": "nao_realista",
+      "correct": 15,
+      "day": "2026-11-02",
+      "institution": "SUS-SP",
+      "kind": "outro",
+      "max_score": null,
+      "minutes_allowed": null,
+      "minutes_used": null,
+      "name": "SUS-SP · Clínica Cirúrgica",
+      "note": "",
+      "practice_id": "area-2026-11-01",
+      "questions": 20,
+      "score": null,
+      "target_id": null,
+      "topics": [],
+      "unseen_questions": true
+    },
+    "created_at": "2026-11-02T22:40:50.771429+00:00"
+  },
+  {
+    "id": 6,
+    "exam_key": "5d42c13a1d8c495585cd2db0327917a0",
+    "version": 1,
+    "action": "save",
+    "payload": {
+      "areas": [
+        {
+          "area": "Pediatria",
+          "correct": 11,
+          "questions": 20
+        }
+      ],
+      "blank": null,
+      "conditions": "nao_realista",
+      "correct": 11,
+      "day": "2026-11-08",
+      "institution": "UNESP",
+      "kind": "outro",
+      "max_score": null,
+      "minutes_allowed": null,
+      "minutes_used": null,
+      "name": "UNESP · Pediatria",
+      "note": "",
+      "practice_id": "area-2026-11-05",
+      "questions": 20,
+      "score": null,
+      "target_id": null,
+      "topics": [],
+      "unseen_questions": true
+    },
+    "created_at": "2026-11-08T22:10:20.041971+00:00"
+  },
+  {
+    "id": 7,
+    "exam_key": "459530dda6c0480b905d76bfbad2359c",
+    "version": 1,
+    "action": "save",
+    "payload": {
+      "areas": [
+        {
+          "area": "Ginecologia e Obstetrícia",
+          "correct": 19,
+          "questions": 31
+        }
+      ],
+      "blank": null,
+      "conditions": "nao_realista",
+      "correct": 19,
+      "day": "2026-11-11",
+      "institution": "FMUSP",
+      "kind": "outro",
+      "max_score": null,
+      "minutes_allowed": null,
+      "minutes_used": null,
+      "name": "FMUSP · Ginecologia e Obstetrícia",
+      "note": "",
+      "practice_id": "area-2026-11-08",
+      "questions": 31,
+      "score": null,
+      "target_id": null,
+      "topics": [],
+      "unseen_questions": true
+    },
+    "created_at": "2026-11-11T23:28:36.108928+00:00"
+  },
+  {
+    "id": 8,
+    "exam_key": "0d2ee7eb0190427c9ae2f28815b45a7d",
+    "version": 1,
+    "action": "save",
+    "payload": {
+      "areas": [],
+      "blank": null,
+      "conditions": "nao_realista",
+      "correct": 68,
+      "day": "2026-11-12",
+      "institution": null,
+      "kind": "prova_anterior",
+      "max_score": null,
+      "minutes_allowed": null,
+      "minutes_used": null,
+      "name": "SUS-SP 2026",
+      "note": "",
+      "practice_id": null,
+      "questions": 100,
+      "score": null,
+      "target_id": "447aca8758f242f0ab4de0cc615e99d7",
+      "topics": [],
+      "unseen_questions": true
+    },
+    "created_at": "2026-11-12T21:38:04.433006+00:00"
+  }
+]

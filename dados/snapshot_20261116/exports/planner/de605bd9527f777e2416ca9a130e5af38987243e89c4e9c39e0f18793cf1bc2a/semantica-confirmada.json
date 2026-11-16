@@ -1,0 +1,12 @@
+{
+  "dataset_id": 3,
+  "backup_before": "C:\\Projetos\\Osler\\data\\backups\\osler_20261020T223118Z_6e64a69989db583d.zip",
+  "backup_after": "C:\\Projetos\\Osler\\data\\backups\\osler_20261020T223121Z_91c60ed85932a02d.zip",
+  "snapshot_contexts": 1173,
+  "snapshot_accuracy_rows": 537,
+  "changed_tables": [
+    "incidence_datasets"
+  ],
+  "study_history_and_profiles_preserved": true,
+  "code_version": "0.16.1"
+}

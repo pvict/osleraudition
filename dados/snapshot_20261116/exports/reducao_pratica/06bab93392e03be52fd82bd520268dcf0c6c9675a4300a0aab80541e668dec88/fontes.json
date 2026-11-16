@@ -1,0 +1,2043 @@
+{
+  "sources": {
+    "qbank": "a063708e43024c040c6e6cb654e8424938dbaf7f0cec27bea8183d61b8560970",
+    "flashcards": "19b524f7d7f9a5576e2b085328816ab27b9a7ff16b73e3fa5bc95d0887f6a6b8"
+  },
+  "criteria": {
+    "min_answers": 30,
+    "min_accuracy": 85,
+    "min_cards": 20
+  },
+  "topics": [
+    {
+      "topic_id": "463386009b6e7c6046ada127",
+      "row_id": "c81dfdd2e6f574b8106284f0",
+      "path": [
+        "Clínica Médica",
+        "Neurologia",
+        "Crises Epilépticas & Epilepsia & Estado de Mal"
+      ],
+      "studied_cards": 152,
+      "total_cards": 161,
+      "answered_pdf": 30,
+      "accuracy_pdf": "90%",
+      "accuracy_value": 90.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência alta",
+          "path": [
+            "Clínica Médica",
+            "Neurologia",
+            "Crises Epilépticas & Epilepsia & Estado de Mal"
+          ],
+          "reason": "associação exata",
+          "topic": "Clínica Médica → Neurologia → Crises Epilépticas & Epilepsia & Estado de Mal",
+          "value": 4,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 3,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "09ba410d11a1490ad773ba68",
+      "row_id": "982fcce01157444353778475",
+      "path": [
+        "Clínica Cirúrgica",
+        "Cirurgia Plástica",
+        "Cicatrização e Avaliação de Feridas"
+      ],
+      "studied_cards": 146,
+      "total_cards": 147,
+      "answered_pdf": 44,
+      "accuracy_pdf": "95%",
+      "accuracy_value": 95.0,
+      "evidence": "manual",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": 44,
+      "initial": 82,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência alta",
+          "path": [
+            "Clínica Cirúrgica",
+            "Cirurgia Plástica",
+            "Cicatrização e Avaliação de Feridas"
+          ],
+          "reason": "associação exata",
+          "topic": "Clínica Cirúrgica → Cirurgia Plástica → Cicatrização e Avaliação de Feridas",
+          "value": 8,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 3,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": "sugerido"
+    },
+    {
+      "topic_id": "cfd29a3f48dc4f6d20bd39a2",
+      "row_id": "b5f5349ebb9c33f1a97012ce",
+      "path": [
+        "Preventiva & Social",
+        "Epidemiologia",
+        "Bioestatística"
+      ],
+      "studied_cards": 98,
+      "total_cards": 101,
+      "answered_pdf": 42,
+      "accuracy_pdf": "93%",
+      "accuracy_value": 93.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência alta",
+          "path": [
+            "Preventiva & Social",
+            "Epidemiologia",
+            "Bioestatística"
+          ],
+          "reason": "associação exata",
+          "topic": "Preventiva & Social → Epidemiologia → Bioestatística",
+          "value": 3,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 3,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "afe3adabb7b7f67aa97da3cf",
+      "row_id": "d46e14ae88f0f77685e6cb62",
+      "path": [
+        "Clínica Médica",
+        "Hepatologia",
+        "Tumores Hepáticos",
+        "Tumores Hepáticos Benignos"
+      ],
+      "studied_cards": 90,
+      "total_cards": 90,
+      "answered_pdf": 45,
+      "accuracy_pdf": "87%",
+      "accuracy_value": 87.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência alta",
+          "path": [
+            "Clínica Médica",
+            "Hepatologia",
+            "Tumores Hepáticos",
+            "Tumores Hepáticos Benignos"
+          ],
+          "reason": "associação exata",
+          "topic": "Clínica Médica → Hepatologia → Tumores Hepáticos → Tumores Hepáticos Benignos",
+          "value": 3,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 3,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "6f3c644ad35f0fa1ab258889",
+      "row_id": "3a0d5165801d3f50cca0c362",
+      "path": [
+        "Clínica Médica",
+        "Pneumologia",
+        "Asma",
+        "Asma Ambulatorial no Adulto e na Criança"
+      ],
+      "studied_cards": 168,
+      "total_cards": 258,
+      "answered_pdf": 53,
+      "accuracy_pdf": "87%",
+      "accuracy_value": 87.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Clínica Médica",
+            "Pneumologia",
+            "Asma",
+            "Asma Ambulatorial no Adulto e na Criança"
+          ],
+          "reason": "associação exata",
+          "topic": "Clínica Médica → Pneumologia → Asma → Asma Ambulatorial no Adulto e na Criança",
+          "value": 15,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "8353d72d5c4858745b9e4e4f",
+      "row_id": "de38d7a5d99b298399145b29",
+      "path": [
+        "Clínica Médica",
+        "Endocrinologia",
+        "Diabetes Mellitus",
+        "DM 2 - Tratamento sem Insulina"
+      ],
+      "studied_cards": 161,
+      "total_cards": 218,
+      "answered_pdf": 32,
+      "accuracy_pdf": "88%",
+      "accuracy_value": 88.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Clínica Médica",
+            "Endocrinologia",
+            "Diabetes Mellitus",
+            "DM 2 - Tratamento sem Insulina"
+          ],
+          "reason": "associação exata",
+          "topic": "Clínica Médica → Endocrinologia → Diabetes Mellitus → DM 2 - Tratamento sem Insulina",
+          "value": 8,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "c2c8ce2d7ca8d583287f2186",
+      "row_id": "b160ddb4c5e0d4e3fa3b2f24",
+      "path": [
+        "Clínica Médica",
+        "Pneumologia",
+        "Doença Pulmonar Obstrutiva Crônica",
+        "DPOC – Diagnóstico e Tratamento"
+      ],
+      "studied_cards": 156,
+      "total_cards": 202,
+      "answered_pdf": 31,
+      "accuracy_pdf": "87%",
+      "accuracy_value": 87.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Clínica Médica",
+            "Pneumologia",
+            "Doença Pulmonar Obstrutiva Crônica",
+            "DPOC – Diagnóstico e Tratamento"
+          ],
+          "reason": "associação exata",
+          "topic": "Clínica Médica → Pneumologia → Doença Pulmonar Obstrutiva Crônica → DPOC – Diagnóstico e Tratamento",
+          "value": 8,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "c44f699c496765ef6c87bd1e",
+      "row_id": "f004213cbc3ce4315870899e",
+      "path": [
+        "Ginecologia e Obstetrícia",
+        "Ginecologia",
+        "Ginecologia Endócrina",
+        "Fisiologia Menstrual"
+      ],
+      "studied_cards": 152,
+      "total_cards": 186,
+      "answered_pdf": 58,
+      "accuracy_pdf": "88%",
+      "accuracy_value": 88.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Ginecologia e Obstetrícia",
+            "Ginecologia",
+            "Ginecologia Endócrina",
+            "Fisiologia Menstrual"
+          ],
+          "reason": "associação exata",
+          "topic": "Ginecologia e Obstetrícia → Ginecologia → Ginecologia Endócrina → Fisiologia Menstrual",
+          "value": 5,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "0500657b45e966eb8e2eb4d1",
+      "row_id": "13e5d9392db4657b87b5cc75",
+      "path": [
+        "Pediatria",
+        "Neonatologia",
+        "Cuidados Pós-Natais",
+        "Reanimação Neonatal"
+      ],
+      "studied_cards": 141,
+      "total_cards": 149,
+      "answered_pdf": 52,
+      "accuracy_pdf": "85%",
+      "accuracy_value": 85.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Pediatria",
+            "Neonatologia",
+            "Cuidados Pós-Natais",
+            "Reanimação Neonatal"
+          ],
+          "reason": "associação exata",
+          "topic": "Pediatria → Neonatologia → Cuidados Pós-Natais → Reanimação Neonatal",
+          "value": 16,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "dbb568d2bd5175d0e94da33f",
+      "row_id": "8c2aaf64520f8a7a27b53f4f",
+      "path": [
+        "Clínica Médica",
+        "Hematologia",
+        "Anemias",
+        "Anemia Ferropriva no Adulto e na Criança"
+      ],
+      "studied_cards": 129,
+      "total_cards": 160,
+      "answered_pdf": 32,
+      "accuracy_pdf": "91%",
+      "accuracy_value": 91.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Clínica Médica",
+            "Hematologia",
+            "Anemias",
+            "Anemia Ferropriva no Adulto e na Criança"
+          ],
+          "reason": "associação exata",
+          "topic": "Clínica Médica → Hematologia → Anemias → Anemia Ferropriva no Adulto e na Criança",
+          "value": 9,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "0bd223dd519774889e4657ae",
+      "row_id": "aafb02f5e97592e9d7bb4a2f",
+      "path": [
+        "Clínica Médica",
+        "Infectologia",
+        "Úlceras Genitais",
+        "Sífilis"
+      ],
+      "studied_cards": 128,
+      "total_cards": 188,
+      "answered_pdf": 32,
+      "accuracy_pdf": "91%",
+      "accuracy_value": 91.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Clínica Médica",
+            "Infectologia",
+            "Úlceras Genitais",
+            "Sífilis"
+          ],
+          "reason": "associação exata",
+          "topic": "Clínica Médica → Infectologia → Úlceras Genitais → Sífilis",
+          "value": 6,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "6dede7963122f8cd020fb9db",
+      "row_id": "4f08c4640a668a6fc34b0689",
+      "path": [
+        "Clínica Médica",
+        "Cardiologia",
+        "Insuficiência Cardíaca",
+        "Insuficiência Cardíaca Ambulatorial"
+      ],
+      "studied_cards": 122,
+      "total_cards": 246,
+      "answered_pdf": 61,
+      "accuracy_pdf": "92%",
+      "accuracy_value": 92.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Clínica Médica",
+            "Cardiologia",
+            "Insuficiência Cardíaca",
+            "Insuficiência Cardíaca Ambulatorial"
+          ],
+          "reason": "associação exata",
+          "topic": "Clínica Médica → Cardiologia → Insuficiência Cardíaca → Insuficiência Cardíaca Ambulatorial",
+          "value": 18,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "6388cb3937ce4d5ddad358f4",
+      "row_id": "9556b3da78b039273c9f1640",
+      "path": [
+        "Clínica Médica",
+        "Pneumologia",
+        "Asma",
+        "Exacerbação da Asma no Adulto e na Criança"
+      ],
+      "studied_cards": 119,
+      "total_cards": 149,
+      "answered_pdf": 50,
+      "accuracy_pdf": "88%",
+      "accuracy_value": 88.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Clínica Médica",
+            "Pneumologia",
+            "Asma",
+            "Exacerbação da Asma no Adulto e na Criança"
+          ],
+          "reason": "associação exata",
+          "topic": "Clínica Médica → Pneumologia → Asma → Exacerbação da Asma no Adulto e na Criança",
+          "value": 7,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "7123f87eedcb7e176d063c54",
+      "row_id": "9f04c85ff1920ec3c1b510d9",
+      "path": [
+        "Ginecologia e Obstetrícia",
+        "Ginecologia",
+        "Ginecologia Endócrina",
+        "Climatério e Menopausa"
+      ],
+      "studied_cards": 108,
+      "total_cards": 146,
+      "answered_pdf": 63,
+      "accuracy_pdf": "86%",
+      "accuracy_value": 86.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Ginecologia e Obstetrícia",
+            "Ginecologia",
+            "Ginecologia Endócrina",
+            "Climatério e Menopausa"
+          ],
+          "reason": "associação exata",
+          "topic": "Ginecologia e Obstetrícia → Ginecologia → Ginecologia Endócrina → Climatério e Menopausa",
+          "value": 22,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "58fd17e1d0e1883a509e21d7",
+      "row_id": "34f7253b0ea5dd7db1aa2ce2",
+      "path": [
+        "Clínica Cirúrgica",
+        "Cirurgia do Aparelho Digestivo",
+        "Esôfago",
+        "Doença do Refluxo Gastroesofágico"
+      ],
+      "studied_cards": 106,
+      "total_cards": 201,
+      "answered_pdf": 50,
+      "accuracy_pdf": "86%",
+      "accuracy_value": 86.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Clínica Cirúrgica",
+            "Cirurgia do Aparelho Digestivo",
+            "Esôfago",
+            "Doença do Refluxo Gastroesofágico"
+          ],
+          "reason": "associação exata",
+          "topic": "Clínica Cirúrgica → Cirurgia do Aparelho Digestivo → Esôfago → Doença do Refluxo Gastroesofágico",
+          "value": 5,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "52a63150ea38131b8469dd25",
+      "row_id": "fec1c4601d55a4e9d2f3661b",
+      "path": [
+        "Clínica Cirúrgica",
+        "Trauma",
+        "Avaliação Inicial",
+        "Choque Hemorrágico"
+      ],
+      "studied_cards": 103,
+      "total_cards": 184,
+      "answered_pdf": 69,
+      "accuracy_pdf": "93%",
+      "accuracy_value": 93.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Clínica Cirúrgica",
+            "Trauma",
+            "Avaliação Inicial",
+            "Choque Hemorrágico"
+          ],
+          "reason": "associação exata",
+          "topic": "Clínica Cirúrgica → Trauma → Avaliação Inicial → Choque Hemorrágico",
+          "value": 12,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "08107571204c802bfac2abb8",
+      "row_id": "baf37745d6479fa6ce1c952d",
+      "path": [
+        "Preventiva & Social",
+        "Epidemiologia",
+        "Vigilância Epidemiológica"
+      ],
+      "studied_cards": 98,
+      "total_cards": 102,
+      "answered_pdf": 48,
+      "accuracy_pdf": "88%",
+      "accuracy_value": 88.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Preventiva & Social",
+            "Epidemiologia",
+            "Vigilância Epidemiológica"
+          ],
+          "reason": "associação exata",
+          "topic": "Preventiva & Social → Epidemiologia → Vigilância Epidemiológica",
+          "value": 24,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "39994d0b8fc2f67682a7c9ab",
+      "row_id": "7aa7d3ed0c40a7a85773dd44",
+      "path": [
+        "Ginecologia e Obstetrícia",
+        "Ginecologia",
+        "Ginecologia Endócrina",
+        "Síndrome dos Ovários Policísticos"
+      ],
+      "studied_cards": 94,
+      "total_cards": 105,
+      "answered_pdf": 48,
+      "accuracy_pdf": "98%",
+      "accuracy_value": 98.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Ginecologia e Obstetrícia",
+            "Ginecologia",
+            "Ginecologia Endócrina",
+            "Síndrome dos Ovários Policísticos"
+          ],
+          "reason": "associação exata",
+          "topic": "Ginecologia e Obstetrícia → Ginecologia → Ginecologia Endócrina → Síndrome dos Ovários Policísticos",
+          "value": 16,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "80e12ec1a315f16e8fe16062",
+      "row_id": "e6645a34ead2103bf61d4178",
+      "path": [
+        "Clínica Médica",
+        "Cardiologia",
+        "Dislipidemia"
+      ],
+      "studied_cards": 92,
+      "total_cards": 169,
+      "answered_pdf": 52,
+      "accuracy_pdf": "85%",
+      "accuracy_value": 85.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Clínica Médica",
+            "Cardiologia",
+            "Dislipidemia"
+          ],
+          "reason": "associação exata",
+          "topic": "Clínica Médica → Cardiologia → Dislipidemia",
+          "value": 5,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "96f694890f08007b90b729d8",
+      "row_id": "0997fa3133a36eb1dccebf66",
+      "path": [
+        "Clínica Médica",
+        "Endocrinologia",
+        "Diabetes Mellitus",
+        "Cetoacidose Diabética e Estado Hiperglicêmico Hiperosmolar"
+      ],
+      "studied_cards": 89,
+      "total_cards": 154,
+      "answered_pdf": 42,
+      "accuracy_pdf": "93%",
+      "accuracy_value": 93.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Clínica Médica",
+            "Endocrinologia",
+            "Diabetes Mellitus",
+            "Cetoacidose Diabética e Estado Hiperglicêmico Hiperosmolar"
+          ],
+          "reason": "associação exata",
+          "topic": "Clínica Médica → Endocrinologia → Diabetes Mellitus → Cetoacidose Diabética e Estado Hiperglicêmico Hiperosmolar",
+          "value": 16,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "331a3d129220d075249ab08c",
+      "row_id": "bcae2a25464c311d2a7b299f",
+      "path": [
+        "Clínica Cirúrgica",
+        "Abdome Agudo",
+        "Abdome Agudo Inflamatório",
+        "Diverticulite"
+      ],
+      "studied_cards": 89,
+      "total_cards": 161,
+      "answered_pdf": 70,
+      "accuracy_pdf": "90%",
+      "accuracy_value": 90.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Clínica Cirúrgica",
+            "Abdome Agudo",
+            "Abdome Agudo Inflamatório",
+            "Diverticulite"
+          ],
+          "reason": "associação exata",
+          "topic": "Clínica Cirúrgica → Abdome Agudo → Abdome Agudo Inflamatório → Diverticulite",
+          "value": 6,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "39edb5274c1343ae73ef64a4",
+      "row_id": "ec85d76808851702731de736",
+      "path": [
+        "Clínica Médica",
+        "Infectologia",
+        "Arboviroses",
+        "Dengue"
+      ],
+      "studied_cards": 89,
+      "total_cards": 182,
+      "answered_pdf": 51,
+      "accuracy_pdf": "86%",
+      "accuracy_value": 86.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Clínica Médica",
+            "Infectologia",
+            "Arboviroses",
+            "Dengue"
+          ],
+          "reason": "associação exata",
+          "topic": "Clínica Médica → Infectologia → Arboviroses → Dengue",
+          "value": 11,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "5d73d4073325029dd9d6b488",
+      "row_id": "2113164bb0055f6c6c3709a5",
+      "path": [
+        "Clínica Cirúrgica",
+        "Abdome Agudo",
+        "Abdome Agudo Perfurativo"
+      ],
+      "studied_cards": 87,
+      "total_cards": 120,
+      "answered_pdf": 49,
+      "accuracy_pdf": "100%",
+      "accuracy_value": 100.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Clínica Cirúrgica",
+            "Abdome Agudo",
+            "Abdome Agudo Perfurativo"
+          ],
+          "reason": "associação exata",
+          "topic": "Clínica Cirúrgica → Abdome Agudo → Abdome Agudo Perfurativo",
+          "value": 8,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "731c0b02908db23520bedf9a",
+      "row_id": "f17ac9164d630e7ee9afd9fe",
+      "path": [
+        "Ginecologia e Obstetrícia",
+        "Obstetrícia",
+        "Doença Hipertensiva Específica da Gravidez (DHEG)",
+        "Pré-Eclâmpsia"
+      ],
+      "studied_cards": 83,
+      "total_cards": 148,
+      "answered_pdf": 49,
+      "accuracy_pdf": "86%",
+      "accuracy_value": 86.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Ginecologia e Obstetrícia",
+            "Obstetrícia",
+            "Doença Hipertensiva Específica da Gravidez (DHEG)",
+            "Pré-Eclâmpsia"
+          ],
+          "reason": "associação exata",
+          "topic": "Ginecologia e Obstetrícia → Obstetrícia → Doença Hipertensiva Específica da Gravidez (DHEG) → Pré-Eclâmpsia",
+          "value": 11,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "ae5d1ecc3df6ccceed9b970a",
+      "row_id": "b48b5045a0929c8a4edad36d",
+      "path": [
+        "Clínica Médica",
+        "Cardiologia",
+        "Hipertensão Arterial Sistêmica",
+        "Hipertensão no Adulto"
+      ],
+      "studied_cards": 78,
+      "total_cards": 202,
+      "answered_pdf": 36,
+      "accuracy_pdf": "92%",
+      "accuracy_value": 92.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Clínica Médica",
+            "Cardiologia",
+            "Hipertensão Arterial Sistêmica",
+            "Hipertensão no Adulto"
+          ],
+          "reason": "associação exata",
+          "topic": "Clínica Médica → Cardiologia → Hipertensão Arterial Sistêmica → Hipertensão no Adulto",
+          "value": 18,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "a1d2bed4ec16c0f28a9125fa",
+      "row_id": "a337045c9c799b4956a6fab5",
+      "path": [
+        "Preventiva & Social",
+        "Medicina Legal",
+        "Declaração de Óbito"
+      ],
+      "studied_cards": 70,
+      "total_cards": 77,
+      "answered_pdf": 44,
+      "accuracy_pdf": "91%",
+      "accuracy_value": 91.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Preventiva & Social",
+            "Medicina Legal",
+            "Declaração de Óbito"
+          ],
+          "reason": "associação exata",
+          "topic": "Preventiva & Social → Medicina Legal → Declaração de Óbito",
+          "value": 15,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "40c8638b604ad2f70da6e550",
+      "row_id": "9d88560b7370b49493a303d4",
+      "path": [
+        "Ginecologia e Obstetrícia",
+        "Ginecologia",
+        "Doença Inflamatória Pélvica"
+      ],
+      "studied_cards": 70,
+      "total_cards": 144,
+      "answered_pdf": 51,
+      "accuracy_pdf": "90%",
+      "accuracy_value": 90.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Ginecologia e Obstetrícia",
+            "Ginecologia",
+            "Doença Inflamatória Pélvica"
+          ],
+          "reason": "associação exata",
+          "topic": "Ginecologia e Obstetrícia → Ginecologia → Doença Inflamatória Pélvica",
+          "value": 8,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "dff7f423c6c9b23b8a1d023e",
+      "row_id": "f7d560fe6095148a90803eb7",
+      "path": [
+        "Pediatria",
+        "Neonatologia",
+        "Infecções Congênitas",
+        "Sífilis Congênita"
+      ],
+      "studied_cards": 67,
+      "total_cards": 108,
+      "answered_pdf": 41,
+      "accuracy_pdf": "88%",
+      "accuracy_value": 88.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Pediatria",
+            "Neonatologia",
+            "Infecções Congênitas",
+            "Sífilis Congênita"
+          ],
+          "reason": "associação exata",
+          "topic": "Pediatria → Neonatologia → Infecções Congênitas → Sífilis Congênita",
+          "value": 4,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "85bf1c29df471fbbe0bce3e5",
+      "row_id": "61dccfe92c54b2a993082d9b",
+      "path": [
+        "Ginecologia e Obstetrícia",
+        "Obstetrícia",
+        "Trabalho de Parto Prematuro"
+      ],
+      "studied_cards": 65,
+      "total_cards": 96,
+      "answered_pdf": 48,
+      "accuracy_pdf": "92%",
+      "accuracy_value": 92.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Ginecologia e Obstetrícia",
+            "Obstetrícia",
+            "Trabalho de Parto Prematuro"
+          ],
+          "reason": "associação exata",
+          "topic": "Ginecologia e Obstetrícia → Obstetrícia → Trabalho de Parto Prematuro",
+          "value": 11,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "5269bf7bf0d72d986f124fd2",
+      "row_id": "cd640aa0655f2d0c6aff6e3c",
+      "path": [
+        "Ginecologia e Obstetrícia",
+        "Obstetrícia",
+        "Adaptações & Queixas da Gestação"
+      ],
+      "studied_cards": 63,
+      "total_cards": 120,
+      "answered_pdf": 39,
+      "accuracy_pdf": "85%",
+      "accuracy_value": 85.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Ginecologia e Obstetrícia",
+            "Obstetrícia",
+            "Adaptações & Queixas da Gestação"
+          ],
+          "reason": "associação exata",
+          "topic": "Ginecologia e Obstetrícia → Obstetrícia → Adaptações & Queixas da Gestação",
+          "value": 5,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "a0cbd9688c45685660ba16a9",
+      "row_id": "86e0926a9831e286cfaf0d0b",
+      "path": [
+        "Ginecologia e Obstetrícia",
+        "Obstetrícia",
+        "Vitalidade Fetal e Restrição de Crescimento Intrauterino",
+        "Restrição de Crescimento Intrauterino"
+      ],
+      "studied_cards": 61,
+      "total_cards": 99,
+      "answered_pdf": 50,
+      "accuracy_pdf": "88%",
+      "accuracy_value": 88.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Ginecologia e Obstetrícia",
+            "Obstetrícia",
+            "Vitalidade Fetal e Restrição de Crescimento Intrauterino",
+            "Restrição de Crescimento Intrauterino"
+          ],
+          "reason": "associação exata",
+          "topic": "Ginecologia e Obstetrícia → Obstetrícia → Vitalidade Fetal e Restrição de Crescimento Intrauterino → Restrição de Crescimento Intrauterino",
+          "value": 11,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "69b9fea7c4cd5c3db60c2512",
+      "row_id": "2bac95929b0603e60477afa7",
+      "path": [
+        "Clínica Cirúrgica",
+        "Cirurgia do Aparelho Digestivo",
+        "Doenças das Vias Biliares",
+        "Colecistite"
+      ],
+      "studied_cards": 61,
+      "total_cards": 158,
+      "answered_pdf": 50,
+      "accuracy_pdf": "86%",
+      "accuracy_value": 86.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Clínica Cirúrgica",
+            "Cirurgia do Aparelho Digestivo",
+            "Doenças das Vias Biliares",
+            "Colecistite"
+          ],
+          "reason": "associação exata",
+          "topic": "Clínica Cirúrgica → Cirurgia do Aparelho Digestivo → Doenças das Vias Biliares → Colecistite",
+          "value": 8,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "40ba491691c6c9e09287d28d",
+      "row_id": "e4deeeba41e45dc0ccd84bcb",
+      "path": [
+        "Ginecologia e Obstetrícia",
+        "Ginecologia",
+        "Uroginecologia",
+        "Incontinência Urinária"
+      ],
+      "studied_cards": 58,
+      "total_cards": 168,
+      "answered_pdf": 53,
+      "accuracy_pdf": "89%",
+      "accuracy_value": 89.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Ginecologia e Obstetrícia",
+            "Ginecologia",
+            "Uroginecologia",
+            "Incontinência Urinária"
+          ],
+          "reason": "associação exata",
+          "topic": "Ginecologia e Obstetrícia → Ginecologia → Uroginecologia → Incontinência Urinária",
+          "value": 10,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "d34f9ef9b8c12a5cbf4414ae",
+      "row_id": "0dc9c355dd41a8ec077f326f",
+      "path": [
+        "Preventiva & Social",
+        "Atenção Primária",
+        "Prevenção e Promoção da Saúde"
+      ],
+      "studied_cards": 58,
+      "total_cards": 58,
+      "answered_pdf": 45,
+      "accuracy_pdf": "89%",
+      "accuracy_value": 89.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Preventiva & Social",
+            "Atenção Primária",
+            "Prevenção e Promoção da Saúde"
+          ],
+          "reason": "associação exata",
+          "topic": "Preventiva & Social → Atenção Primária → Prevenção e Promoção da Saúde",
+          "value": 15,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "e1e61c53fddb5a613f7597ef",
+      "row_id": "d58ccca0e188f83c94c7b2ce",
+      "path": [
+        "Preventiva & Social",
+        "Medicina Legal",
+        "Código de Ética Médica"
+      ],
+      "studied_cards": 57,
+      "total_cards": 85,
+      "answered_pdf": 50,
+      "accuracy_pdf": "88%",
+      "accuracy_value": 88.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Preventiva & Social",
+            "Medicina Legal",
+            "Código de Ética Médica"
+          ],
+          "reason": "associação exata",
+          "topic": "Preventiva & Social → Medicina Legal → Código de Ética Médica",
+          "value": 16,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "18e60886b010bb2541cc9a9a",
+      "row_id": "87c3b33f29308c6e82050daa",
+      "path": [
+        "Clínica Médica",
+        "Pneumologia",
+        "Tromboembolismo Pulmonar"
+      ],
+      "studied_cards": 56,
+      "total_cards": 196,
+      "answered_pdf": 32,
+      "accuracy_pdf": "88%",
+      "accuracy_value": 88.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Clínica Médica",
+            "Pneumologia",
+            "Tromboembolismo Pulmonar"
+          ],
+          "reason": "associação exata",
+          "topic": "Clínica Médica → Pneumologia → Tromboembolismo Pulmonar",
+          "value": 10,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "6d7b3059539d5b1e88b598b2",
+      "row_id": "8da8aae05e42ab6e63def415",
+      "path": [
+        "Preventiva & Social",
+        "SUS",
+        "Princípios do SUS"
+      ],
+      "studied_cards": 51,
+      "total_cards": 65,
+      "answered_pdf": 48,
+      "accuracy_pdf": "92%",
+      "accuracy_value": 92.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Preventiva & Social",
+            "SUS",
+            "Princípios do SUS"
+          ],
+          "reason": "associação exata",
+          "topic": "Preventiva & Social → SUS → Princípios do SUS",
+          "value": 19,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "db1a90d6846dce26229a5786",
+      "row_id": "c68a30c2ba2598c2e32309a4",
+      "path": [
+        "Preventiva & Social",
+        "Atenção Primária",
+        "Política Nacional de Atenção Básica"
+      ],
+      "studied_cards": 50,
+      "total_cards": 50,
+      "answered_pdf": 40,
+      "accuracy_pdf": "90%",
+      "accuracy_value": 90.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Preventiva & Social",
+            "Atenção Primária",
+            "Política Nacional de Atenção Básica"
+          ],
+          "reason": "associação exata",
+          "topic": "Preventiva & Social → Atenção Primária → Política Nacional de Atenção Básica",
+          "value": 18,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "a7acca56149b1447a1629f9e",
+      "row_id": "eaf3e1c93336f40d6b2f76c4",
+      "path": [
+        "Ginecologia e Obstetrícia",
+        "Obstetrícia",
+        "Diabetes Mellitus Gestacional"
+      ],
+      "studied_cards": 46,
+      "total_cards": 119,
+      "answered_pdf": 68,
+      "accuracy_pdf": "90%",
+      "accuracy_value": 90.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Ginecologia e Obstetrícia",
+            "Obstetrícia",
+            "Diabetes Mellitus Gestacional"
+          ],
+          "reason": "associação exata",
+          "topic": "Ginecologia e Obstetrícia → Obstetrícia → Diabetes Mellitus Gestacional",
+          "value": 19,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "ee8bbd7a9c85735ee287dad5",
+      "row_id": "1e3cb7a202666ec655465911",
+      "path": [
+        "Pediatria",
+        "Neurologia",
+        "Convulsão Febril"
+      ],
+      "studied_cards": 46,
+      "total_cards": 59,
+      "answered_pdf": 46,
+      "accuracy_pdf": "85%",
+      "accuracy_value": 85.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Pediatria",
+            "Neurologia",
+            "Convulsão Febril"
+          ],
+          "reason": "associação exata",
+          "topic": "Pediatria → Neurologia → Convulsão Febril",
+          "value": 10,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "7b91c40b42da0587c17130d1",
+      "row_id": "6c66a07d96c01209dababad7",
+      "path": [
+        "Ginecologia e Obstetrícia",
+        "Obstetrícia",
+        "Sangramentos da 2ª Metade da Gestação",
+        "Descolamento Prematuro de Placenta"
+      ],
+      "studied_cards": 43,
+      "total_cards": 52,
+      "answered_pdf": 30,
+      "accuracy_pdf": "90%",
+      "accuracy_value": 90.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Ginecologia e Obstetrícia",
+            "Obstetrícia",
+            "Sangramentos da 2ª Metade da Gestação",
+            "Descolamento Prematuro de Placenta"
+          ],
+          "reason": "associação exata",
+          "topic": "Ginecologia e Obstetrícia → Obstetrícia → Sangramentos da 2ª Metade da Gestação → Descolamento Prematuro de Placenta",
+          "value": 7,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "942842296f80a5c563012589",
+      "row_id": "41ffee412d1945712fcfeb78",
+      "path": [
+        "Pediatria",
+        "Puericultura",
+        "Abuso Infantil"
+      ],
+      "studied_cards": 43,
+      "total_cards": 46,
+      "answered_pdf": 37,
+      "accuracy_pdf": "89%",
+      "accuracy_value": 89.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Pediatria",
+            "Puericultura",
+            "Abuso Infantil"
+          ],
+          "reason": "associação exata",
+          "topic": "Pediatria → Puericultura → Abuso Infantil",
+          "value": 7,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "00b1319e90926ef2e8ffbabf",
+      "row_id": "09c03a8a51102d9917b4975f",
+      "path": [
+        "Ginecologia e Obstetrícia",
+        "Obstetrícia",
+        "Infecções na Gestação",
+        "Sífilis na Gestação"
+      ],
+      "studied_cards": 42,
+      "total_cards": 84,
+      "answered_pdf": 49,
+      "accuracy_pdf": "88%",
+      "accuracy_value": 88.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Ginecologia e Obstetrícia",
+            "Obstetrícia",
+            "Infecções na Gestação",
+            "Sífilis na Gestação"
+          ],
+          "reason": "associação exata",
+          "topic": "Ginecologia e Obstetrícia → Obstetrícia → Infecções na Gestação → Sífilis na Gestação",
+          "value": 6,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "615218f558d599513bf62915",
+      "row_id": "37267bdfa1fd7458e10d05cf",
+      "path": [
+        "Preventiva & Social",
+        "Epidemiologia",
+        "Conceitos em Pesquisa Clínica"
+      ],
+      "studied_cards": 38,
+      "total_cards": 38,
+      "answered_pdf": 54,
+      "accuracy_pdf": "89%",
+      "accuracy_value": 89.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Preventiva & Social",
+            "Epidemiologia",
+            "Conceitos em Pesquisa Clínica"
+          ],
+          "reason": "associação exata",
+          "topic": "Preventiva & Social → Epidemiologia → Conceitos em Pesquisa Clínica",
+          "value": 8,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "503b1bc1da58c7f8161882ad",
+      "row_id": "c25c33a8111c5a94af44df3e",
+      "path": [
+        "Preventiva & Social",
+        "Atenção Primária",
+        "Atributos da APS"
+      ],
+      "studied_cards": 35,
+      "total_cards": 39,
+      "answered_pdf": 58,
+      "accuracy_pdf": "95%",
+      "accuracy_value": 95.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Preventiva & Social",
+            "Atenção Primária",
+            "Atributos da APS"
+          ],
+          "reason": "associação exata",
+          "topic": "Preventiva & Social → Atenção Primária → Atributos da APS",
+          "value": 21,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    },
+    {
+      "topic_id": "b180777f8da07d17282a58d9",
+      "row_id": "2fda16a3dedf10ed727caa26",
+      "path": [
+        "Ginecologia e Obstetrícia",
+        "Obstetrícia",
+        "Pré-Natal",
+        "Vacinas da Gestante"
+      ],
+      "studied_cards": 34,
+      "total_cards": 66,
+      "answered_pdf": 42,
+      "accuracy_pdf": "98%",
+      "accuracy_value": 98.0,
+      "evidence": "pdf",
+      "accuracy_label": "Acerto no PDF · tentativa não identificada",
+      "distinct_questions": null,
+      "initial": null,
+      "incidence": [
+        {
+          "band": "alta",
+          "native_incidence": "Incidência altíssima",
+          "path": [
+            "Ginecologia e Obstetrícia",
+            "Obstetrícia",
+            "Pré-Natal",
+            "Vacinas da Gestante"
+          ],
+          "reason": "associação exata",
+          "topic": "Ginecologia e Obstetrícia → Obstetrícia → Pré-Natal → Vacinas da Gestante",
+          "value": 8,
+          "institutions": [
+            "Instituições selecionadas na Osler"
+          ],
+          "unit": "questoes",
+          "observed_date": "2026-10-15",
+          "exact": true
+        }
+      ],
+      "incidence_order": 4,
+      "report_date": "2026-10-14",
+      "action": "Avaliar redução seletiva dos cartões já estudados",
+      "applied": false,
+      "legacy_status": null
+    }
+  ]
+}

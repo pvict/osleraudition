@@ -1,0 +1,9 @@
+{"id": 1, "mock_exam_id": 3, "area": "Clínica Médica", "questions": 30, "correct": 20}
+{"id": 2, "mock_exam_id": 3, "area": "Clínica Cirúrgica", "questions": 17, "correct": 14}
+{"id": 3, "mock_exam_id": 3, "area": "Ginecologia e obstetríca", "questions": 20, "correct": 16}
+{"id": 4, "mock_exam_id": 3, "area": "Pediatria", "questions": 11, "correct": 11}
+{"id": 5, "mock_exam_id": 3, "area": "Preventiva e Social", "questions": 18, "correct": 16}
+{"id": 6, "mock_exam_id": 4, "area": "Clínica Médica", "questions": 20, "correct": 11}
+{"id": 7, "mock_exam_id": 5, "area": "Clínica Cirúrgica", "questions": 20, "correct": 15}
+{"id": 8, "mock_exam_id": 6, "area": "Pediatria", "questions": 20, "correct": 11}
+{"id": 9, "mock_exam_id": 7, "area": "Ginecologia e Obstetrícia", "questions": 31, "correct": 19}

@@ -1,0 +1,122 @@
+{
+  "changed_tables": [
+    "guide_settings",
+    "incidence_datasets"
+  ],
+  "copy_plan_computed": true,
+  "dataset_id": 2,
+  "guide_settings_id": 1,
+  "institutions": [
+    "FMUSP",
+    "FMUSP-RP",
+    "HMMG",
+    "SUS-SP",
+    "UNESP",
+    "SCM-RP"
+  ],
+  "observed_date": "2026-10-20",
+  "post_backup": "C:\\Projetos\\Osler\\data\\backups\\osler_20261020T221957Z_a5aaab97c6a75219.zip",
+  "previous_backup": "C:\\Projetos\\Osler\\data\\backups\\osler_20261020T221951Z_01c7c2cc6080f545.zip",
+  "profiles_and_study_history_unchanged": true,
+  "roundtrip_verified": true,
+  "sorting_audit": {
+    "count_descending_within_band": true,
+    "count_sum_reconciles_display_total": true,
+    "does_not_prove_all_platform_topics_exported": true,
+    "hierarchical_overlaps_in_received_rows": [],
+    "interpretation": "Source sorting is ordinal band descending, then question count descending inside each band. Keep bands and counts separate.",
+    "native_band_counts": {
+      "Incidência alta": 277,
+      "Incidência altíssima": 141,
+      "Incidência baixa": 319,
+      "Incidência média": 165,
+      "Sem incidência": 272
+    },
+    "native_incidence_band_descending": true,
+    "raw_count_increases_at_band_boundaries_only": true,
+    "unmatched_count": 1,
+    "unmatched_question_count": 1
+  },
+  "source_folder": "C:\\Projetos\\Osler\\data\\exports\\planner\\de605bd9527f777e2416ca9a130e5af38987243e89c4e9c39e0f18793cf1bc2a",
+  "summary": {
+    "descending_institution_count": false,
+    "distinct_paths": 1174,
+    "exact_matches": 1173,
+    "institution_count_sum": 2873,
+    "leaf_matches": 1165,
+    "ordering_inversions": [
+      {
+        "next_count": 9,
+        "next_theme": [
+          "Clínica Cirúrgica",
+          "Coloproctologia",
+          "Doenças Anorificiais Benignas",
+          "Doença Hemorroidária"
+        ],
+        "positions": [
+          141,
+          142
+        ],
+        "previous_count": 2,
+        "previous_theme": [
+          "Clínica Médica",
+          "Nefrologia",
+          "Distúrbios do Equilíbrio Ácido-Básico",
+          "Acidose Metabólica"
+        ]
+      },
+      {
+        "next_count": 4,
+        "next_theme": [
+          "Clínica Cirúrgica",
+          "Oftalmologia",
+          "Dacrioestenose Congênita"
+        ],
+        "positions": [
+          418,
+          419
+        ],
+        "previous_count": 0,
+        "previous_theme": [
+          "Pediatria",
+          "Infectologia",
+          "Infecções de Vias Aéreas Superiores",
+          "Rinossinusite em Crianças"
+        ]
+      },
+      {
+        "next_count": 2,
+        "next_theme": [
+          "Clínica Cirúrgica",
+          "Cabeça e Pescoço",
+          "Afecções da Parótida",
+          "Parotidite"
+        ],
+        "positions": [
+          583,
+          584
+        ],
+        "previous_count": 0,
+        "previous_theme": [
+          "Pediatria",
+          "Puericultura",
+          "Vacinação",
+          "Vacinas das Hepatites"
+        ]
+      }
+    ],
+    "parent_matches": 8,
+    "pending_review_count_sum": 54,
+    "positive_incidence_rows": 702,
+    "received_rows": 1174,
+    "rows_with_accuracy": 537,
+    "rows_with_contact": 537,
+    "rows_with_pending_reviews": 31,
+    "rows_without_question_history": 637,
+    "screenshot_institution_total": 2873,
+    "total_matches_screenshot": true,
+    "unmatched": 1,
+    "unmatched_incidence_mass": 1,
+    "zero_incidence_rows": 472
+  }
+}

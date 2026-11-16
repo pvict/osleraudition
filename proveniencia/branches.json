@@ -1,0 +1,44 @@
+[
+  {
+    "branch": "codex/backup-pre-auditoria-20261101-175400",
+    "commit": "6d89cd3e5b97bcd8dc74e7e744a73c6dd8063c4b",
+    "folder": "branches/codex__backup-pre-auditoria-20261101-175400",
+    "verified_files": 393
+  },
+  {
+    "branch": "codex/cloud-mobile-20261109",
+    "commit": "3881882696119b32532f7232801c7832e25cbbb7",
+    "folder": "app",
+    "verified_files": 454
+  },
+  {
+    "branch": "codex/datas-reais-recuperacao-20261115",
+    "commit": "2457421614fc3f90bbae7fd5d78b07068c7da8b5",
+    "folder": "branches/codex__datas-reais-recuperacao-20261115",
+    "verified_files": 455
+  },
+  {
+    "branch": "codex/lote-b-dados-novos",
+    "commit": "8f5884b43070c56ef473739a81cf8ae66024459a",
+    "folder": "branches/codex__lote-b-dados-novos",
+    "verified_files": 213
+  },
+  {
+    "branch": "codex/retomada-quantidades-decks-20261114",
+    "commit": "45d2a2caf1c245e7bcae560b56b9cf5a8eb96af5",
+    "folder": "branches/codex__retomada-quantidades-decks-20261114",
+    "verified_files": 451
+  },
+  {
+    "branch": "codex/revisoes-recorrentes-7-dias-20261114",
+    "commit": "734e6a1ec85bb8384ff7b1352d37ce55dda9c1ce",
+    "folder": "branches/codex__revisoes-recorrentes-7-dias-20261114",
+    "verified_files": 454
+  },
+  {
+    "branch": "main",
+    "commit": "6f68dd706d282b0a7632f7be3beaf90ae619464d",
+    "folder": "branches/main",
+    "verified_files": 361
+  }
+]

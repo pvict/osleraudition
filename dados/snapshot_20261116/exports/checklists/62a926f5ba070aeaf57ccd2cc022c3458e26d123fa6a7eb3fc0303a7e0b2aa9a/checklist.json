@@ -1,0 +1,134 @@
+{
+  "analysis_date": "2026-10-14",
+  "config": {
+    "a_initial": 85,
+    "a_last": 90,
+    "b_improvement": 5,
+    "b_initial": 75,
+    "c_recent": 75,
+    "max_age_days": 90,
+    "min_questions": 30,
+    "min_weight_coverage": 0.65,
+    "volume_reference": 300,
+    "weights": {
+      "amostra": 2,
+      "dificuldade": 1,
+      "erros": 2,
+      "incidencia": 1,
+      "inicial": 3,
+      "relevancia": 1,
+      "risco": 2,
+      "ultima": 2,
+      "volume": 2
+    },
+    "wilson_floor": 70
+  },
+  "created_at": "2026-10-15T02:41:34.974351+00:00",
+  "flashcards_report_id": "19b524f7d7f9a5576e2b085328816ab27b9a7ff16b73e3fa5bc95d0887f6a6b8",
+  "id": 1,
+  "items": [
+    {
+      "action_date": "2026-10-14",
+      "applied_date": null,
+      "approved_date": null,
+      "batch_id": 1,
+      "id": 1,
+      "note": "Rascunho baseado nos dados fornecidos pelo usuário. Conferir erros e conceitos frágeis antes de aprovar qualquer redução. Nenhuma aplicação realizada.",
+      "reactivated_date": null,
+      "reevaluation_date": null,
+      "revision": 1,
+      "row_id": "982fcce01157444353778475",
+      "snapshot": {
+        "classification": {
+          "cards_involved": 146,
+          "category": "B",
+          "evidence": [
+            "Origem: Dados fornecidos pelo usuário na especificação do projeto, em 14/10/2026; data 2026-10-14; confiabilidade informado_usuario.",
+            "questoes_distintas: 44 (informado pelo usuário).",
+            "respostas_totais: 66 (informado pelo usuário).",
+            "acerto_primeira_tentativa: 82 (informado pelo usuário).",
+            "acerto_ultima_tentativa: 95 (informado pelo usuário).",
+            "PDF: acerto 95% com tentativa não identificada; não substitui o inicial.",
+            "Flashcards: 82% é cobertura de revisão, não acerto."
+          ],
+          "missing": [
+            "erros_criticos",
+            "erros_recorrentes",
+            "cobertura_suficiente",
+            "risco_perda",
+            "relevancia_residencia",
+            "incidencia_provas"
+          ],
+          "priority": "pendente_validacao",
+          "reasons": [
+            "Melhora nas tentativas e desempenho inicial intermediário: avaliar redução seletiva, preservando conceitos frágeis.",
+            "Antes de priorizar redução, avaliar erros e baixa confiança subjetiva; confiança alta não substitui questões."
+          ],
+          "suspension_applied": false,
+          "warnings": [
+            "Limites heurísticos configuráveis, sem validação científica para suspensão.",
+            "Wilson de 95% aproximado: percentual possivelmente arredondado; representatividade e independência não verificadas."
+          ],
+          "weight_coverage": 0,
+          "wilson_high": 90.61617576880813,
+          "wilson_low": 68.2449055906491
+        },
+        "eligible": true,
+        "flashcards_ordinal": 309,
+        "flashcards_path": [
+          "Clínica Cirúrgica",
+          "Cirurgia Plástica",
+          "Cicatrização e Avaliação de Feridas"
+        ],
+        "hierarchy": "Clínica Cirúrgica → Cirurgia Plástica → Cicatrização e Avaliação de Feridas",
+        "observation": {
+          "acerto_primeira_tentativa": 82,
+          "acerto_recente": null,
+          "acerto_ultima_tentativa": 95,
+          "cartoes_ativos": null,
+          "cartoes_estudados": 146,
+          "cartoes_futuros": 135,
+          "cartoes_pendentes": 11,
+          "cartoes_selecionaveis": 146,
+          "cobertura_suficiente": null,
+          "confianca_flashcards": null,
+          "data_observacao": "2026-10-14",
+          "dificuldade": null,
+          "erros_criticos": null,
+          "erros_recorrentes": null,
+          "fonte_incidencia": "",
+          "incidencia_provas": null,
+          "nivel_de_confiabilidade": "informado_usuario",
+          "nota": "11 pendentes + 135 futuros = 146 informados. Ausência de erros, cartões ativos, risco, incidência e relevância não foram confirmados. Nenhum cartão foi considerado suspenso.",
+          "origem_da_informacao": "Dados fornecidos pelo usuário na especificação do projeto, em 14/10/2026",
+          "questoes_distintas": 44,
+          "relevancia_residencia": null,
+          "respostas_totais": 66,
+          "risco_perda": null
+        },
+        "observation_id": 1,
+        "pdf_accuracy": 95.0,
+        "pdf_accuracy_operator": "=",
+        "pdf_accuracy_text": "95%",
+        "pdf_answered": 44,
+        "pdf_cards_total": 147,
+        "pdf_studied": 146,
+        "review_coverage": 82.0,
+        "review_coverage_operator": "=",
+        "review_coverage_text": "82%",
+        "row_id": "982fcce01157444353778475",
+        "row_type": "terminal_comparavel",
+        "source_dates": {
+          "flashcards": "2026-10-14",
+          "qbank": "2026-10-14"
+        }
+      },
+      "status": "sugerido",
+      "topic_key": "09ba410d11a1490ad773ba68",
+      "updated_at": "2026-10-15T02:41:34.975333+00:00"
+    }
+  ],
+  "name": "Lote 01 — avaliar feridas",
+  "note": "Rascunho baseado nos dados fornecidos pelo usuário. Conferir erros e conceitos frágeis antes de aprovar qualquer redução. Nenhuma aplicação realizada.",
+  "qbank_report_id": "a063708e43024c040c6e6cb654e8424938dbaf7f0cec27bea8183d61b8560970"
+}

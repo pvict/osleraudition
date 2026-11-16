@@ -1,0 +1,4353 @@
+[
+  {
+    "branch": "codex/backup-pre-auditoria-20261101-175400",
+    "commit": "6d89cd3e5b97bcd8dc74e7e744a73c6dd8063c4b",
+    "canonical_commit": "3881882696119b32532f7232801c7832e25cbbb7",
+    "different_files": 137,
+    "changes": [
+      {
+        "path": ".github/workflows/tests.yml",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "02b02ba578fd614893411d29ffa0567cc4974b62",
+        "branch_git_sha": null
+      },
+      {
+        "path": ".gitignore",
+        "status": "modified",
+        "canonical_git_sha": "b9d0fb7a85db1158aee71c8b12ff51278021c974",
+        "branch_git_sha": "374147480566b7fb81861e22400216433abfaef6"
+      },
+      {
+        "path": ".streamlit/config.toml",
+        "status": "modified",
+        "canonical_git_sha": "5006d7adaf998092082eea95501018077ee1d875",
+        "branch_git_sha": "738f2bd4a642ba3c1cdac742a7c27f4567058b98"
+      },
+      {
+        "path": "README.md",
+        "status": "modified",
+        "canonical_git_sha": "9ce70707c9b5218ed0316cc4bb949fe6505f7536",
+        "branch_git_sha": "0b39e0b3dde56f515cf0a53e62f9da3e1e85f667"
+      },
+      {
+        "path": "cloud/README.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "6b6e63f5994098cb919a8990274d30b567d7a6b2",
+        "branch_git_sha": null
+      },
+      {
+        "path": "cloud/requirements.txt",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "82713755ab7fae9ff58092b0a3b1d3f0a142522d",
+        "branch_git_sha": null
+      },
+      {
+        "path": "cloud/schema.sql",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "1005d71bc372964f99f43748e13282a4eb2f1615",
+        "branch_git_sha": null
+      },
+      {
+        "path": "cloud/secrets.example.toml",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "344a164ed08953d9727edf3a550eccdba53db8cf",
+        "branch_git_sha": null
+      },
+      {
+        "path": "cloud/supabase-ca.crt",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "3d693669b23c340c57a3457bdc8b6fefe1806cc5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "cloud_app.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "913d787423c8fc17fd6546443b4f3582138897d0",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-01-correcao-auditoria.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "152e4044b2e45e1888fca369a4f2df520943e91b",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-02-atualizacao-guiada.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "c22725f944eb055b54eef42e2ee68c84dec0a675",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-02-performance-local.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "208b86fe0eba11d25fc42f1ab30ed47a461fd69f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-02-retorno-indisponivel.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "31f38bd4cd99327894a1d79254f290f60dedeaae",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-07-retomada.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "d00697ccf3d218c6b1d1543cc640898e5f80d70b",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-08-conclusao-parcial.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "427d5427b752069be1898b72f59798e3e5a87057",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-08-prioridade-temas-novos.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "836eefe23bc97d43bc91720b2461e9b443482dab",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-09-acesso-online.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "c41962e00481ec771390fe751c3e90e9c95d7af5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-14-retomada-por-quantidade.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "d2102ffd44e351643dffb091c7b1be078eeee5ba",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-14-revisoes-recorrentes.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "fbcac70e0fb0e7f5ae2a6e425aea37df97d6f8b9",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/atualizacao-guiada-de-dados.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "5759df6c12eec527fa320875015275339eca9653",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/correcao-agrupamentos-treinos.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "36d27b35449f13998beb3ee7634e8e695f2a2c5a",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/desempenho-local-2026-11-02.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "7f51dd767fe4df20de6105f59810711a0114f8e5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/retornos-indisponiveis.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "1c3353f055d0d5f946a0c7724f9874dc9c7267c4",
+        "branch_git_sha": null
+      },
+      {
+        "path": "encerrar.bat",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "7c71e72c5e963ec3e902a376cb04065a02433877",
+        "branch_git_sha": null
+      },
+      {
+        "path": "iniciar.bat",
+        "status": "modified",
+        "canonical_git_sha": "e17e6a791dc3faa8a0dfd20a63de86602dd3b681",
+        "branch_git_sha": "211741cfc000a0511366558fb97a66417ac8d45a"
+      },
+      {
+        "path": "osler/action_feedback.py",
+        "status": "modified",
+        "canonical_git_sha": "f6cbd7cc4435d2215f72fd8e43db2f816eb27683",
+        "branch_git_sha": "c525a3376e470d4ce14866f91c395a5ae5857848"
+      },
+      {
+        "path": "osler/adaptive_planning.py",
+        "status": "modified",
+        "canonical_git_sha": "9c7eff3e13b707e34218c9019bcf0a23daeb6b82",
+        "branch_git_sha": "ef08a3e586134efa266882ca59809ee48871a32b"
+      },
+      {
+        "path": "osler/adaptive_service.py",
+        "status": "modified",
+        "canonical_git_sha": "d3be30081192dae63ddb007a1d7eacb325995e80",
+        "branch_git_sha": "7d4ca84ea5994aa2f3404b4c13b1f4a9afa8b9f8"
+      },
+      {
+        "path": "osler/adaptive_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "7318edbfa9fabb07efdd4cd71a91847af711de41",
+        "branch_git_sha": "f2e7a865fd9ddb3765c3ef365b49a1a71f5add9b"
+      },
+      {
+        "path": "osler/algorithm_parameters.py",
+        "status": "modified",
+        "canonical_git_sha": "7a4b183a7bad0e831d39fb96d913c137f0b24527",
+        "branch_git_sha": "c239b8f87386eb3f10b870158b10c5f9feb99987"
+      },
+      {
+        "path": "osler/backups_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "f1f43ea6be917acd0758b34e0d16a3d1c5e74c52",
+        "branch_git_sha": "c7ca6d23b6f893660c427981e485674899c5cc3a"
+      },
+      {
+        "path": "osler/balanced_reviews.py",
+        "status": "modified",
+        "canonical_git_sha": "6cf6c9d121a97fd4fcc80252c793ffb014295537",
+        "branch_git_sha": "0c83c311c011b11a90f930f07731069e23bcd050"
+      },
+      {
+        "path": "osler/bento.css",
+        "status": "modified",
+        "canonical_git_sha": "9a574371d7be5367c6dc28031675bd2110972e9f",
+        "branch_git_sha": "1adc49500357c3dfbd7cc6c68dddcd48e2906d27"
+      },
+      {
+        "path": "osler/bento_day_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "81ca843bd989cf51be99ce1f186a3ac3c7cb3ad2",
+        "branch_git_sha": "7a37db2601f834663d02185fb0c133b573a0bd8f"
+      },
+      {
+        "path": "osler/cloud_access.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "ee91ebf58aba43aa18a798a852348e06caba0745",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/cloud_boundary.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "4cb69ffe6d691b8f54e74f361b8c2e843f72623f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/cloud_postgres.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "e1eebc18b2cc8be0fa4805e3886cc65ac25ffbd2",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/cloud_store.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "d85c261529d3394e6a8473b86c11a3be4ecabfd5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/cloud_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "347cfd079c1005ccb16e8e6e8a8c33afeec406d8",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/data_updates_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "7afe2f12f5eb483c17259812a0989af964ab4805",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/error_cards.py",
+        "status": "modified",
+        "canonical_git_sha": "27f214fd0e151da05901b45a9d5beae313ceae34",
+        "branch_git_sha": "6e1919792b2471272810eb10efc1f872b814caaa"
+      },
+      {
+        "path": "osler/error_cards_service.py",
+        "status": "modified",
+        "canonical_git_sha": "1c45a9c01c93d292e32eb435d79c24b2bd80c15d",
+        "branch_git_sha": "8a4f2ad2dd12070a00f06e6f9283a3b3577a7b1d"
+      },
+      {
+        "path": "osler/error_cards_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "58caf149312bdefbf32a1779f1bb24546f6c5d9a",
+        "branch_git_sha": "88a2a44114deef746a48d5fde0790c56718706a0"
+      },
+      {
+        "path": "osler/evolution_service.py",
+        "status": "modified",
+        "canonical_git_sha": "802d22a605f5400d8390ed037b27d749a1245be9",
+        "branch_git_sha": "a54fded11b5ade95e93512a61c883a9addaa3e49"
+      },
+      {
+        "path": "osler/evolution_spacing.py",
+        "status": "modified",
+        "canonical_git_sha": "526f23b56804848f37eef2658759018cd126d815",
+        "branch_git_sha": "d989072deeffe2a1701cc1a0854e4c237a40541a"
+      },
+      {
+        "path": "osler/exam_practice.py",
+        "status": "modified",
+        "canonical_git_sha": "fae4dbc04efb4c1eea63a7cb2eb057d0afca41e2",
+        "branch_git_sha": "85a2ef104b967669a3f8ca7a5103a7f71d784d85"
+      },
+      {
+        "path": "osler/exam_practice_service.py",
+        "status": "modified",
+        "canonical_git_sha": "40cb22e05737510aee6dde8e6ab9c6a44cc943af",
+        "branch_git_sha": "72a608838b18ced3ac73017ac1093fffe29a7a98"
+      },
+      {
+        "path": "osler/exam_practice_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "972647d92f0fd155e2794843ffe79f8505637987",
+        "branch_git_sha": "e60522197648f5763ba65064cc867467b3f686ae"
+      },
+      {
+        "path": "osler/final_review_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "7e06cba4314afc7a15dce87fb1c207c3346a1391",
+        "branch_git_sha": "5d17a3038cc5d02704f21b8630a6921ed071c890"
+      },
+      {
+        "path": "osler/guide_settings_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "0097455db3d1ce74bda4d88955df7bd1c34f4cc2",
+        "branch_git_sha": "4a9489f5d0a880527029af292a3b19f847a0626d"
+      },
+      {
+        "path": "osler/guide_storage.py",
+        "status": "modified",
+        "canonical_git_sha": "5c84b0d34a1539ee77b66c703f2cb85b4c34a335",
+        "branch_git_sha": "c23c4c71f643ae2824791b4c1f1021ffe947a69e"
+      },
+      {
+        "path": "osler/incidence.py",
+        "status": "modified",
+        "canonical_git_sha": "cf74c0cc8794104f2c2259639fd12b1bd8337d7f",
+        "branch_git_sha": "41adf4441b047ae6afb2976835e4c8c983024cff"
+      },
+      {
+        "path": "osler/local_launcher.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "4fbe4613e9a074314a3e21bf3c37d32f2f2d2abe",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/mock_exams_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "44db14bd5f5a10599a250e7cc8bc151b3c297d2a",
+        "branch_git_sha": "bce2cdf2500d6067100c769aabd09fdb8770935e"
+      },
+      {
+        "path": "osler/mock_result_followup_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "1fef6194492b5274d6ea37415080fa2d1b99dfe7",
+        "branch_git_sha": "033b1907ef0e46f7c0fb4df5afabf4ad4dd2ba84"
+      },
+      {
+        "path": "osler/mock_schedule_service.py",
+        "status": "modified",
+        "canonical_git_sha": "ddc54c3d34192478dd61dcaa6d95a103283d3c88",
+        "branch_git_sha": "59679b1c3399c616c8aa741f89a2a6797aa9372f"
+      },
+      {
+        "path": "osler/mock_schedule_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "9fd49573cb11fa54b15fa80de76327fd3534490e",
+        "branch_git_sha": "35d1f6ba8c4bd327f5b3cdc8d4f79e801d02cc86"
+      },
+      {
+        "path": "osler/mock_workflow_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "26ca1e42fbfbabfd82dd2b22fad31f59d3ad6b07",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/models.py",
+        "status": "modified",
+        "canonical_git_sha": "c92cd30a27c0e1bc93dbd4ce105e4311410e45db",
+        "branch_git_sha": "1515c3c5fcbbf2826fbcf7ac629116609bf434e2"
+      },
+      {
+        "path": "osler/planner_completion.py",
+        "status": "modified",
+        "canonical_git_sha": "edacdb8fd3655059854ed7109e7495d90cdeec9c",
+        "branch_git_sha": "3ae965f235e65ef3fcc0da635bfa0cccc6adca39"
+      },
+      {
+        "path": "osler/planner_completion_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "7cd2dd4470c73d860e0ac18641747be52886e44e",
+        "branch_git_sha": "6b3ca07c74353c1371118247e9a4eba8302fcc2d"
+      },
+      {
+        "path": "osler/planner_import.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "9c3d78c1fe361aaacd981e6b7a72f20255cd2262",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/recovery.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "669dbbda129061c0a06d02542091a58fc31c261e",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/recovery_apply.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "5ddd90e922a18769ad89baed0b093c76c48ac962",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/recovery_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "e013c839b79940627b281c8300d2c5bb91ae68ff",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/recurring_questions.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "e3ebd9e2eca632fa91946dba8917fcef384ecc08",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/return_deferral_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "12b2cefa69d093e0735ea1db01ec88297fb924a4",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/review_policy.py",
+        "status": "modified",
+        "canonical_git_sha": "c803c7d02cf4cd8fd1d106bcaaa36040774454f9",
+        "branch_git_sha": "17cb9de663686ff744f82f2e3dfd4fdac473d951"
+      },
+      {
+        "path": "osler/review_queue.py",
+        "status": "modified",
+        "canonical_git_sha": "3a3e7c45ea3af093cc6774df81a4e17463fc57d8",
+        "branch_git_sha": "5ff8d8848e91378642d832e94d10330d8eef8005"
+      },
+      {
+        "path": "osler/review_strategy_service.py",
+        "status": "modified",
+        "canonical_git_sha": "edd8b6a9d3efbe1de45b9cc89efef28c83387b2f",
+        "branch_git_sha": "90e93a8a69c7590cda90be38307a72dd2d4236fb"
+      },
+      {
+        "path": "osler/review_strategy_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "cbbfee9f223701cc9afd0ea5eea0301d4b15a98a",
+        "branch_git_sha": "1a42fe06ee12ffa400c6ddda2f1e7d20b7635d69"
+      },
+      {
+        "path": "osler/study_activity_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "31edd21f1fa3129b91841832be7090915a20771e",
+        "branch_git_sha": "7e68ca2b08f9c7a3346b9ddac191f0d2192ed9f2"
+      },
+      {
+        "path": "osler/study_agenda.py",
+        "status": "modified",
+        "canonical_git_sha": "b1152a841eec9ec50743ad12339d1007ef8a5a2c",
+        "branch_git_sha": "ae9d829c37c0db25e34cc1557f165dab01702cf6"
+      },
+      {
+        "path": "osler/study_allocation.py",
+        "status": "modified",
+        "canonical_git_sha": "d50840a605c21de4e0954d8cfd3c1c8e3b1673f4",
+        "branch_git_sha": "f6ab56b99599ef5f52e26d1021d2c822ac9dbd8e"
+      },
+      {
+        "path": "osler/study_calendar.py",
+        "status": "modified",
+        "canonical_git_sha": "9adef32f6ee72ed156f4b68227ef466969df4b75",
+        "branch_git_sha": "1157ad13bc7e6a4fd6bdb1ee8cadd6a9310a859e"
+      },
+      {
+        "path": "osler/study_calendar_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "e548844e7e05d580c927edc17ee90b4a0f85d795",
+        "branch_git_sha": "2f36b678907367197922e82eddce3b652d97ad03"
+      },
+      {
+        "path": "osler/study_capacity.py",
+        "status": "modified",
+        "canonical_git_sha": "b4fdf80e991311d65b8739a54659e1c3f83b0f03",
+        "branch_git_sha": "fd4abd4b163f8bab3a73e841a3fdb8e40fb9624f"
+      },
+      {
+        "path": "osler/study_components.py",
+        "status": "modified",
+        "canonical_git_sha": "2acd7e747d346d17c56d943b66be29f35c9abf82",
+        "branch_git_sha": "b710cf359c20c37b3ee75fe85070dae97449b5e8"
+      },
+      {
+        "path": "osler/study_day_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "d9e7fd08352f95c9533437b3ffcf93e5c2703d71",
+        "branch_git_sha": "be319feebe2460fc372c631f96be3669d5f365f4"
+      },
+      {
+        "path": "osler/study_evolution.py",
+        "status": "modified",
+        "canonical_git_sha": "c60195c101e8d3be70ef3b07a7988d118d2c5030",
+        "branch_git_sha": "4caafbfa6f0fc7402709b26d0378eeedd245d0fc"
+      },
+      {
+        "path": "osler/study_evolution_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "f72f43b19b97e396f1c6fd69ac5e4e0598c51c48",
+        "branch_git_sha": "ae802975881518d2dee67c855b9d109bc8a63c97"
+      },
+      {
+        "path": "osler/study_feedback.py",
+        "status": "modified",
+        "canonical_git_sha": "4f47124045256645a3453b02d88237299e8a75a7",
+        "branch_git_sha": "c65f51d73e4fab295ea8d2728b2f1053145c0b9c"
+      },
+      {
+        "path": "osler/study_models.py",
+        "status": "modified",
+        "canonical_git_sha": "6eedef9f4add2d64e975cd4917a93ce7c4754fcf",
+        "branch_git_sha": "97ef5fef34d79ce8a00ff8bd50b19fcb484f999e"
+      },
+      {
+        "path": "osler/study_navigation_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "d16c626753523ae795016be656f3f8f57bf623e0",
+        "branch_git_sha": "8cebe6114d21fa3544f34b32d95295ea0ff6c510"
+      },
+      {
+        "path": "osler/study_prevention_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "820e88438a51cd8224f40ee7f5eb32a2f0c4f2d2",
+        "branch_git_sha": "74beaffe2d1b1e5b2de2177005fdf4450dcd884b"
+      },
+      {
+        "path": "osler/study_registration_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "1616241a499054ed15abb4250cd4c205ec4a06da",
+        "branch_git_sha": "4dd217de46e7145af53fa4da058142d3f75bd9f1"
+      },
+      {
+        "path": "osler/study_replanning.py",
+        "status": "modified",
+        "canonical_git_sha": "8b5a23df9b3fe46f4cb059974c35953fe14526a6",
+        "branch_git_sha": "a14a17a75df42cf28f411969648af335ade4f715"
+      },
+      {
+        "path": "osler/study_tables_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "394beccf943472aa2f1e334c255dc9370991a42e",
+        "branch_git_sha": "c1018d12e5b64c07d5a92f4243b7d977bb5e05f2"
+      },
+      {
+        "path": "osler/swap_service.py",
+        "status": "modified",
+        "canonical_git_sha": "4195ec950b90c6ce64865a99fb7403fa92c5ecc8",
+        "branch_git_sha": "de16fd5f1b0d20396b2998adf221d25d78cc7823"
+      },
+      {
+        "path": "osler/topic_contacts.py",
+        "status": "modified",
+        "canonical_git_sha": "a4d6ad2073471899c8d084f2acecf3cd8a79880b",
+        "branch_git_sha": "def0d9de011b6638c3ae0e24eb7622bc4024c571"
+      },
+      {
+        "path": "osler/topic_grouping.py",
+        "status": "modified",
+        "canonical_git_sha": "0154b36e2ceb1616d472c24125e9add54c11552e",
+        "branch_git_sha": "da61381ada8a01a404d0a8b8d80e41e68821705a"
+      },
+      {
+        "path": "osler/ui.py",
+        "status": "modified",
+        "canonical_git_sha": "ac56b405403a771b464b0b3a8c6f8373f710aafc",
+        "branch_git_sha": "c28ca11bcc99cf4c6c453abaecb9a79bd6a798b0"
+      },
+      {
+        "path": "requirements.txt",
+        "status": "modified",
+        "canonical_git_sha": "82713755ab7fae9ff58092b0a3b1d3f0a142522d",
+        "branch_git_sha": "b424f890b655bd1bbb4130fdb956c6d31da4250e"
+      },
+      {
+        "path": "scripts/audit_runtime.py",
+        "status": "modified",
+        "canonical_git_sha": "95e8fc2e2eb48e3193f8ee6faaa6c62c58a498c7",
+        "branch_git_sha": "5ae3abca1a67e19f9cdce56409dee10ac97d89b5"
+      },
+      {
+        "path": "scripts/build_cloud_branch.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "5abd01359ba2d05252c36485a51d5e9268ac0bd0",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/configure_cloud.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "9732e6da0bf6d78c72d13cf58294cc2816f7c20f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/install_local_shortcuts.ps1",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "afe6d0580bb9dcb16f0f89a4e595d764e012fb22",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/seed_cloud.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "4ceecf3652fb51ed9c93b7b52ac5e0e2aaa95cb5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_audit_ui_flows.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "d93fd706d33505e0ea5190a4a5d983c323d6799b",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_bento_mocks.py",
+        "status": "modified",
+        "canonical_git_sha": "8065df57d73556f6832791f0873023751bb48e1d",
+        "branch_git_sha": "deea4db847756cdc0bdca13d740368da97d3bfea"
+      },
+      {
+        "path": "tests/test_bento_registration.py",
+        "status": "modified",
+        "canonical_git_sha": "3e24d75aa1764382d333e6f16206fc26fe740c03",
+        "branch_git_sha": "c2b09386805242cb3275f2cd840d21d5974d62c6"
+      },
+      {
+        "path": "tests/test_capacity_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "199d9e3824389dcc61f34963a0fc575b9e4edb98",
+        "branch_git_sha": "c15aec5ea5daa343bb62892e33cda4d41fc8f325"
+      },
+      {
+        "path": "tests/test_cloud_store.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "cd3609c2468856692f388a63b62baf6b2661de8e",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_cloud_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "2eaa7573b5917651fc571511559e374230c02f4f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_created_cards_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "f0080f6edb62025f9670f18662d305f5fbab622a",
+        "branch_git_sha": "fd27d4b7a4adc89e2527ac928f74a64ec11a63e3"
+      },
+      {
+        "path": "tests/test_data_updates_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "5e8de4b8be0e341d52046b3a094647a8d20ec26a",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_error_cards_preview.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "9d08366b40b524a8c770fdc5f4e1c1e2af586459",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_error_cards_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "a9f0498df4441cf3283461a6fdb7ae2df7fb3818",
+        "branch_git_sha": "5356a0061e78372bb8c39971bd1824999708c238"
+      },
+      {
+        "path": "tests/test_exam_practice_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "f25dcfab995763f69d064fe1012b5f8b8a7a4c4c",
+        "branch_git_sha": "7da6e0045a64cf99221fe7ce1e44492cd43f1d5e"
+      },
+      {
+        "path": "tests/test_external_day.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "52bf18729eeeeb316548e2e3214ba04aaa5e1bcc",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_final_review_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "c65e2b1a28f5c80904eff9103b26ce84cac5d47b",
+        "branch_git_sha": "d2a7d79f249ee377da5f3ff54f14d1e5b3ddc2fc"
+      },
+      {
+        "path": "tests/test_grouped_mock_correction.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "3e041d32e849a0ac5f9e6711ed94397eb13ed969",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_local_launcher.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "7f59eecd64a2df59a9a3d58d09dbe2eb30b5025d",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_local_startup_imports.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "0a3a2d0b1cbd09f126f7ec1877081d71d9770799",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_lote_c_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "9ff8fb1e68e92db1bae4b4ed0427d7fe8956997c",
+        "branch_git_sha": "fdea60fe07bd82f312204d8d9edaedaf5edf204b"
+      },
+      {
+        "path": "tests/test_mock_exams_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "e55dcd1f5727e01fef7e00a47181b50bdcf0f3c6",
+        "branch_git_sha": "37fdf2975e7ac72d444616cb87b128314154b4c6"
+      },
+      {
+        "path": "tests/test_mock_result_followup_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "7e3ad54b8937c7813ca67f4bbcb0591660211cf9",
+        "branch_git_sha": "a08940bf4d132304946e2829219711f2f85418d8"
+      },
+      {
+        "path": "tests/test_mock_workflow_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "380a532586ee0c247491543185aa627f2a0c27dc",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_new_practice_priority.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "f11e8d02466a85a979824f8da8fae1c109230152",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_partial_block_completion.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "05dcecb30357e8335fd0c0e611d7ec84af1e934c",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_planner_import.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "885bf410ce89368181f9aff1b1537feff57311b5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_planner_supply.py",
+        "status": "modified",
+        "canonical_git_sha": "52d430eb8ecb92156fbcd5f0aeebc33aa865d765",
+        "branch_git_sha": "e2889055b586246e5735061c52f828c3e0df224b"
+      },
+      {
+        "path": "tests/test_prepared_calculations.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "4c27858d403283017de772db11bd6542342704ad",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_prevention_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "72766dd5b044e2d4bfc2b5e8d0bf67ee75fefa78",
+        "branch_git_sha": "ee5740233bf996cdc4bae60fedb5257e6134e826"
+      },
+      {
+        "path": "tests/test_recovery_quantities.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "87e5d33e868a254143afeaf2d6b4f14385fec4dc",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_recurring_questions.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "bc9d80969a88a43842152a766654725046419f22",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_redesign_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "9abf65ef51f1b550544eedf24e52dda9d494c4c4",
+        "branch_git_sha": "9923d6e0fc3a0843ed52df30ace9af982182b290"
+      },
+      {
+        "path": "tests/test_replanning_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "6010c104be3305947106ce94c1e1f4909d445152",
+        "branch_git_sha": "9d365b807d80e09c90bdd4eb60f9e4159ab9c5cd"
+      },
+      {
+        "path": "tests/test_return_deferral.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "1417f1e307efd0674ee91321ac26572d1d8e59c7",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_return_deferral_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "adfad68d0ccad471933279fdc3ed0f2b529d72a5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_statistical_evidence_regressions.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "327fca93438149f3817d1413e5fe1def4ebbc262",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_streamed_topic_contacts.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "6170a22320fc11d93b31994c36168f1fc690b177",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_study_activity_feedback_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "b140f7cc4f8845193d59b8668aa094d5015d8aa7",
+        "branch_git_sha": "f61592d7c76977ff655d5ef9a5bc2205f8714f4a"
+      },
+      {
+        "path": "tests/test_theme_returns.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "e314e386fa0aa5c55acf479100f8a6f983920d8f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_topic_picker_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "0abc65319ee7f9d913eb70bd651cef05b605d445",
+        "branch_git_sha": "55c64717a1ad1bef011d17f153c6f39050b8d638"
+      },
+      {
+        "path": "tests/test_workload_capacity.py",
+        "status": "modified",
+        "canonical_git_sha": "2f2128cef35e0fe9e4f6ce3bb62e1ce162f5a413",
+        "branch_git_sha": "193525ee9df5d71b5e26f6483ee126ffa6d5ebb7"
+      }
+    ]
+  },
+  {
+    "branch": "codex/cloud-mobile-20261109",
+    "commit": "3881882696119b32532f7232801c7832e25cbbb7",
+    "canonical_commit": "3881882696119b32532f7232801c7832e25cbbb7",
+    "different_files": 0,
+    "changes": []
+  },
+  {
+    "branch": "codex/datas-reais-recuperacao-20261115",
+    "commit": "2457421614fc3f90bbae7fd5d78b07068c7da8b5",
+    "canonical_commit": "3881882696119b32532f7232801c7832e25cbbb7",
+    "different_files": 4,
+    "changes": [
+      {
+        "path": "osler/study_calendar_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "e548844e7e05d580c927edc17ee90b4a0f85d795",
+        "branch_git_sha": "e328d10b5ca4786e731e582e7df5a73a31583c27"
+      },
+      {
+        "path": "osler/study_replanning.py",
+        "status": "modified",
+        "canonical_git_sha": "8b5a23df9b3fe46f4cb059974c35953fe14526a6",
+        "branch_git_sha": "7be21cddf8b22849b9154b183a27988b48cf8b68"
+      },
+      {
+        "path": "osler/study_replanning_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "0771be0198a35fa301379ee0797d70016227c799",
+        "branch_git_sha": "4e335e5ba23f0a5d7c578f05ba289d58cc5cb32d"
+      },
+      {
+        "path": "tests/test_recovery_schedule_dates.py",
+        "status": "added_in_branch",
+        "canonical_git_sha": null,
+        "branch_git_sha": "ce1998037ad525dad454a4d5334dc8366d1f2b5b"
+      }
+    ]
+  },
+  {
+    "branch": "codex/lote-b-dados-novos",
+    "commit": "8f5884b43070c56ef473739a81cf8ae66024459a",
+    "canonical_commit": "3881882696119b32532f7232801c7832e25cbbb7",
+    "different_files": 351,
+    "changes": [
+      {
+        "path": ".github/workflows/tests.yml",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "02b02ba578fd614893411d29ffa0567cc4974b62",
+        "branch_git_sha": null
+      },
+      {
+        "path": ".gitignore",
+        "status": "modified",
+        "canonical_git_sha": "b9d0fb7a85db1158aee71c8b12ff51278021c974",
+        "branch_git_sha": "16bea11d108827e7e06a4492f706799d8a97f532"
+      },
+      {
+        "path": ".impeccable/design.json",
+        "status": "modified",
+        "canonical_git_sha": "b27c078c33dbb355beff4940a4b85ad7b6400807",
+        "branch_git_sha": "bd42a57ae310df685ac2d73e819d952c563c6151"
+      },
+      {
+        "path": ".streamlit/config.toml",
+        "status": "modified",
+        "canonical_git_sha": "5006d7adaf998092082eea95501018077ee1d875",
+        "branch_git_sha": "d0f955e38e9d74b8a14a7a22ca6e09a7238943c8"
+      },
+      {
+        "path": "DESIGN.md",
+        "status": "modified",
+        "canonical_git_sha": "ab35ef5d300f6e248cbc01660013b50face48a2e",
+        "branch_git_sha": "ed226ed27be9535d6960c7650513bbfe6811bea6"
+      },
+      {
+        "path": "PRODUCT.md",
+        "status": "modified",
+        "canonical_git_sha": "091cfa069dce358fc197fcef1bc3f196a014ee2c",
+        "branch_git_sha": "13740eb32b5c7a0b71876e0f1e7320bdffca9280"
+      },
+      {
+        "path": "README.md",
+        "status": "modified",
+        "canonical_git_sha": "9ce70707c9b5218ed0316cc4bb949fe6505f7536",
+        "branch_git_sha": "1a3be1ecd9e30d4d06c78a9e9b073729e61947e3"
+      },
+      {
+        "path": "cloud/README.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "6b6e63f5994098cb919a8990274d30b567d7a6b2",
+        "branch_git_sha": null
+      },
+      {
+        "path": "cloud/requirements.txt",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "82713755ab7fae9ff58092b0a3b1d3f0a142522d",
+        "branch_git_sha": null
+      },
+      {
+        "path": "cloud/schema.sql",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "1005d71bc372964f99f43748e13282a4eb2f1615",
+        "branch_git_sha": null
+      },
+      {
+        "path": "cloud/secrets.example.toml",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "344a164ed08953d9727edf3a550eccdba53db8cf",
+        "branch_git_sha": null
+      },
+      {
+        "path": "cloud/supabase-ca.crt",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "3d693669b23c340c57a3457bdc8b6fefe1806cc5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "cloud_app.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "913d787423c8fc17fd6546443b4f3582138897d0",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/README.md",
+        "status": "modified",
+        "canonical_git_sha": "5a627a7e2a66170b9141bb96c133031563979397",
+        "branch_git_sha": "31674e4ac2b3c9c933ae45066b7254e3eef0ec73"
+      },
+      {
+        "path": "docs/design/2026-10-28-cobertura-sem-exclusao.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "fc4c29fb7237f5c70b0cfefb284b625aec52cd94",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/design/2026-10-28-planner-complementos-e-menu.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "aa48d7d374eed5fbf5dc5c213a32588adf20f8a0",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/design/2026-10-29-rotina-visual.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "fb9c005d4c5b55260de45f0ead97f0d3a6691253",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/design/2026-10-30-agrupamentos.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "31fd61eb20820ff54bb4e94065dfe46d7db49df5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/design/2026-10-30-explicacoes-opcionais.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "483374e0ee4382a7224cb4a04c0ad2049b941616",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/design/DIRETRIZES-REDESIGN-BENTO-CLAUDE.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "f688391162ba502c3625abfdd76c42778c362381",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/design/bento-fase1-entrega.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "bcdd176299330c067a6ccb2f21bcb4cc1ae651f1",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/design/bento-fase2-entrega.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "0db7a05b2ce318e9babaceb10ced1937ef268285",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/design/bento-fase3-entrega.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "014e3f0ea881e23de2b2cde2a82a3bdd4f155e32",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/design/bento-fase4-entrega.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "bfdf122bf4e262a138fdd30c4f7a3f078fb174d7",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/design/bento-fase5-entrega.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "e052069264b1156cf5b221ea6c312599098f7da2",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-10-27-bento-fase1.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "c2c4470901b1473b2b4c9c5695bcb57c3e8c486d",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-10-27-bento-fase2.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "2f0da789c54bfb0cf8bfbc701310fe386d988e54",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-10-27-bento-fase3.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "143ce1155b6e335dc8e7bec8f3a48d2637565206",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-10-27-planner-complemento.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "e79dc2b4f08533dc38ea0fe5c2827ffc2132653b",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-10-27-revisao-sustentavel.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "fe5ca7819386de429a95e1baec50650bc0ab2931",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-10-28-bento-fase4.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "67ebc918e6366d0f5bb1eb26bd01531fd8c22e82",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-10-28-bento-fase5.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "0a38a0743704fc09792da27ee93ddac3777bd1e4",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-10-28-cobertura-sem-exclusao.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "c8f3d3aa40454c82553b113aba38d7d931c95038",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-10-28-planner-complementos-e-menu.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "8c742cb80b0582cb7ab1e16e51562e5d15eed6d2",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-10-28-prioridade-do-historico.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "ce324e6929f235a256b758ced95c5f3db993a153",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-10-28-prioridade-retomadas.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "70715f00dd921f291b6a03f911058bf9e8108e1d",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-10-29-apple-ui.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "eb3c628b756628bc663dd889976d9b43117f2c6f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-10-29-confirmacoes-toast.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "7a89ca45341d3e4372a08563af446e5a0cd3dca9",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-10-29-rodizio-dinamico.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "7602936a050a2d3cecc502b373ea8b5c5944e61c",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-10-29-rotina-integrada.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "29e63e7b8755d7dc0e8f947ecdbece941ddd7632",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-10-29-simulados-correcao-areas.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "c277f2f3035b8e78ef64d2503fa1d6c5af194413",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-01-correcao-auditoria.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "152e4044b2e45e1888fca369a4f2df520943e91b",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-02-atualizacao-guiada.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "c22725f944eb055b54eef42e2ee68c84dec0a675",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-02-performance-local.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "208b86fe0eba11d25fc42f1ab30ed47a461fd69f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-02-retorno-indisponivel.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "31f38bd4cd99327894a1d79254f290f60dedeaae",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-07-retomada.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "d00697ccf3d218c6b1d1543cc640898e5f80d70b",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-08-conclusao-parcial.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "427d5427b752069be1898b72f59798e3e5a87057",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-08-prioridade-temas-novos.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "836eefe23bc97d43bc91720b2461e9b443482dab",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-09-acesso-online.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "c41962e00481ec771390fe751c3e90e9c95d7af5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-14-retomada-por-quantidade.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "d2102ffd44e351643dffb091c7b1be078eeee5ba",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-14-revisoes-recorrentes.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "fbcac70e0fb0e7f5ae2a6e425aea37df97d6f8b9",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/redesign/PROMPT-CODEX-REDESIGN-BENTO-OSLER.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "2e5d54b60e6febc2fe0a6166b54d996a393ad711",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/analise-de-calibracao.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "c19aba07cec92c7137e6a75326b958e9a0ef7fb4",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/atencao-temas-2026-10-29.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "743a618382277624dc77587ddadbeb6c7c2cf5b9",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/atualizacao-guiada-de-dados.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "5759df6c12eec527fa320875015275339eca9653",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/cards-erros-recuperacao.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "ed80a953d6cd117385e5c851793daa5cfd08ac71",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/correcao-agrupamentos-treinos.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "36d27b35449f13998beb3ee7634e8e695f2a2c5a",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/decks-inteiros-psiquiatria.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "ab2f6b30d3016da890271983c91bec7bcf39cae3",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/desempenho-local-2026-11-02.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "7f51dd767fe4df20de6105f59810711a0114f8e5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/excedentes-no-plano-diario.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "947d973bc1bae01307ef842796faae6ea0e4b766",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/lote-c-entrega.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "b9caba9d576dc497bc95f519c0fae8203568f924",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/painel-de-meta.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "ac352b37a5e503e7eb245b74bc883685ea556200",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/parametros-versionados.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "e3c2c3274c37cd40e23035abb2412e43673bc3a6",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/pesos-e-proximas-revisoes-plano.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "03cebba80a8b0a3b28175a453845d498f7638053",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/pesos-e-proximas-revisoes.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "08d0b1993b227eea1cde22495fb599e9969960af",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/plano-lote-c.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "e5fbb9c14be9bdc1d31a048b5dc0fec6c10d2cff",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/politica-de-corte.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "46e98484e83f99621568d367edc056f0f830b5a7",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/prioridade-retomadas-4-5.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "d47193df5c29e93f9f9cac8dd5a7c7c9e6a7ec21",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/reducao-atual-e-novos-cards.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "b886d938198e8541849981064773ab7c9640fc21",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/retornos-indisponiveis.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "1c3353f055d0d5f946a0c7724f9874dc9c7267c4",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/revisao-semanal.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "c5f679e8c6aae04fdb7f0e6bb242934a25e13b52",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/revisoes-equilibradas-plano.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "0e0f2b63cd226d5ffc5b19668c4fd27fe13c4415",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/revisoes-equilibradas.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "8e0aab030930b08103d411a5d98adaf473aee88a",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/revisoes-sustentaveis-2026-10-27.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "27e35deb39d3a68c660ca0527e6579071bd236ea",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/simulados-flexiveis-plano.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "84e7c484805048020bd85bb643f5759265a2901a",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/simulados-flexiveis.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "4bc9fb1d274badef8b8e91754e43ecf9b6def450",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/treinos-e-correcao-de-simulados.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "e93075d8bbbfa396885f4c124aeec0fbed19fa51",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/superpowers/plans/2026-10-24-flashcards-erros.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "a5cfcbe47470729f708850d2923bf5aa4ed641a8",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/superpowers/specs/2026-10-24-flashcards-erros-design.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "6d3c555f66f941d3ee8068b685d4ce15dcdac252",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/third-party/Inter-OFL.txt",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "9b2ca37b3ffc77391d8b2ebef4a974ef32bf46ea",
+        "branch_git_sha": null
+      },
+      {
+        "path": "encerrar.bat",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "7c71e72c5e963ec3e902a376cb04065a02433877",
+        "branch_git_sha": null
+      },
+      {
+        "path": "iniciar.bat",
+        "status": "modified",
+        "canonical_git_sha": "e17e6a791dc3faa8a0dfd20a63de86602dd3b681",
+        "branch_git_sha": "211741cfc000a0511366558fb97a66417ac8d45a"
+      },
+      {
+        "path": "osler/__init__.py",
+        "status": "modified",
+        "canonical_git_sha": "568e6a63aa02194f1533b28f6e93b8afe0713a62",
+        "branch_git_sha": "5d6483c5c0e7b1b7f4edb625e1f2e0f0835160e9"
+      },
+      {
+        "path": "osler/action_feedback.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "f6cbd7cc4435d2215f72fd8e43db2f816eb27683",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/adaptive_planning.py",
+        "status": "modified",
+        "canonical_git_sha": "9c7eff3e13b707e34218c9019bcf0a23daeb6b82",
+        "branch_git_sha": "89eb387115e615603a53bca757291789934878cf"
+      },
+      {
+        "path": "osler/adaptive_service.py",
+        "status": "modified",
+        "canonical_git_sha": "d3be30081192dae63ddb007a1d7eacb325995e80",
+        "branch_git_sha": "13dc679461605b940e94a5418b62641f3ae5779d"
+      },
+      {
+        "path": "osler/adaptive_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "7318edbfa9fabb07efdd4cd71a91847af711de41",
+        "branch_git_sha": "fd77349dbc37e3b547515306151b0f0e4130c077"
+      },
+      {
+        "path": "osler/algorithm_parameters.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "7a4b183a7bad0e831d39fb96d913c137f0b24527",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/assessment_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "dcd97b912a0146f29dbb4e5d5e5523a1578b8ca7",
+        "branch_git_sha": "22cc42aa47d5b71151004b46db5aa40e5f1e09e4"
+      },
+      {
+        "path": "osler/backups_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "f1f43ea6be917acd0758b34e0d16a3d1c5e74c52",
+        "branch_git_sha": "48c8dc67541d300e4eda398e1fc2bbaa3737b2f9"
+      },
+      {
+        "path": "osler/balanced_reviews.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "6cf6c9d121a97fd4fcc80252c793ffb014295537",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/bento.css",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "9a574371d7be5367c6dc28031675bd2110972e9f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/bento.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "306e65570497751674a1fb6102802eeff4982887",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/bento_day_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "81ca843bd989cf51be99ce1f186a3ac3c7cb3ad2",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/calibration_analysis.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "c859e4abe6947b71facb73cec989db0af4b3ddd0",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/cloud_access.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "ee91ebf58aba43aa18a798a852348e06caba0745",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/cloud_boundary.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "4cb69ffe6d691b8f54e74f361b8c2e843f72623f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/cloud_postgres.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "e1eebc18b2cc8be0fa4805e3886cc65ac25ffbd2",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/cloud_store.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "d85c261529d3394e6a8473b86c11a3be4ecabfd5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/cloud_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "347cfd079c1005ccb16e8e6e8a8c33afeec406d8",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/consolidated_export.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "b1f89c1ce3366d1985d831612dc79f3cee125993",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/daily_excess.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "3ab2c40242d8f4b9f92ddc338fd85d6c75f46d74",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/dashboard_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "1fee698c1c4eff24278a142e882f4cea447971a7",
+        "branch_git_sha": "a4e32b3de5c47c77e60106fc4e1bf6942ee8f267"
+      },
+      {
+        "path": "osler/data_updates_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "7afe2f12f5eb483c17259812a0989af964ab4805",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/database_check.py",
+        "status": "modified",
+        "canonical_git_sha": "10cd9f755e2112d5c68dca37ec06dae982f6e9d8",
+        "branch_git_sha": "70f9386c6e24a2c62527f20f8930945e13dcc14d"
+      },
+      {
+        "path": "osler/error_card_creations.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "5688b842fb63794e8487495ef4a0d0148c2a2187",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/error_cards.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "27f214fd0e151da05901b45a9d5beae313ceae34",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/error_cards_service.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "1c45a9c01c93d292e32eb435d79c24b2bd80c15d",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/error_cards_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "58caf149312bdefbf32a1779f1bb24546f6c5d9a",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/evolution_components.py",
+        "status": "modified",
+        "canonical_git_sha": "510e50d19cb8b621f217515dbea73e63940de6db",
+        "branch_git_sha": "b15bedd38a43f93b8472a7da30cbb0e52390d370"
+      },
+      {
+        "path": "osler/evolution_history_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "587366d05ffebbf3104bf8f5eab601b98cc8ab6b",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/evolution_service.py",
+        "status": "modified",
+        "canonical_git_sha": "802d22a605f5400d8390ed037b27d749a1245be9",
+        "branch_git_sha": "1b7e66b068d8dd0c403eba47fc27dc5300f60c0d"
+      },
+      {
+        "path": "osler/evolution_spacing.py",
+        "status": "modified",
+        "canonical_git_sha": "526f23b56804848f37eef2658759018cd126d815",
+        "branch_git_sha": "47a9052707e2d915581f9a41c02f64ffdc92f24f"
+      },
+      {
+        "path": "osler/exam_goals.py",
+        "status": "modified",
+        "canonical_git_sha": "aa63430a864293cfa971e01d132a398d32420651",
+        "branch_git_sha": "27164722324a3598850d402fcfddfac3cd8296ed"
+      },
+      {
+        "path": "osler/exam_goals_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "b0bd164a92858d84a51ee59f9748e5f3296c1071",
+        "branch_git_sha": "cfb78affaeb71ff0817f2c4ec10ab51d19db5c48"
+      },
+      {
+        "path": "osler/exam_practice.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "fae4dbc04efb4c1eea63a7cb2eb057d0afca41e2",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/exam_practice_service.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "40cb22e05737510aee6dde8e6ab9c6a44cc943af",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/exam_practice_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "972647d92f0fd155e2794843ffe79f8505637987",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/exam_weight_policy.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "fbc4c3384e0f39ff0a5dbd61dda8845dd0721dba",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/exam_weight_service.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "f3d18534769284998ceed3e4740a75feb103bb5e",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/exam_weights_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "c1e9b24b1c4b0255f3fbc547d6c64f475989be8a",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/final_review.py",
+        "status": "modified",
+        "canonical_git_sha": "83e2f16402f4f2cc04baf801dda990bf7d96b00c",
+        "branch_git_sha": "327d06bfbf4a8d9de81f4e2406944a16eaec7b3b"
+      },
+      {
+        "path": "osler/final_review_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "7e06cba4314afc7a15dce87fb1c207c3346a1391",
+        "branch_git_sha": "018ebc64b93ad817968995240bac779491df00a2"
+      },
+      {
+        "path": "osler/goal_risk.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "e2eda58d2c5ff4b82cf95d5a4ac1893405f76566",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/goal_risk_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "a8de7a6cc5db9799bd1b1ef5a3ce76cb6405aa65",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/grouping_service.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "c6f1cbba6698505cb9fd9bc55d2cc7f105fe3c11",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/grouping_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "f3d76556e01b7392df1127583dca7201909dffc9",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/guide_settings_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "0097455db3d1ce74bda4d88955df7bd1c34f4cc2",
+        "branch_git_sha": "a9d03115026af1d07374e263e845c93ee739f126"
+      },
+      {
+        "path": "osler/guide_storage.py",
+        "status": "modified",
+        "canonical_git_sha": "5c84b0d34a1539ee77b66c703f2cb85b4c34a335",
+        "branch_git_sha": "c23c4c71f643ae2824791b4c1f1021ffe947a69e"
+      },
+      {
+        "path": "osler/guided_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "f23643e31e17cae6885adf57d6f8af20b79307b8",
+        "branch_git_sha": "c62770a31a30b9c90c6ff6b5b44f6a2affd827bd"
+      },
+      {
+        "path": "osler/incidence.py",
+        "status": "modified",
+        "canonical_git_sha": "cf74c0cc8794104f2c2259639fd12b1bd8337d7f",
+        "branch_git_sha": "41adf4441b047ae6afb2976835e4c8c983024cff"
+      },
+      {
+        "path": "osler/local_launcher.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "4fbe4613e9a074314a3e21bf3c37d32f2f2d2abe",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/longitudinal_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "084b6142e77b499880a0b84c316d79f61424784b",
+        "branch_git_sha": "b4364f58c0435c225212d47e970d10972fa3be3b"
+      },
+      {
+        "path": "osler/lote_c_schema.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "0d3e680b5913a58af259671195f7b8f52e69de5f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/matching_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "cc4d048298af6a34f284e6e3295c28a55ed34e4e",
+        "branch_git_sha": "dd0aaa5486cd04e215c5fa1ed6468ec2bc35b5fc"
+      },
+      {
+        "path": "osler/mock_exams.py",
+        "status": "modified",
+        "canonical_git_sha": "e6ec703d8d4848cb12b25b432323ab653ce681ff",
+        "branch_git_sha": "a768b8d69cef37a0efddd81918091184ff0f8e6d"
+      },
+      {
+        "path": "osler/mock_exams_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "44db14bd5f5a10599a250e7cc8bc151b3c297d2a",
+        "branch_git_sha": "a57937c9e39e1a4b4ef823283164b69028cc38b6"
+      },
+      {
+        "path": "osler/mock_result_followup_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "1fef6194492b5274d6ea37415080fa2d1b99dfe7",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/mock_schedule.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "ed444279bc55c9da49daf5dd7648d149c064de62",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/mock_schedule_service.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "ddc54c3d34192478dd61dcaa6d95a103283d3c88",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/mock_schedule_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "9fd49573cb11fa54b15fa80de76327fd3534490e",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/mock_workflow_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "26ca1e42fbfbabfd82dd2b22fad31f59d3ad6b07",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/models.py",
+        "status": "modified",
+        "canonical_git_sha": "c92cd30a27c0e1bc93dbd4ce105e4311410e45db",
+        "branch_git_sha": "1515c3c5fcbbf2826fbcf7ac629116609bf434e2"
+      },
+      {
+        "path": "osler/parameter_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "23e888a27a3c93fb266ae36ca30c941d2850f5d5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/planner_completion.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "edacdb8fd3655059854ed7109e7495d90cdeec9c",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/planner_completion_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "7cd2dd4470c73d860e0ac18641747be52886e44e",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/planner_import.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "9c3d78c1fe361aaacd981e6b7a72f20255cd2262",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/planner_snapshot.py",
+        "status": "modified",
+        "canonical_git_sha": "d4be894d1e6cdcf190410b5a49204494cfacd3a4",
+        "branch_git_sha": "819ea709ee47f087acda127879bde5228299a568"
+      },
+      {
+        "path": "osler/planner_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "c5c7e90cdd34634172a9167f008da8fd97840a79",
+        "branch_git_sha": "8e859e2d3dbfd5a21f176d14529316fdf43435b4"
+      },
+      {
+        "path": "osler/planning_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "68981d8da21328f49b18fc86ae64a0ba9816c54f",
+        "branch_git_sha": "65c1e8e4ef3fca1ab8f935d7f9292bc512d716d3"
+      },
+      {
+        "path": "osler/practical_reduction.py",
+        "status": "modified",
+        "canonical_git_sha": "9096dbf7ccb06102827d2426f04cbc7fac6c3ca5",
+        "branch_git_sha": "88a212120f53f3c31380594aac19a9013ff69ab3"
+      },
+      {
+        "path": "osler/practical_reduction_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "4028f1917e710b569515cca18ffffeab0086d2f9",
+        "branch_git_sha": "f1eed838be901ebeb2d8b52f76c026518e1ecc33"
+      },
+      {
+        "path": "osler/prevention_service.py",
+        "status": "modified",
+        "canonical_git_sha": "530acc30838f4333c93d570d906412a0ceb0e01b",
+        "branch_git_sha": "ef1cbc4da27edfa55a71656efbb742f0c2c3b121"
+      },
+      {
+        "path": "osler/recovery.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "669dbbda129061c0a06d02542091a58fc31c261e",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/recovery_apply.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "5ddd90e922a18769ad89baed0b093c76c48ac962",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/recovery_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "e013c839b79940627b281c8300d2c5bb91ae68ff",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/recurring_questions.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "e3ebd9e2eca632fa91946dba8917fcef384ecc08",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/reduction_recommendations.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "313201fa603d88443a90a943caf7058c2b47ee2d",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/reduction_storage.py",
+        "status": "modified",
+        "canonical_git_sha": "29124d1c43948ee9d0bbc1c81b9c8b6ea5b85445",
+        "branch_git_sha": "e2a4c755890ea7f4021fcdc5484ba3b1425c14b9"
+      },
+      {
+        "path": "osler/return_deferral_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "12b2cefa69d093e0735ea1db01ec88297fb924a4",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/review_parts_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "91e115fabcd8e86bc0b2b285921dc375d24d8755",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/review_policy.py",
+        "status": "modified",
+        "canonical_git_sha": "c803c7d02cf4cd8fd1d106bcaaa36040774454f9",
+        "branch_git_sha": "60ff5cb5e60edd124e7a8377014fba6dab5412bb"
+      },
+      {
+        "path": "osler/review_queue.py",
+        "status": "modified",
+        "canonical_git_sha": "3a3e7c45ea3af093cc6774df81a4e17463fc57d8",
+        "branch_git_sha": "5ff8d8848e91378642d832e94d10330d8eef8005"
+      },
+      {
+        "path": "osler/review_strategy_service.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "edd8b6a9d3efbe1de45b9cc89efef28c83387b2f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/review_strategy_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "cbbfee9f223701cc9afd0ea5eea0301d4b15a98a",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/storage.py",
+        "status": "modified",
+        "canonical_git_sha": "61a958d4e6b2a158869a00994b5664a8d6d2d9a0",
+        "branch_git_sha": "a6360d84ed1fb03202d7d1f3bd9c1586f79b8365"
+      },
+      {
+        "path": "osler/study.css",
+        "status": "modified",
+        "canonical_git_sha": "234b804a40a163c2d812794fc79ae37a1e4eef87",
+        "branch_git_sha": "4d720eafe56ef62988b4a02293b50ea40c205aa3"
+      },
+      {
+        "path": "osler/study_activity_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "31edd21f1fa3129b91841832be7090915a20771e",
+        "branch_git_sha": "a227fe6b4b94afaf99d203371176177f9d23baa7"
+      },
+      {
+        "path": "osler/study_agenda.py",
+        "status": "modified",
+        "canonical_git_sha": "b1152a841eec9ec50743ad12339d1007ef8a5a2c",
+        "branch_git_sha": "a67c67a9ebbbccdff9975bff34a64879e4ce0e34"
+      },
+      {
+        "path": "osler/study_allocation.py",
+        "status": "modified",
+        "canonical_git_sha": "d50840a605c21de4e0954d8cfd3c1c8e3b1673f4",
+        "branch_git_sha": "f5c3845408f8e2b7597303d888856b63b3d2f61e"
+      },
+      {
+        "path": "osler/study_attention.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "c360ba313716dea5eabf97c415cca658e7faa064",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/study_attention_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "09e2ce90881f3f4185d2eb53fedf46b922bf636c",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/study_calendar.py",
+        "status": "modified",
+        "canonical_git_sha": "9adef32f6ee72ed156f4b68227ef466969df4b75",
+        "branch_git_sha": "862ae86309dd8580d7b3cf4b35b10e7473710420"
+      },
+      {
+        "path": "osler/study_calendar_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "e548844e7e05d580c927edc17ee90b4a0f85d795",
+        "branch_git_sha": "c6e90208ec825b9000e42da94fb00fd0afd0bd32"
+      },
+      {
+        "path": "osler/study_capacity.py",
+        "status": "modified",
+        "canonical_git_sha": "b4fdf80e991311d65b8739a54659e1c3f83b0f03",
+        "branch_git_sha": "9ce4dec39c82cb2c4b787e81a97d68e24b441691"
+      },
+      {
+        "path": "osler/study_capacity_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "5a3a6fe2da6035b1c95726ed3f0180cb8fb624db",
+        "branch_git_sha": "6fcb8b23e3d33ad0b08cf07c8785c8e8b8331cda"
+      },
+      {
+        "path": "osler/study_components.py",
+        "status": "modified",
+        "canonical_git_sha": "2acd7e747d346d17c56d943b66be29f35c9abf82",
+        "branch_git_sha": "e7c3c217456b0e3482e60fbaa307f0a564a154e0"
+      },
+      {
+        "path": "osler/study_dashboard.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "a58b1dad81c20b7378f5a31466229195f452c7ff",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/study_day_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "d9e7fd08352f95c9533437b3ffcf93e5c2703d71",
+        "branch_git_sha": "64df20413d39d6cc0197ba20581512cac79b0d0a"
+      },
+      {
+        "path": "osler/study_errors.py",
+        "status": "modified",
+        "canonical_git_sha": "fc95f68efcdfae985647e41671a5473cc3724b7b",
+        "branch_git_sha": "3c4e609bb6bb66c5d24c2b09b9dbf5de3a641d32"
+      },
+      {
+        "path": "osler/study_errors_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "417d3a2c17216721e7a74f35470c68b3f4d04bb4",
+        "branch_git_sha": "b4b9df117254ddc360ae5cdbb78b1f7d3ba5a8d0"
+      },
+      {
+        "path": "osler/study_evolution.py",
+        "status": "modified",
+        "canonical_git_sha": "c60195c101e8d3be70ef3b07a7988d118d2c5030",
+        "branch_git_sha": "98f095eec54a793d5b90c315f14090b84e5f0da6"
+      },
+      {
+        "path": "osler/study_evolution_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "f72f43b19b97e396f1c6fd69ac5e4e0598c51c48",
+        "branch_git_sha": "2e819885442f54a2990423f5a5d7a2fa18b4174e"
+      },
+      {
+        "path": "osler/study_feedback.py",
+        "status": "modified",
+        "canonical_git_sha": "4f47124045256645a3453b02d88237299e8a75a7",
+        "branch_git_sha": "d8086bfb1ae315d14d10780faabd734dda244bda"
+      },
+      {
+        "path": "osler/study_models.py",
+        "status": "modified",
+        "canonical_git_sha": "6eedef9f4add2d64e975cd4917a93ce7c4754fcf",
+        "branch_git_sha": "4a02c517e7c81f926eb6050d1f5f3eb1832fe772"
+      },
+      {
+        "path": "osler/study_navigation_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "d16c626753523ae795016be656f3f8f57bf623e0",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/study_prevention_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "820e88438a51cd8224f40ee7f5eb32a2f0c4f2d2",
+        "branch_git_sha": "9233bd95c8345d1fc7a24f10f4ee162927fa1c45"
+      },
+      {
+        "path": "osler/study_read_model.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "f01e2258b58a1e6cfcac6a31a4c8c89a3b81bd2e",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/study_registration_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "1616241a499054ed15abb4250cd4c205ec4a06da",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/study_replanning.py",
+        "status": "modified",
+        "canonical_git_sha": "8b5a23df9b3fe46f4cb059974c35953fe14526a6",
+        "branch_git_sha": "e768bbeea8883fbfc799c80ca8ec2aee5706a8d3"
+      },
+      {
+        "path": "osler/study_replanning_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "0771be0198a35fa301379ee0797d70016227c799",
+        "branch_git_sha": "9dd12e57ab986ef7939af582c3f31130771529db"
+      },
+      {
+        "path": "osler/study_storage.py",
+        "status": "modified",
+        "canonical_git_sha": "35f52a8fdb2e1ba7efa9314fb827c5f692f303cb",
+        "branch_git_sha": "362687d8c609bb39675d0823931768802456a006"
+      },
+      {
+        "path": "osler/study_style.py",
+        "status": "modified",
+        "canonical_git_sha": "00a1b3f514da227f6269f75783e79b8a620e1188",
+        "branch_git_sha": "30dcc63d64a5488d79fb71b752d74183228c8d54"
+      },
+      {
+        "path": "osler/study_swap_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "0efcf03ced9b0cc334313cee735fbda45c8b97e5",
+        "branch_git_sha": "8d3f3a81c8ad6098ee2afd7fb53db7178b7873fd"
+      },
+      {
+        "path": "osler/study_swaps.py",
+        "status": "modified",
+        "canonical_git_sha": "b33e71364b1706685baa5538d62a0082c8997319",
+        "branch_git_sha": "188851d495b755df88c30131cc508960c386e118"
+      },
+      {
+        "path": "osler/study_tables_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "394beccf943472aa2f1e334c255dc9370991a42e",
+        "branch_git_sha": "7a753f59fb28800b4e2cafa2fcfeb74a02d63d9f"
+      },
+      {
+        "path": "osler/study_trajectory_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "4d0f38c987ce3678e7426e6c6e04cc22939a8714",
+        "branch_git_sha": "752dc31de4fe79e22002b6e758670f6374b54ede"
+      },
+      {
+        "path": "osler/study_triage_policy.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "9d6ef1c080a8b84106356272a2b758e48c89d1f6",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/study_triage_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "3d2a1eee49810cb663319b5c51fdab1a4091150d",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/swap_service.py",
+        "status": "modified",
+        "canonical_git_sha": "4195ec950b90c6ce64865a99fb7403fa92c5ecc8",
+        "branch_git_sha": "de16fd5f1b0d20396b2998adf221d25d78cc7823"
+      },
+      {
+        "path": "osler/topic_catalog.py",
+        "status": "modified",
+        "canonical_git_sha": "fbca9f8938e39a115248deea9b86298c53fb0781",
+        "branch_git_sha": "dd15ddfe08291e43ec11f352f40129066186bbe7"
+      },
+      {
+        "path": "osler/topic_contacts.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "a4d6ad2073471899c8d084f2acecf3cd8a79880b",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/topic_grouping.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "0154b36e2ceb1616d472c24125e9add54c11552e",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/topic_picker_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "aa7ea06044e79ffd81ab470bf517387f5f9a7cea",
+        "branch_git_sha": "c18654b78616142cb9e45a5464374a3332e28442"
+      },
+      {
+        "path": "osler/topic_spacing.py",
+        "status": "modified",
+        "canonical_git_sha": "d0005d58ac57745b1ef4cd858aea97b46f6dc87e",
+        "branch_git_sha": "be472554c58a0ad8d640b8107d22433cc7746d18"
+      },
+      {
+        "path": "osler/topic_trajectory.py",
+        "status": "modified",
+        "canonical_git_sha": "fbf4ad10042fa5d8fff1be0c85b4b4bfdb801a18",
+        "branch_git_sha": "034c771cf9dce35eae8229b6be5fbc3db573ae63"
+      },
+      {
+        "path": "osler/triage_service.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "297d085960a4faed184f3adbfde9c66e71a5f7a7",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/ui.py",
+        "status": "modified",
+        "canonical_git_sha": "ac56b405403a771b464b0b3a8c6f8373f710aafc",
+        "branch_git_sha": "aea438a40a451e0101570d84c587d1d8e2c32cb9"
+      },
+      {
+        "path": "osler/ui_help.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "87e2cf785ab579518aa548a5a7452523f765263a",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/weekly_review.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "791a15f2e5d941b0d8ca83049f3824744acd0861",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/weekly_review_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "a3cadcc04ec7344c350775a84ec5c2f6280524b4",
+        "branch_git_sha": null
+      },
+      {
+        "path": "pyproject.toml",
+        "status": "modified",
+        "canonical_git_sha": "bba74683abe4497298ed1941a6ca0892ae4eae41",
+        "branch_git_sha": "ffd2b8429ed44706fe4e244dbc84c440ef0273a0"
+      },
+      {
+        "path": "requirements-dev.txt",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "eb66cab658033cd35f1617888633f6c03a5bac13",
+        "branch_git_sha": null
+      },
+      {
+        "path": "requirements.txt",
+        "status": "modified",
+        "canonical_git_sha": "82713755ab7fae9ff58092b0a3b1d3f0a142522d",
+        "branch_git_sha": "b424f890b655bd1bbb4130fdb956c6d31da4250e"
+      },
+      {
+        "path": "scripts/analise_calibracao.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "b00d4633b198f8510d1c15b33cad762b3d5c3f24",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/audit_runtime.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "95e8fc2e2eb48e3193f8ee6faaa6c62c58a498c7",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/build_cloud_branch.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "5abd01359ba2d05252c36485a51d5e9268ac0bd0",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/capture_bento.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "68e6d728e6414f12fc325de3174704495c58b8c8",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/capture_bento_phase3.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "b88bca4a825bf26412b935b79e74b58c62695d8a",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/check_apple_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "b03894dc6dc87305107fef382d1de7ecb123ede1",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/check_attention_menu.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "813165941f92a2e693b93f3fe3bac208557a7140",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/check_bento_planning.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "13ad0118fc1158342a41bf4bce0be274d020a825",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/check_bento_today.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "355206cf63d414a5edef42330f549504d88e743b",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/check_bento_tools.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "881c4060d19d874eab86f6e0e3d2d0ee4f91ea7d",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/check_bento_topics.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "17cc30f27c4176431ec891beebcba3a36d0ae464",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/check_confirmation_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "fbf6d2e8ca12766149d859e43ae5be75215e1a04",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/check_coverage_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "5bc17a5fdd10caee247c18f4815c376fc0021e36",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/check_exam_practice.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "0c08263b80d44c4d47296819cbb8acc8bccffdf5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/check_optional_explanations.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "2757ac4a0c72492a4dfa7475cf9283891828d86e",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/check_planner_completion.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "9c1dfb140e1e1f4772e5154ba05fba7f0c382a43",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/check_registration_layout.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "2c96c7d39baf0b71db2d34839a714ccddbc963a2",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/configure_cloud.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "9732e6da0bf6d78c72d13cf58294cc2816f7c20f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/diagnose_review_intake.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "faf3d53781e773c80a7e300932f0f563eb5e13c6",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/install_local_shortcuts.ps1",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "afe6d0580bb9dcb16f0f89a4e595d764e012fb22",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/seed_cloud.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "4ceecf3652fb51ed9c93b7b52ac5e0e2aaa95cb5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/seed_demo_data.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "72f464c77123651a90e59c8b294aaddc608188b6",
+        "branch_git_sha": null
+      },
+      {
+        "path": "static/fonts/InterVariable.woff2",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "5a8d3e72ad7ffb62af3b146e1b1f54ab5813a212",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/conftest.py",
+        "status": "modified",
+        "canonical_git_sha": "1ea76479d25a7a1771971c0b6988c5b3deded469",
+        "branch_git_sha": "ddae180c45bf78f2eff6ae32aba3a32b1994dbda"
+      },
+      {
+        "path": "tests/fixtures/algorithm_v1_baseline.json",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "1862e7d4d222849c0f05a7afcdf4f80fe6af6a51",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/fixtures/bento_components_app.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "e509b910234bf164f023c7ffad81ae3726fb4a69",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_action_feedback.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "a4bbf0d4f1d6df55f3f4778a428674e383ca07a6",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_adaptive_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "bc83aeea4fbfbbb132e6dc79ef86230cbb3d6712",
+        "branch_git_sha": "a9400e90896279929095c7d6c4f308a76077dd3d"
+      },
+      {
+        "path": "tests/test_algorithm_parameters.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "44384448aa98f35979c5415d039585c16b9c1fa2",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_algorithm_v1_regression.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "4112e7512727c770254681a5f95cc81c885efdb9",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_attention_menu.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "248cea9e3bce0b52ac09b56fb8a8845ed4c09103",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_audit_ui_flows.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "d93fd706d33505e0ea5190a4a5d983c323d6799b",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_balanced_reviews.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "d318f016d6fc67b064579190f36f372fa95febd2",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_balanced_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "db693988192d10c46c5daaa9fe4a40fb3ca2679c",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_bento.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "9e2d9ccfa4ef907c4618fb12230ebe8d5d021201",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_bento_calendar.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "9a59fe5f5a3dfae421ac740241bbfa40915b9cfd",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_bento_day.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "ed7110e76c885021bbacdf438d1e81845e948628",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_bento_demo.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "4f58afa5943a3e2c40ea1e3cb9e4faec2930c031",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_bento_evolution.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "877b90798dbfddc81ad672695beb87c8988b9420",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_bento_foundation.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "4d247789747cdf2419a45a034a8b406d9c356179",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_bento_mocks.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "8065df57d73556f6832791f0873023751bb48e1d",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_bento_phase2_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "144a95f0cfe54bfe851a57872bfd3637960b2c49",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_bento_registration.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "3e24d75aa1764382d333e6f16206fc26fe740c03",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_bento_tools.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "9c0b2d154314ef1e674880d96ebbe7ba2dcbc2de",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_bento_topic_tabs.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "24b0bae249798582cc6954f825dacd6dea3e0a3f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_bento_topics.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "7f9dc30327257651d0f16cc6a157011c15eadb42",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_calibration_analysis.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "6a304275474c966e09ea094d0eeeec5421374e0d",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_capacity_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "199d9e3824389dcc61f34963a0fc575b9e4edb98",
+        "branch_git_sha": "5eac825defc60150cc33cfff481d5f4b8cfb4c85"
+      },
+      {
+        "path": "tests/test_cloud_store.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "cd3609c2468856692f388a63b62baf6b2661de8e",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_cloud_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "2eaa7573b5917651fc571511559e374230c02f4f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_coverage_inclusion.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "ae5c02c261cd0f52549b9fbd882d6fe925b0d4d4",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_created_cards.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "c2f699320a67ac9f457a7e0011b83d299cdc3c27",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_created_cards_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "f0080f6edb62025f9670f18662d305f5fbab622a",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_current_reduction.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "9a07f1d630c2926d4d0142c0fbf89b4bf279b741",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_daily_excess.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "5869ae6c9582f995f769eb63c77434d761019191",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_daily_excess_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "c026535113f64d554849094b491abf8bd8840a3a",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_daily_swaps_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "31168e7b0017a1c5dfa07ec0ac8514ad43079cd6",
+        "branch_git_sha": "4d6a0d47bba6d3e427485580bfa3976fe2da54dc"
+      },
+      {
+        "path": "tests/test_data_updates_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "5e8de4b8be0e341d52046b3a094647a8d20ec26a",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_distribution_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "82502fe4851a153669bc4b6c7554783c7671cb32",
+        "branch_git_sha": "17d396e374fc28005efd0de0b4504d8a9bed2d0e"
+      },
+      {
+        "path": "tests/test_error_cards.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "ca7caf058f88a01fd029e112f9a4e6d745d7a416",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_error_cards_preview.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "9d08366b40b524a8c770fdc5f4e1c1e2af586459",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_error_cards_service.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "919a644569d381a27391dd76cb82c9608609a9d8",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_error_cards_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "a9f0498df4441cf3283461a6fdb7ae2df7fb3818",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_evolution_spacing.py",
+        "status": "modified",
+        "canonical_git_sha": "5aebe867e57b22c1b32ad94588109437c7f52057",
+        "branch_git_sha": "3ca45f0018b73c413e890325d17bbb7e9fd12919"
+      },
+      {
+        "path": "tests/test_evolution_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "c88c46fff93169eb4a661ce480919f4444118de3",
+        "branch_git_sha": "970997e9a59877287958e9972a3c3e70761ac359"
+      },
+      {
+        "path": "tests/test_exam_goals.py",
+        "status": "modified",
+        "canonical_git_sha": "36df2a0344611977da2a268481e6e11d54535658",
+        "branch_git_sha": "66ef82fb4e064556e1d2be6e31521d6e0099b1ad"
+      },
+      {
+        "path": "tests/test_exam_goals_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "3d41be16b28b99d4ea37225a3244bcccabcf5181",
+        "branch_git_sha": "4155d64ed6cbb14131bbdec2ab60fa8610faee9e"
+      },
+      {
+        "path": "tests/test_exam_practice.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "f09a464098592aa776b4660b00f9102637e60ba9",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_exam_practice_service.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "1a7bbb9d76a63d13ade7832a90699e19bf4beb8f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_exam_practice_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "f25dcfab995763f69d064fe1012b5f8b8a7a4c4c",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_exam_weight_policy.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "2d332e177263278c90f11f2c75d44f78f68ba2a0",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_external_day.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "52bf18729eeeeb316548e2e3214ba04aaa5e1bcc",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_final_review.py",
+        "status": "modified",
+        "canonical_git_sha": "9d6ce8c5b04b46bc7f2e6a6fa14ae214d63d44a5",
+        "branch_git_sha": "5224bc8c4936559ae43652336361626f13f084f3"
+      },
+      {
+        "path": "tests/test_final_review_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "c65e2b1a28f5c80904eff9103b26ce84cac5d47b",
+        "branch_git_sha": "f3ff42b21596211dc605abd3967020cc8f893238"
+      },
+      {
+        "path": "tests/test_goal_risk.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "60df38469af20bd9f26445459601148b9635d104",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_grouped_mock_correction.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "3e041d32e849a0ac5f9e6711ed94397eb13ed969",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_guided_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "3901b7d7386db271e257350edf31d4372049f781",
+        "branch_git_sha": "8e6d4b44a36b7980d81f9cdc181530862f6f511e"
+      },
+      {
+        "path": "tests/test_imported_contact_priority.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "7f5c94e458d16c77b605763b862d6ac6b5fb6362",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_intake_priority.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "802a766e466b4684790311e8a9617a5a90e41cfa",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_linked_registration_scope.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "21192fb98c523ce7e9448a216d60ed45540763b2",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_local_launcher.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "7f59eecd64a2df59a9a3d58d09dbe2eb30b5025d",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_local_startup_imports.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "0a3a2d0b1cbd09f126f7ec1877081d71d9770799",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_lote_b_schema.py",
+        "status": "modified",
+        "canonical_git_sha": "2ba6874191d930a5f38578a5a980316acffdbb09",
+        "branch_git_sha": "21748b9eeb61155c05880b7d5caab0ae9b7423d3"
+      },
+      {
+        "path": "tests/test_lote_c_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "9ff8fb1e68e92db1bae4b4ed0427d7fe8956997c",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_mock_exams_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "e55dcd1f5727e01fef7e00a47181b50bdcf0f3c6",
+        "branch_git_sha": "38ce53210d85ff0cfef72d21d14331f0c5380a3d"
+      },
+      {
+        "path": "tests/test_mock_result_followup_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "7e3ad54b8937c7813ca67f4bbcb0591660211cf9",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_mock_schedule.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "2f7fdd4139657663ced04740348a68df85b0c43a",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_mock_schedule_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "7e85ec12ca962714331d52736f44177905f7e310",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_mock_workflow_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "380a532586ee0c247491543185aa627f2a0c27dc",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_new_floor_and_missed_practice.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "32c6690511c8082e4b6430f82a228556635dea82",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_new_practice_priority.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "f11e8d02466a85a979824f8da8fae1c109230152",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_optional_explanations.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "dbded4612e5d6e8e838def9f904aa587680e3bc2",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_partial_block_completion.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "05dcecb30357e8335fd0c0e611d7ec84af1e934c",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_planner_completion.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "f20a8e426d3d71c27899894f5465a8cc27ddf6a4",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_planner_completion_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "136baab24f00b65525eb5ffe1a5e9c394e42c503",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_planner_import.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "885bf410ce89368181f9aff1b1537feff57311b5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_planner_snapshot.py",
+        "status": "modified",
+        "canonical_git_sha": "da60c2cdc92c6c50319a44b62818578a5c4dc4d2",
+        "branch_git_sha": "c3c4e77bd776a4309d59973e210be01dbca7eef6"
+      },
+      {
+        "path": "tests/test_planner_supply.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "52d430eb8ecb92156fbcd5f0aeebc33aa865d765",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_practical_reduction.py",
+        "status": "modified",
+        "canonical_git_sha": "af6f00eaa2c6487c585f1843222fed1db306dcf0",
+        "branch_git_sha": "edbd38b81d37df6c5a2e5345850d44fb58dd54de"
+      },
+      {
+        "path": "tests/test_prepared_calculations.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "4c27858d403283017de772db11bd6542342704ad",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_prevention_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "72766dd5b044e2d4bfc2b5e8d0bf67ee75fefa78",
+        "branch_git_sha": "251204f897f95e75c58bc3d916dba23751d44bd7"
+      },
+      {
+        "path": "tests/test_question_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "b9dd6ca01d0cb22706232de69cfed5874cb33ec0",
+        "branch_git_sha": "22e145ba1b2bdd3c9d859d66d9e66e41388a321b"
+      },
+      {
+        "path": "tests/test_recovery_quantities.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "87e5d33e868a254143afeaf2d6b4f14385fec4dc",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_recurring_questions.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "bc9d80969a88a43842152a766654725046419f22",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_redesign_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "9abf65ef51f1b550544eedf24e52dda9d494c4c4",
+        "branch_git_sha": "6f706b317303be166fc4e0e2e9ca7aff12b046dc"
+      },
+      {
+        "path": "tests/test_reduction.py",
+        "status": "modified",
+        "canonical_git_sha": "6faa7aa3e59635c11b3eeb595643052d8fd7096a",
+        "branch_git_sha": "081c397aa4fb52830ededebcd46a624e272da8e8"
+      },
+      {
+        "path": "tests/test_replanning_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "6010c104be3305947106ce94c1e1f4909d445152",
+        "branch_git_sha": "f8ca4f996f82f7cf4c056a07a3947d36c0fbe3db"
+      },
+      {
+        "path": "tests/test_return_deferral.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "1417f1e307efd0674ee91321ac26572d1d8e59c7",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_return_deferral_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "adfad68d0ccad471933279fdc3ed0f2b529d72a5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_review_strategy_service.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "8dc9591bca21fe3d737db827d3686c52fc6962b7",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_schedule_start.py",
+        "status": "modified",
+        "canonical_git_sha": "720f489cf984c6dc5ef2c1b12575d9cea6f02f81",
+        "branch_git_sha": "7754833e4b2fddac5d29f4e8e1e22d7a05b559fb"
+      },
+      {
+        "path": "tests/test_simple_planner_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "ad6cc30be71af493e3163c1a5960fd1be2d4a373",
+        "branch_git_sha": "7d162aac5afc48440337e91fcfd177e1a7892724"
+      },
+      {
+        "path": "tests/test_statistical_evidence_regressions.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "327fca93438149f3817d1413e5fe1def4ebbc262",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_streamed_topic_contacts.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "6170a22320fc11d93b31994c36168f1fc690b177",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_study.py",
+        "status": "modified",
+        "canonical_git_sha": "8466fa2ebb54d7ee3885da7d441a1798a79e31e7",
+        "branch_git_sha": "e9d748cebf21ceb987d2b3186afe18824c05ab09"
+      },
+      {
+        "path": "tests/test_study_activity_feedback_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "b140f7cc4f8845193d59b8668aa094d5015d8aa7",
+        "branch_git_sha": "bd2af5e813e76f3da5743bf94ec8f55425f689a1"
+      },
+      {
+        "path": "tests/test_study_attention.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "353dfda013dcc79727ce11e848427d0acdf02a7e",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_study_attention_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "b8e2c3c3aa7858c136348d0cdacd73271936178f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_study_day_clock.py",
+        "status": "modified",
+        "canonical_git_sha": "3c37286498eb1b2cb4b5d942fff0a2a5ab30f550",
+        "branch_git_sha": "e399a853108e708545c2ce8a171d4a3518c847d2"
+      },
+      {
+        "path": "tests/test_study_errors.py",
+        "status": "modified",
+        "canonical_git_sha": "38ebadb603ee368105d79d0c717f7b703a0b95ce",
+        "branch_git_sha": "07ca32c372ce61f59ad2fb3f43dbe244ef5183f1"
+      },
+      {
+        "path": "tests/test_study_errors_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "85f2ea719ceb8fd041305f0047496d30531152a2",
+        "branch_git_sha": "791a17834f10b07dd28524afc57e0885dc4e9ac7"
+      },
+      {
+        "path": "tests/test_study_replanning.py",
+        "status": "modified",
+        "canonical_git_sha": "399b4f874071dd94e105ba85d2599809c2b715b2",
+        "branch_git_sha": "feb4f1b674b958277a31a3775a27d305cc5abb33"
+      },
+      {
+        "path": "tests/test_study_triage_policy.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "2e9be7aa605e577054888cc89f0200a4d8b09c9f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_sustainable_reviews.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "3e6509faa0199c5e307b0e570db0b0f4871baf85",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_theme_returns.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "e314e386fa0aa5c55acf479100f8a6f983920d8f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_today_topic_limit_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "3182a1d0f32626585dea83cd3d025a8cf788f614",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_topic_grouping.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "0e4e6e972acf639e2ea7879f21817f569aebf86e",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_topic_next_contacts.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "87a0e5ed0ff099a863b081541fa06a8449616668",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_topic_picker_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "0abc65319ee7f9d913eb70bd651cef05b605d445",
+        "branch_git_sha": "0844e0d63fc607d06f8c63b485dda1e8c7bf7f6c"
+      },
+      {
+        "path": "tests/test_topic_scheduling.py",
+        "status": "modified",
+        "canonical_git_sha": "9829b7da91fd6a6873a0ede72b2ffa9aa014aa8d",
+        "branch_git_sha": "80e0e7a2927d4d12fa55c6ee63fb5664de32875b"
+      },
+      {
+        "path": "tests/test_trajectory_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "5e74fc92ac4feb7b570912bb314c77b4341b5100",
+        "branch_git_sha": "64c6a6a092ed352cadd2585d481d083de58edf2c"
+      },
+      {
+        "path": "tests/test_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "2663f7f72e2a67542007a9652015fd8b3e766fb8",
+        "branch_git_sha": "b46de024f8ec51f95acfe699beb4fde353e55f43"
+      },
+      {
+        "path": "tests/test_ui_refinement.py",
+        "status": "modified",
+        "canonical_git_sha": "93b42262809ef15a44b9a1bc26b780ea96bc5861",
+        "branch_git_sha": "2b62a9d89499aea8a26b81ab09f41cfad2497fb8"
+      },
+      {
+        "path": "tests/test_weekly_review.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "1a5db94ef390841d4e3e04e8e0af014dd9235038",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_weight_and_review_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "79cdc23b22d082a63db8f7ff23ef8118941ff19c",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_workload_capacity.py",
+        "status": "modified",
+        "canonical_git_sha": "2f2128cef35e0fe9e4f6ce3bb62e1ce162f5a413",
+        "branch_git_sha": "193525ee9df5d71b5e26f6483ee126ffa6d5ebb7"
+      },
+      {
+        "path": "tests/ui_actions.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "c6b10cffa626d68dde1fee019e7fc394a4d4d80d",
+        "branch_git_sha": null
+      }
+    ]
+  },
+  {
+    "branch": "codex/retomada-quantidades-decks-20261114",
+    "commit": "45d2a2caf1c245e7bcae560b56b9cf5a8eb96af5",
+    "canonical_commit": "3881882696119b32532f7232801c7832e25cbbb7",
+    "different_files": 7,
+    "changes": [
+      {
+        "path": ".github/workflows/tests.yml",
+        "status": "modified",
+        "canonical_git_sha": "02b02ba578fd614893411d29ffa0567cc4974b62",
+        "branch_git_sha": "4d11af9e1b822b3b6a600edf1c69589aa7ad70f2"
+      },
+      {
+        "path": "docs/plans/2026-11-14-revisoes-recorrentes.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "fbcac70e0fb0e7f5ae2a6e425aea37df97d6f8b9",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/bento_day_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "81ca843bd989cf51be99ce1f186a3ac3c7cb3ad2",
+        "branch_git_sha": "d0f34e3cc846f11d045193c290ee533a559c5867"
+      },
+      {
+        "path": "osler/recovery.py",
+        "status": "modified",
+        "canonical_git_sha": "669dbbda129061c0a06d02542091a58fc31c261e",
+        "branch_git_sha": "3457f56e7cbfa2359c8fb217f28d091db5e3ac9e"
+      },
+      {
+        "path": "osler/recovery_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "e013c839b79940627b281c8300d2c5bb91ae68ff",
+        "branch_git_sha": "6f7659439942ab1163cab5948a1c74497b6f97bb"
+      },
+      {
+        "path": "osler/recurring_questions.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "e3ebd9e2eca632fa91946dba8917fcef384ecc08",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_recurring_questions.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "bc9d80969a88a43842152a766654725046419f22",
+        "branch_git_sha": null
+      }
+    ]
+  },
+  {
+    "branch": "codex/revisoes-recorrentes-7-dias-20261114",
+    "commit": "734e6a1ec85bb8384ff7b1352d37ce55dda9c1ce",
+    "canonical_commit": "3881882696119b32532f7232801c7832e25cbbb7",
+    "different_files": 1,
+    "changes": [
+      {
+        "path": "osler/bento_day_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "81ca843bd989cf51be99ce1f186a3ac3c7cb3ad2",
+        "branch_git_sha": "d0f34e3cc846f11d045193c290ee533a559c5867"
+      }
+    ]
+  },
+  {
+    "branch": "main",
+    "commit": "6f68dd706d282b0a7632f7be3beaf90ae619464d",
+    "canonical_commit": "3881882696119b32532f7232801c7832e25cbbb7",
+    "different_files": 216,
+    "changes": [
+      {
+        "path": ".github/workflows/tests.yml",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "02b02ba578fd614893411d29ffa0567cc4974b62",
+        "branch_git_sha": null
+      },
+      {
+        "path": ".gitignore",
+        "status": "modified",
+        "canonical_git_sha": "b9d0fb7a85db1158aee71c8b12ff51278021c974",
+        "branch_git_sha": "5d5da2c72b9af58ceb7838d22e1a6904cf82609e"
+      },
+      {
+        "path": ".streamlit/config.toml",
+        "status": "modified",
+        "canonical_git_sha": "5006d7adaf998092082eea95501018077ee1d875",
+        "branch_git_sha": "ac4893e47d412144141a0dcfe1790caf2ba15e79"
+      },
+      {
+        "path": "DESIGN.md",
+        "status": "modified",
+        "canonical_git_sha": "ab35ef5d300f6e248cbc01660013b50face48a2e",
+        "branch_git_sha": "bea61e35e4b57c2dbab67fb0567d36e9e979abe2"
+      },
+      {
+        "path": "README.md",
+        "status": "modified",
+        "canonical_git_sha": "9ce70707c9b5218ed0316cc4bb949fe6505f7536",
+        "branch_git_sha": "0b39e0b3dde56f515cf0a53e62f9da3e1e85f667"
+      },
+      {
+        "path": "cloud/README.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "6b6e63f5994098cb919a8990274d30b567d7a6b2",
+        "branch_git_sha": null
+      },
+      {
+        "path": "cloud/requirements.txt",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "82713755ab7fae9ff58092b0a3b1d3f0a142522d",
+        "branch_git_sha": null
+      },
+      {
+        "path": "cloud/schema.sql",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "1005d71bc372964f99f43748e13282a4eb2f1615",
+        "branch_git_sha": null
+      },
+      {
+        "path": "cloud/secrets.example.toml",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "344a164ed08953d9727edf3a550eccdba53db8cf",
+        "branch_git_sha": null
+      },
+      {
+        "path": "cloud/supabase-ca.crt",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "3d693669b23c340c57a3457bdc8b6fefe1806cc5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "cloud_app.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "913d787423c8fc17fd6546443b4f3582138897d0",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/design/2026-10-29-rotina-visual.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "fb9c005d4c5b55260de45f0ead97f0d3a6691253",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/design/2026-10-30-agrupamentos.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "31fd61eb20820ff54bb4e94065dfe46d7db49df5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/design/2026-10-30-explicacoes-opcionais.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "483374e0ee4382a7224cb4a04c0ad2049b941616",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-10-29-apple-ui.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "eb3c628b756628bc663dd889976d9b43117f2c6f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-10-29-confirmacoes-toast.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "7a89ca45341d3e4372a08563af446e5a0cd3dca9",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-10-29-rotina-integrada.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "29e63e7b8755d7dc0e8f947ecdbece941ddd7632",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-01-correcao-auditoria.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "152e4044b2e45e1888fca369a4f2df520943e91b",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-02-atualizacao-guiada.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "c22725f944eb055b54eef42e2ee68c84dec0a675",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-02-performance-local.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "208b86fe0eba11d25fc42f1ab30ed47a461fd69f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-02-retorno-indisponivel.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "31f38bd4cd99327894a1d79254f290f60dedeaae",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-07-retomada.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "d00697ccf3d218c6b1d1543cc640898e5f80d70b",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-08-conclusao-parcial.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "427d5427b752069be1898b72f59798e3e5a87057",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-08-prioridade-temas-novos.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "836eefe23bc97d43bc91720b2461e9b443482dab",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-09-acesso-online.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "c41962e00481ec771390fe751c3e90e9c95d7af5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-14-retomada-por-quantidade.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "d2102ffd44e351643dffb091c7b1be078eeee5ba",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/plans/2026-11-14-revisoes-recorrentes.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "fbcac70e0fb0e7f5ae2a6e425aea37df97d6f8b9",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/atencao-temas-2026-10-29.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "743a618382277624dc77587ddadbeb6c7c2cf5b9",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/atualizacao-guiada-de-dados.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "5759df6c12eec527fa320875015275339eca9653",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/correcao-agrupamentos-treinos.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "36d27b35449f13998beb3ee7634e8e695f2a2c5a",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/desempenho-local-2026-11-02.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "7f51dd767fe4df20de6105f59810711a0114f8e5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "docs/research/retornos-indisponiveis.md",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "1c3353f055d0d5f946a0c7724f9874dc9c7267c4",
+        "branch_git_sha": null
+      },
+      {
+        "path": "encerrar.bat",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "7c71e72c5e963ec3e902a376cb04065a02433877",
+        "branch_git_sha": null
+      },
+      {
+        "path": "iniciar.bat",
+        "status": "modified",
+        "canonical_git_sha": "e17e6a791dc3faa8a0dfd20a63de86602dd3b681",
+        "branch_git_sha": "211741cfc000a0511366558fb97a66417ac8d45a"
+      },
+      {
+        "path": "osler/action_feedback.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "f6cbd7cc4435d2215f72fd8e43db2f816eb27683",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/adaptive_planning.py",
+        "status": "modified",
+        "canonical_git_sha": "9c7eff3e13b707e34218c9019bcf0a23daeb6b82",
+        "branch_git_sha": "7b59babfb14dd0db7d6f2276966d53a1b2cb3de3"
+      },
+      {
+        "path": "osler/adaptive_service.py",
+        "status": "modified",
+        "canonical_git_sha": "d3be30081192dae63ddb007a1d7eacb325995e80",
+        "branch_git_sha": "d466a301e33c13f7d9569d677dcd5eb5f2701325"
+      },
+      {
+        "path": "osler/adaptive_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "7318edbfa9fabb07efdd4cd71a91847af711de41",
+        "branch_git_sha": "2515e847935f9fb352edc902164a058c2375dca9"
+      },
+      {
+        "path": "osler/algorithm_parameters.py",
+        "status": "modified",
+        "canonical_git_sha": "7a4b183a7bad0e831d39fb96d913c137f0b24527",
+        "branch_git_sha": "c239b8f87386eb3f10b870158b10c5f9feb99987"
+      },
+      {
+        "path": "osler/assessment_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "dcd97b912a0146f29dbb4e5d5e5523a1578b8ca7",
+        "branch_git_sha": "22cc42aa47d5b71151004b46db5aa40e5f1e09e4"
+      },
+      {
+        "path": "osler/backups_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "f1f43ea6be917acd0758b34e0d16a3d1c5e74c52",
+        "branch_git_sha": "48c8dc67541d300e4eda398e1fc2bbaa3737b2f9"
+      },
+      {
+        "path": "osler/balanced_reviews.py",
+        "status": "modified",
+        "canonical_git_sha": "6cf6c9d121a97fd4fcc80252c793ffb014295537",
+        "branch_git_sha": "0c83c311c011b11a90f930f07731069e23bcd050"
+      },
+      {
+        "path": "osler/bento.css",
+        "status": "modified",
+        "canonical_git_sha": "9a574371d7be5367c6dc28031675bd2110972e9f",
+        "branch_git_sha": "6eab96639f32cf3d5546524127e9b2b0ea52f5e1"
+      },
+      {
+        "path": "osler/bento.py",
+        "status": "modified",
+        "canonical_git_sha": "306e65570497751674a1fb6102802eeff4982887",
+        "branch_git_sha": "5a340daa93888370cc3e5a607ecfab09a2088972"
+      },
+      {
+        "path": "osler/bento_day_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "81ca843bd989cf51be99ce1f186a3ac3c7cb3ad2",
+        "branch_git_sha": "63fef74b7c26a66394955dd0caa0ba87cb1b1dd7"
+      },
+      {
+        "path": "osler/cloud_access.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "ee91ebf58aba43aa18a798a852348e06caba0745",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/cloud_boundary.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "4cb69ffe6d691b8f54e74f361b8c2e843f72623f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/cloud_postgres.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "e1eebc18b2cc8be0fa4805e3886cc65ac25ffbd2",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/cloud_store.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "d85c261529d3394e6a8473b86c11a3be4ecabfd5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/cloud_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "347cfd079c1005ccb16e8e6e8a8c33afeec406d8",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/dashboard_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "1fee698c1c4eff24278a142e882f4cea447971a7",
+        "branch_git_sha": "a4e32b3de5c47c77e60106fc4e1bf6942ee8f267"
+      },
+      {
+        "path": "osler/data_updates_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "7afe2f12f5eb483c17259812a0989af964ab4805",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/error_cards.py",
+        "status": "modified",
+        "canonical_git_sha": "27f214fd0e151da05901b45a9d5beae313ceae34",
+        "branch_git_sha": "6e1919792b2471272810eb10efc1f872b814caaa"
+      },
+      {
+        "path": "osler/error_cards_service.py",
+        "status": "modified",
+        "canonical_git_sha": "1c45a9c01c93d292e32eb435d79c24b2bd80c15d",
+        "branch_git_sha": "8a4f2ad2dd12070a00f06e6f9283a3b3577a7b1d"
+      },
+      {
+        "path": "osler/error_cards_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "58caf149312bdefbf32a1779f1bb24546f6c5d9a",
+        "branch_git_sha": "e483274a5d5551247a595fb611975cca02f73379"
+      },
+      {
+        "path": "osler/evolution_components.py",
+        "status": "modified",
+        "canonical_git_sha": "510e50d19cb8b621f217515dbea73e63940de6db",
+        "branch_git_sha": "6eb37d63092e911b02d335604d736ac8d7d0fca8"
+      },
+      {
+        "path": "osler/evolution_history_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "587366d05ffebbf3104bf8f5eab601b98cc8ab6b",
+        "branch_git_sha": "55c8ee5c4694e228236ae40a50d89ac5f6db4ae2"
+      },
+      {
+        "path": "osler/evolution_service.py",
+        "status": "modified",
+        "canonical_git_sha": "802d22a605f5400d8390ed037b27d749a1245be9",
+        "branch_git_sha": "a54fded11b5ade95e93512a61c883a9addaa3e49"
+      },
+      {
+        "path": "osler/evolution_spacing.py",
+        "status": "modified",
+        "canonical_git_sha": "526f23b56804848f37eef2658759018cd126d815",
+        "branch_git_sha": "d989072deeffe2a1701cc1a0854e4c237a40541a"
+      },
+      {
+        "path": "osler/exam_goals_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "b0bd164a92858d84a51ee59f9748e5f3296c1071",
+        "branch_git_sha": "b142982b76652e66f8bf4d203c151a6217807c13"
+      },
+      {
+        "path": "osler/exam_practice.py",
+        "status": "modified",
+        "canonical_git_sha": "fae4dbc04efb4c1eea63a7cb2eb057d0afca41e2",
+        "branch_git_sha": "cde4184102eab0f05bd32870559b5c84ac9f8233"
+      },
+      {
+        "path": "osler/exam_practice_service.py",
+        "status": "modified",
+        "canonical_git_sha": "40cb22e05737510aee6dde8e6ab9c6a44cc943af",
+        "branch_git_sha": "c3f438ed670a738370e6f8303387947ef5daf348"
+      },
+      {
+        "path": "osler/exam_practice_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "972647d92f0fd155e2794843ffe79f8505637987",
+        "branch_git_sha": "415922bfdd17a0b9977029441772976c636f766e"
+      },
+      {
+        "path": "osler/exam_weights_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "c1e9b24b1c4b0255f3fbc547d6c64f475989be8a",
+        "branch_git_sha": "dbd0394cc94cf9e528c83d3e91fc44f217b42bfc"
+      },
+      {
+        "path": "osler/final_review_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "7e06cba4314afc7a15dce87fb1c207c3346a1391",
+        "branch_git_sha": "dcc8cff1f77ffa8ffda5dc8371a1b7e824ace067"
+      },
+      {
+        "path": "osler/grouping_service.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "c6f1cbba6698505cb9fd9bc55d2cc7f105fe3c11",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/grouping_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "f3d76556e01b7392df1127583dca7201909dffc9",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/guide_settings_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "0097455db3d1ce74bda4d88955df7bd1c34f4cc2",
+        "branch_git_sha": "4130e07703cba8645014f32ab45e3ebe725571aa"
+      },
+      {
+        "path": "osler/guide_storage.py",
+        "status": "modified",
+        "canonical_git_sha": "5c84b0d34a1539ee77b66c703f2cb85b4c34a335",
+        "branch_git_sha": "c23c4c71f643ae2824791b4c1f1021ffe947a69e"
+      },
+      {
+        "path": "osler/guided_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "f23643e31e17cae6885adf57d6f8af20b79307b8",
+        "branch_git_sha": "c62770a31a30b9c90c6ff6b5b44f6a2affd827bd"
+      },
+      {
+        "path": "osler/incidence.py",
+        "status": "modified",
+        "canonical_git_sha": "cf74c0cc8794104f2c2259639fd12b1bd8337d7f",
+        "branch_git_sha": "41adf4441b047ae6afb2976835e4c8c983024cff"
+      },
+      {
+        "path": "osler/local_launcher.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "4fbe4613e9a074314a3e21bf3c37d32f2f2d2abe",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/longitudinal_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "084b6142e77b499880a0b84c316d79f61424784b",
+        "branch_git_sha": "b4364f58c0435c225212d47e970d10972fa3be3b"
+      },
+      {
+        "path": "osler/matching_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "cc4d048298af6a34f284e6e3295c28a55ed34e4e",
+        "branch_git_sha": "dd0aaa5486cd04e215c5fa1ed6468ec2bc35b5fc"
+      },
+      {
+        "path": "osler/mock_exams_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "44db14bd5f5a10599a250e7cc8bc151b3c297d2a",
+        "branch_git_sha": "272eba867ec05dc51ef273d733d22c8e85971581"
+      },
+      {
+        "path": "osler/mock_result_followup_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "1fef6194492b5274d6ea37415080fa2d1b99dfe7",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/mock_schedule_service.py",
+        "status": "modified",
+        "canonical_git_sha": "ddc54c3d34192478dd61dcaa6d95a103283d3c88",
+        "branch_git_sha": "59679b1c3399c616c8aa741f89a2a6797aa9372f"
+      },
+      {
+        "path": "osler/mock_schedule_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "9fd49573cb11fa54b15fa80de76327fd3534490e",
+        "branch_git_sha": "82ea4d10978e4707ff0c6b78e3be73281760a160"
+      },
+      {
+        "path": "osler/mock_workflow_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "26ca1e42fbfbabfd82dd2b22fad31f59d3ad6b07",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/models.py",
+        "status": "modified",
+        "canonical_git_sha": "c92cd30a27c0e1bc93dbd4ce105e4311410e45db",
+        "branch_git_sha": "1515c3c5fcbbf2826fbcf7ac629116609bf434e2"
+      },
+      {
+        "path": "osler/parameter_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "23e888a27a3c93fb266ae36ca30c941d2850f5d5",
+        "branch_git_sha": "743a311e6355d3ea729d58ed0f99f7c6f7743ec7"
+      },
+      {
+        "path": "osler/planner_completion.py",
+        "status": "modified",
+        "canonical_git_sha": "edacdb8fd3655059854ed7109e7495d90cdeec9c",
+        "branch_git_sha": "3ae965f235e65ef3fcc0da635bfa0cccc6adca39"
+      },
+      {
+        "path": "osler/planner_completion_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "7cd2dd4470c73d860e0ac18641747be52886e44e",
+        "branch_git_sha": "e3055c49bd39442f988aab87e5802af2c2f29b3a"
+      },
+      {
+        "path": "osler/planner_import.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "9c3d78c1fe361aaacd981e6b7a72f20255cd2262",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/planner_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "c5c7e90cdd34634172a9167f008da8fd97840a79",
+        "branch_git_sha": "8e859e2d3dbfd5a21f176d14529316fdf43435b4"
+      },
+      {
+        "path": "osler/planning_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "68981d8da21328f49b18fc86ae64a0ba9816c54f",
+        "branch_git_sha": "65c1e8e4ef3fca1ab8f935d7f9292bc512d716d3"
+      },
+      {
+        "path": "osler/practical_reduction_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "4028f1917e710b569515cca18ffffeab0086d2f9",
+        "branch_git_sha": "95e3b4fb2c4889b0671a55870257dd98f1f40838"
+      },
+      {
+        "path": "osler/recovery.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "669dbbda129061c0a06d02542091a58fc31c261e",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/recovery_apply.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "5ddd90e922a18769ad89baed0b093c76c48ac962",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/recovery_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "e013c839b79940627b281c8300d2c5bb91ae68ff",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/recurring_questions.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "e3ebd9e2eca632fa91946dba8917fcef384ecc08",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/return_deferral_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "12b2cefa69d093e0735ea1db01ec88297fb924a4",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/review_policy.py",
+        "status": "modified",
+        "canonical_git_sha": "c803c7d02cf4cd8fd1d106bcaaa36040774454f9",
+        "branch_git_sha": "c988cc8c050d7ff3f5046c60189057189dacfce0"
+      },
+      {
+        "path": "osler/review_queue.py",
+        "status": "modified",
+        "canonical_git_sha": "3a3e7c45ea3af093cc6774df81a4e17463fc57d8",
+        "branch_git_sha": "5ff8d8848e91378642d832e94d10330d8eef8005"
+      },
+      {
+        "path": "osler/review_strategy_service.py",
+        "status": "modified",
+        "canonical_git_sha": "edd8b6a9d3efbe1de45b9cc89efef28c83387b2f",
+        "branch_git_sha": "90e93a8a69c7590cda90be38307a72dd2d4236fb"
+      },
+      {
+        "path": "osler/review_strategy_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "cbbfee9f223701cc9afd0ea5eea0301d4b15a98a",
+        "branch_git_sha": "d3ec6d10af7f12f5abecc19fa0eb99cd09392e79"
+      },
+      {
+        "path": "osler/study.css",
+        "status": "modified",
+        "canonical_git_sha": "234b804a40a163c2d812794fc79ae37a1e4eef87",
+        "branch_git_sha": "0e08e2b9964c452f4d504b5aee584226df16d71b"
+      },
+      {
+        "path": "osler/study_activity_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "31edd21f1fa3129b91841832be7090915a20771e",
+        "branch_git_sha": "89c1c7d290c3e84b59b47f6c6b9052a8d9b6d013"
+      },
+      {
+        "path": "osler/study_agenda.py",
+        "status": "modified",
+        "canonical_git_sha": "b1152a841eec9ec50743ad12339d1007ef8a5a2c",
+        "branch_git_sha": "e5e2589d64d72e3d10db6573cd3b45e4ebff7817"
+      },
+      {
+        "path": "osler/study_allocation.py",
+        "status": "modified",
+        "canonical_git_sha": "d50840a605c21de4e0954d8cfd3c1c8e3b1673f4",
+        "branch_git_sha": "c8902c8f885f1ec9195f1cda0124e8754f663646"
+      },
+      {
+        "path": "osler/study_attention.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "c360ba313716dea5eabf97c415cca658e7faa064",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/study_attention_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "09e2ce90881f3f4185d2eb53fedf46b922bf636c",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/study_calendar.py",
+        "status": "modified",
+        "canonical_git_sha": "9adef32f6ee72ed156f4b68227ef466969df4b75",
+        "branch_git_sha": "12f29fb9bdbb7d12a41bc3b50c8afac77f17c4c9"
+      },
+      {
+        "path": "osler/study_calendar_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "e548844e7e05d580c927edc17ee90b4a0f85d795",
+        "branch_git_sha": "4d3d18caf452f8cf29b98b97a4e7b0a159c97cfd"
+      },
+      {
+        "path": "osler/study_capacity.py",
+        "status": "modified",
+        "canonical_git_sha": "b4fdf80e991311d65b8739a54659e1c3f83b0f03",
+        "branch_git_sha": "64b8ab29a8107cec93e5f34a9221cd2092271b06"
+      },
+      {
+        "path": "osler/study_capacity_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "5a3a6fe2da6035b1c95726ed3f0180cb8fb624db",
+        "branch_git_sha": "6fcb8b23e3d33ad0b08cf07c8785c8e8b8331cda"
+      },
+      {
+        "path": "osler/study_components.py",
+        "status": "modified",
+        "canonical_git_sha": "2acd7e747d346d17c56d943b66be29f35c9abf82",
+        "branch_git_sha": "e36c15bbfc9297ec9078db89e7cf17180e7a70fa"
+      },
+      {
+        "path": "osler/study_day_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "d9e7fd08352f95c9533437b3ffcf93e5c2703d71",
+        "branch_git_sha": "9c01fd307f4697b17e3fda927fb7e4017632c245"
+      },
+      {
+        "path": "osler/study_errors_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "417d3a2c17216721e7a74f35470c68b3f4d04bb4",
+        "branch_git_sha": "47f353cef5f87c711d756928ab6828cde70ca383"
+      },
+      {
+        "path": "osler/study_evolution.py",
+        "status": "modified",
+        "canonical_git_sha": "c60195c101e8d3be70ef3b07a7988d118d2c5030",
+        "branch_git_sha": "4caafbfa6f0fc7402709b26d0378eeedd245d0fc"
+      },
+      {
+        "path": "osler/study_evolution_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "f72f43b19b97e396f1c6fd69ac5e4e0598c51c48",
+        "branch_git_sha": "37e62c3c59093c07071466e197a3050e38588d19"
+      },
+      {
+        "path": "osler/study_feedback.py",
+        "status": "modified",
+        "canonical_git_sha": "4f47124045256645a3453b02d88237299e8a75a7",
+        "branch_git_sha": "c65f51d73e4fab295ea8d2728b2f1053145c0b9c"
+      },
+      {
+        "path": "osler/study_models.py",
+        "status": "modified",
+        "canonical_git_sha": "6eedef9f4add2d64e975cd4917a93ce7c4754fcf",
+        "branch_git_sha": "93a7c02df12ddfef2c07a39978c3ea2f324c53e3"
+      },
+      {
+        "path": "osler/study_navigation_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "d16c626753523ae795016be656f3f8f57bf623e0",
+        "branch_git_sha": "77991b772d67fbe2c7f6db52a4d8e1e3f69cc59b"
+      },
+      {
+        "path": "osler/study_prevention_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "820e88438a51cd8224f40ee7f5eb32a2f0c4f2d2",
+        "branch_git_sha": "9233bd95c8345d1fc7a24f10f4ee162927fa1c45"
+      },
+      {
+        "path": "osler/study_registration_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "1616241a499054ed15abb4250cd4c205ec4a06da",
+        "branch_git_sha": "4d923e454a83467d146dfb4564d338769c35a58c"
+      },
+      {
+        "path": "osler/study_replanning.py",
+        "status": "modified",
+        "canonical_git_sha": "8b5a23df9b3fe46f4cb059974c35953fe14526a6",
+        "branch_git_sha": "a14a17a75df42cf28f411969648af335ade4f715"
+      },
+      {
+        "path": "osler/study_replanning_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "0771be0198a35fa301379ee0797d70016227c799",
+        "branch_git_sha": "654fe8911d06f8306ef3f7b28e51ef4dfcdc5400"
+      },
+      {
+        "path": "osler/study_storage.py",
+        "status": "modified",
+        "canonical_git_sha": "35f52a8fdb2e1ba7efa9314fb827c5f692f303cb",
+        "branch_git_sha": "a910e46aa498b91f34d583186eff8779fe0b3c19"
+      },
+      {
+        "path": "osler/study_swap_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "0efcf03ced9b0cc334313cee735fbda45c8b97e5",
+        "branch_git_sha": "83fa6f2179ed0b0cce385db4bc95c0854cfe36ae"
+      },
+      {
+        "path": "osler/study_tables_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "394beccf943472aa2f1e334c255dc9370991a42e",
+        "branch_git_sha": "6e21758ba2ff0bbbcd989ad1ab4b2e3c71ae7d8c"
+      },
+      {
+        "path": "osler/study_trajectory_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "4d0f38c987ce3678e7426e6c6e04cc22939a8714",
+        "branch_git_sha": "752dc31de4fe79e22002b6e758670f6374b54ede"
+      },
+      {
+        "path": "osler/study_triage_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "3d2a1eee49810cb663319b5c51fdab1a4091150d",
+        "branch_git_sha": "3db899fd62072096126cbd8b7ecdd58cb4011aa2"
+      },
+      {
+        "path": "osler/swap_service.py",
+        "status": "modified",
+        "canonical_git_sha": "4195ec950b90c6ce64865a99fb7403fa92c5ecc8",
+        "branch_git_sha": "de16fd5f1b0d20396b2998adf221d25d78cc7823"
+      },
+      {
+        "path": "osler/topic_contacts.py",
+        "status": "modified",
+        "canonical_git_sha": "a4d6ad2073471899c8d084f2acecf3cd8a79880b",
+        "branch_git_sha": "b48672dbe2339aa3306f53572c9607f4195b58fa"
+      },
+      {
+        "path": "osler/topic_grouping.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "0154b36e2ceb1616d472c24125e9add54c11552e",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/ui.py",
+        "status": "modified",
+        "canonical_git_sha": "ac56b405403a771b464b0b3a8c6f8373f710aafc",
+        "branch_git_sha": "dd8746c6d555822b02d8a5649f9199165f1bc303"
+      },
+      {
+        "path": "osler/ui_help.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "87e2cf785ab579518aa548a5a7452523f765263a",
+        "branch_git_sha": null
+      },
+      {
+        "path": "osler/weekly_review_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "a3cadcc04ec7344c350775a84ec5c2f6280524b4",
+        "branch_git_sha": "c700d39cf9582179254a903eb58cad257e16f590"
+      },
+      {
+        "path": "requirements.txt",
+        "status": "modified",
+        "canonical_git_sha": "82713755ab7fae9ff58092b0a3b1d3f0a142522d",
+        "branch_git_sha": "b424f890b655bd1bbb4130fdb956c6d31da4250e"
+      },
+      {
+        "path": "scripts/audit_runtime.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "95e8fc2e2eb48e3193f8ee6faaa6c62c58a498c7",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/build_cloud_branch.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "5abd01359ba2d05252c36485a51d5e9268ac0bd0",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/capture_bento.py",
+        "status": "modified",
+        "canonical_git_sha": "68e6d728e6414f12fc325de3174704495c58b8c8",
+        "branch_git_sha": "9d0ea64509a319f321724913bd4a21737580cd1f"
+      },
+      {
+        "path": "scripts/check_apple_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "b03894dc6dc87305107fef382d1de7ecb123ede1",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/check_attention_menu.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "813165941f92a2e693b93f3fe3bac208557a7140",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/check_bento_planning.py",
+        "status": "modified",
+        "canonical_git_sha": "13ad0118fc1158342a41bf4bce0be274d020a825",
+        "branch_git_sha": "8c5f9c7585488a04f15f56e2822086a39c138802"
+      },
+      {
+        "path": "scripts/check_confirmation_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "fbf6d2e8ca12766149d859e43ae5be75215e1a04",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/check_optional_explanations.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "2757ac4a0c72492a4dfa7475cf9283891828d86e",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/check_registration_layout.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "2c96c7d39baf0b71db2d34839a714ccddbc963a2",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/configure_cloud.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "9732e6da0bf6d78c72d13cf58294cc2816f7c20f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/install_local_shortcuts.ps1",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "afe6d0580bb9dcb16f0f89a4e595d764e012fb22",
+        "branch_git_sha": null
+      },
+      {
+        "path": "scripts/seed_cloud.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "4ceecf3652fb51ed9c93b7b52ac5e0e2aaa95cb5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_action_feedback.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "a4bbf0d4f1d6df55f3f4778a428674e383ca07a6",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_adaptive_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "bc83aeea4fbfbbb132e6dc79ef86230cbb3d6712",
+        "branch_git_sha": "ddd5776fc180c980c043b08b12697585ee9cdc40"
+      },
+      {
+        "path": "tests/test_attention_menu.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "248cea9e3bce0b52ac09b56fb8a8845ed4c09103",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_audit_ui_flows.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "d93fd706d33505e0ea5190a4a5d983c323d6799b",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_balanced_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "db693988192d10c46c5daaa9fe4a40fb3ca2679c",
+        "branch_git_sha": "8c1ea7008bdcfc8bb2109d685480634c14d13712"
+      },
+      {
+        "path": "tests/test_bento_calendar.py",
+        "status": "modified",
+        "canonical_git_sha": "9a59fe5f5a3dfae421ac740241bbfa40915b9cfd",
+        "branch_git_sha": "84bde1e9b51b45dfd92f9fd83a0333cb68eef06a"
+      },
+      {
+        "path": "tests/test_bento_foundation.py",
+        "status": "modified",
+        "canonical_git_sha": "4d247789747cdf2419a45a034a8b406d9c356179",
+        "branch_git_sha": "aca5bcdddd32be9deb7cf0afab45a5c7d04c3e74"
+      },
+      {
+        "path": "tests/test_bento_mocks.py",
+        "status": "modified",
+        "canonical_git_sha": "8065df57d73556f6832791f0873023751bb48e1d",
+        "branch_git_sha": "a118dac7290bdbf482c431c086a93b150a2acd1a"
+      },
+      {
+        "path": "tests/test_bento_phase2_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "144a95f0cfe54bfe851a57872bfd3637960b2c49",
+        "branch_git_sha": "e1075205cca6e7685b0e7388c4e69da74345127d"
+      },
+      {
+        "path": "tests/test_bento_registration.py",
+        "status": "modified",
+        "canonical_git_sha": "3e24d75aa1764382d333e6f16206fc26fe740c03",
+        "branch_git_sha": "4b8fbbb2ba333495aae3cfe7d1eed6236ab83259"
+      },
+      {
+        "path": "tests/test_bento_tools.py",
+        "status": "modified",
+        "canonical_git_sha": "9c0b2d154314ef1e674880d96ebbe7ba2dcbc2de",
+        "branch_git_sha": "cf80dee64761c05dd2d5cc7d2fe3c4b122dc748a"
+      },
+      {
+        "path": "tests/test_bento_topic_tabs.py",
+        "status": "modified",
+        "canonical_git_sha": "24b0bae249798582cc6954f825dacd6dea3e0a3f",
+        "branch_git_sha": "a47afa145354be04e51871abe43e642aabf24f8b"
+      },
+      {
+        "path": "tests/test_capacity_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "199d9e3824389dcc61f34963a0fc575b9e4edb98",
+        "branch_git_sha": "236216e324c830ecaac92c2e461006cde316980e"
+      },
+      {
+        "path": "tests/test_cloud_store.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "cd3609c2468856692f388a63b62baf6b2661de8e",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_cloud_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "2eaa7573b5917651fc571511559e374230c02f4f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_coverage_inclusion.py",
+        "status": "modified",
+        "canonical_git_sha": "ae5c02c261cd0f52549b9fbd882d6fe925b0d4d4",
+        "branch_git_sha": "1c32f0c369ffb9737cc181a67a9a9c0708914110"
+      },
+      {
+        "path": "tests/test_created_cards_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "f0080f6edb62025f9670f18662d305f5fbab622a",
+        "branch_git_sha": "65760b2fe6a6ff6c0819e09f8ade88cde27f828b"
+      },
+      {
+        "path": "tests/test_current_reduction.py",
+        "status": "modified",
+        "canonical_git_sha": "9a07f1d630c2926d4d0142c0fbf89b4bf279b741",
+        "branch_git_sha": "1e77ce27bbec31b1bc97bda9c7f2099460e0c13c"
+      },
+      {
+        "path": "tests/test_daily_swaps_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "31168e7b0017a1c5dfa07ec0ac8514ad43079cd6",
+        "branch_git_sha": "4d6a0d47bba6d3e427485580bfa3976fe2da54dc"
+      },
+      {
+        "path": "tests/test_data_updates_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "5e8de4b8be0e341d52046b3a094647a8d20ec26a",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_distribution_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "82502fe4851a153669bc4b6c7554783c7671cb32",
+        "branch_git_sha": "d4bf3bb379a51f1f5da07702e4d6a44aa183b650"
+      },
+      {
+        "path": "tests/test_error_cards_preview.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "9d08366b40b524a8c770fdc5f4e1c1e2af586459",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_error_cards_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "a9f0498df4441cf3283461a6fdb7ae2df7fb3818",
+        "branch_git_sha": "e27ae34291a2d5be4a869b1d9d455deb7f51a027"
+      },
+      {
+        "path": "tests/test_evolution_spacing.py",
+        "status": "modified",
+        "canonical_git_sha": "5aebe867e57b22c1b32ad94588109437c7f52057",
+        "branch_git_sha": "3ca45f0018b73c413e890325d17bbb7e9fd12919"
+      },
+      {
+        "path": "tests/test_exam_goals_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "3d41be16b28b99d4ea37225a3244bcccabcf5181",
+        "branch_git_sha": "1c21fa57d6a36b26132f3150f774cc90be254ecb"
+      },
+      {
+        "path": "tests/test_exam_practice_service.py",
+        "status": "modified",
+        "canonical_git_sha": "1a7bbb9d76a63d13ade7832a90699e19bf4beb8f",
+        "branch_git_sha": "3946bf726f9eebd98048d1350f3b3bd8bb54e538"
+      },
+      {
+        "path": "tests/test_exam_practice_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "f25dcfab995763f69d064fe1012b5f8b8a7a4c4c",
+        "branch_git_sha": "9b5bf33dcebc6c33a17f0e3348376a96b3ea4e6e"
+      },
+      {
+        "path": "tests/test_external_day.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "52bf18729eeeeb316548e2e3214ba04aaa5e1bcc",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_final_review_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "c65e2b1a28f5c80904eff9103b26ce84cac5d47b",
+        "branch_git_sha": "ed526fe41bd3a4439fe3791cfca2d70781928f4d"
+      },
+      {
+        "path": "tests/test_grouped_mock_correction.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "3e041d32e849a0ac5f9e6711ed94397eb13ed969",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_guided_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "3901b7d7386db271e257350edf31d4372049f781",
+        "branch_git_sha": "8549a6e17eeed2338ba7490446d0ad9d7cdcb331"
+      },
+      {
+        "path": "tests/test_intake_priority.py",
+        "status": "modified",
+        "canonical_git_sha": "802a766e466b4684790311e8a9617a5a90e41cfa",
+        "branch_git_sha": "fb7af1edb244e98ee515f195e56efb33a63fe75e"
+      },
+      {
+        "path": "tests/test_linked_registration_scope.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "21192fb98c523ce7e9448a216d60ed45540763b2",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_local_launcher.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "7f59eecd64a2df59a9a3d58d09dbe2eb30b5025d",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_local_startup_imports.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "0a3a2d0b1cbd09f126f7ec1877081d71d9770799",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_lote_c_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "9ff8fb1e68e92db1bae4b4ed0427d7fe8956997c",
+        "branch_git_sha": "4bd37d15260d970e3c844d285c038cbea3cf093d"
+      },
+      {
+        "path": "tests/test_mock_exams_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "e55dcd1f5727e01fef7e00a47181b50bdcf0f3c6",
+        "branch_git_sha": "38ce53210d85ff0cfef72d21d14331f0c5380a3d"
+      },
+      {
+        "path": "tests/test_mock_result_followup_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "7e3ad54b8937c7813ca67f4bbcb0591660211cf9",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_mock_schedule_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "7e85ec12ca962714331d52736f44177905f7e310",
+        "branch_git_sha": "146586ae712bca0ca45b3d6c8dbc36c94578a291"
+      },
+      {
+        "path": "tests/test_mock_workflow_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "380a532586ee0c247491543185aa627f2a0c27dc",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_new_floor_and_missed_practice.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "32c6690511c8082e4b6430f82a228556635dea82",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_new_practice_priority.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "f11e8d02466a85a979824f8da8fae1c109230152",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_optional_explanations.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "dbded4612e5d6e8e838def9f904aa587680e3bc2",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_partial_block_completion.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "05dcecb30357e8335fd0c0e611d7ec84af1e934c",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_planner_completion_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "136baab24f00b65525eb5ffe1a5e9c394e42c503",
+        "branch_git_sha": "4b982defd13a6a4968eba742d00c4d45d1dbc919"
+      },
+      {
+        "path": "tests/test_planner_import.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "885bf410ce89368181f9aff1b1537feff57311b5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_planner_supply.py",
+        "status": "modified",
+        "canonical_git_sha": "52d430eb8ecb92156fbcd5f0aeebc33aa865d765",
+        "branch_git_sha": "e2889055b586246e5735061c52f828c3e0df224b"
+      },
+      {
+        "path": "tests/test_practical_reduction.py",
+        "status": "modified",
+        "canonical_git_sha": "af6f00eaa2c6487c585f1843222fed1db306dcf0",
+        "branch_git_sha": "c112bd0a083cd4521a4703489b9538bce63e7234"
+      },
+      {
+        "path": "tests/test_prepared_calculations.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "4c27858d403283017de772db11bd6542342704ad",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_prevention_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "72766dd5b044e2d4bfc2b5e8d0bf67ee75fefa78",
+        "branch_git_sha": "31543ceb567372dde1839a716c12300ff51acb36"
+      },
+      {
+        "path": "tests/test_question_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "b9dd6ca01d0cb22706232de69cfed5874cb33ec0",
+        "branch_git_sha": "5a57ee17e5333e9c9fd5784b1bf8bb79186b5b90"
+      },
+      {
+        "path": "tests/test_recovery_quantities.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "87e5d33e868a254143afeaf2d6b4f14385fec4dc",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_recurring_questions.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "bc9d80969a88a43842152a766654725046419f22",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_redesign_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "9abf65ef51f1b550544eedf24e52dda9d494c4c4",
+        "branch_git_sha": "bfbca42ff2073afe6a701b26c02fdc9ecb02c1b0"
+      },
+      {
+        "path": "tests/test_replanning_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "6010c104be3305947106ce94c1e1f4909d445152",
+        "branch_git_sha": "7a2e4f78cc80c886ab869dd450dc205725d674f5"
+      },
+      {
+        "path": "tests/test_return_deferral.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "1417f1e307efd0674ee91321ac26572d1d8e59c7",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_return_deferral_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "adfad68d0ccad471933279fdc3ed0f2b529d72a5",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_simple_planner_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "ad6cc30be71af493e3163c1a5960fd1be2d4a373",
+        "branch_git_sha": "6d55860f94c44c8eac6bb9b625febe95f1aebabc"
+      },
+      {
+        "path": "tests/test_statistical_evidence_regressions.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "327fca93438149f3817d1413e5fe1def4ebbc262",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_streamed_topic_contacts.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "6170a22320fc11d93b31994c36168f1fc690b177",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_study_activity_feedback_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "b140f7cc4f8845193d59b8668aa094d5015d8aa7",
+        "branch_git_sha": "38a808b0607f3f12a33feddf5abf47857977a5e2"
+      },
+      {
+        "path": "tests/test_study_attention.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "353dfda013dcc79727ce11e848427d0acdf02a7e",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_study_attention_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "b8e2c3c3aa7858c136348d0cdacd73271936178f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_study_day_clock.py",
+        "status": "modified",
+        "canonical_git_sha": "3c37286498eb1b2cb4b5d942fff0a2a5ab30f550",
+        "branch_git_sha": "e399a853108e708545c2ce8a171d4a3518c847d2"
+      },
+      {
+        "path": "tests/test_study_errors_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "85f2ea719ceb8fd041305f0047496d30531152a2",
+        "branch_git_sha": "791a17834f10b07dd28524afc57e0885dc4e9ac7"
+      },
+      {
+        "path": "tests/test_theme_returns.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "e314e386fa0aa5c55acf479100f8a6f983920d8f",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_today_topic_limit_ui.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "3182a1d0f32626585dea83cd3d025a8cf788f614",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_topic_grouping.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "0e4e6e972acf639e2ea7879f21817f569aebf86e",
+        "branch_git_sha": null
+      },
+      {
+        "path": "tests/test_topic_picker_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "0abc65319ee7f9d913eb70bd651cef05b605d445",
+        "branch_git_sha": "55c64717a1ad1bef011d17f153c6f39050b8d638"
+      },
+      {
+        "path": "tests/test_trajectory_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "5e74fc92ac4feb7b570912bb314c77b4341b5100",
+        "branch_git_sha": "c7b8939b6dc77ad84588c292ff4f601a048e83ce"
+      },
+      {
+        "path": "tests/test_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "2663f7f72e2a67542007a9652015fd8b3e766fb8",
+        "branch_git_sha": "c4b1bd5c4b31c0c125c3e51b9881b33809ef5449"
+      },
+      {
+        "path": "tests/test_weight_and_review_ui.py",
+        "status": "modified",
+        "canonical_git_sha": "79cdc23b22d082a63db8f7ff23ef8118941ff19c",
+        "branch_git_sha": "a3d27194304228f1c931ea15164c05d43f7acf08"
+      },
+      {
+        "path": "tests/test_workload_capacity.py",
+        "status": "modified",
+        "canonical_git_sha": "2f2128cef35e0fe9e4f6ce3bb62e1ce162f5a413",
+        "branch_git_sha": "193525ee9df5d71b5e26f6483ee126ffa6d5ebb7"
+      },
+      {
+        "path": "tests/ui_actions.py",
+        "status": "absent_in_branch",
+        "canonical_git_sha": "c6b10cffa626d68dde1fee019e7fc394a4d4d80d",
+        "branch_git_sha": null
+      }
+    ]
+  }
+]

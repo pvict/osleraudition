@@ -1,0 +1,2 @@
+{"id": 1, "observation_id": 1, "action": "registrar", "created_at": "2026-10-14T23:00:52.945834+00:00", "details": "{\"row_id\": \"982fcce01157444353778475\", \"revision\": 1}"}
+{"id": 2, "observation_id": 2, "action": "registrar", "created_at": "2026-10-29T02:53:21.404576+00:00", "details": "{\"row_id\": \"45c919a26997729efbcaa68b\", \"revision\": 1}"}
